@@ -1,0 +1,256 @@
+---
+title: "Unit 2 Summative Investigation & Essay Booklet 第二单元总结性评估手册"
+subtitle: "Classical Mediterranean Governance, Law & Continuous Dependence on Slavery (6 Lessons)"
+type: worksheet
+description: "Bilingual 6-lesson student inquiry and essay booklet: Criterion B research log & source checklist, 1st draft blueprint, peer audit, 2nd draft & rubrics."
+order: 2
+audience: [teacher, student]
+doc-type: Summative Booklet
+name-box: true
+format:
+  html: default
+  typst: default
+  docx: default
+---
+
+::: {.callout-note title="Summative Inquiry Prompt 总结性评估核心探究问题" icon=false}
+**"To what extent did Classical Mediterranean systems of governance represent progress given their continuous dependence on slavery?"**
+“鉴于古典地中海文明对奴隶制度的持续依赖，其治理体系在多大程度上代表了人类社会的进步？”
+
+**Scope 范围:** Classical Greece (Athenian {{< vocab "democracy" zh=true >}} / Sparta) & Ancient Rome ({{< vocab "republic" zh=true >}} / Twelve Tables). River civs serve as baseline.
+:::
+
+**Essay Pathway 写作路径:** ☐ Standard (4 ¶s: Steps 2.1, 2.2, 2.3, 2.5) · ☐ Advanced (5 ¶s: Adds Step 2.4 Counter-Claim)
+
+**Table of Contents 目录**
+
+| Step | Focus & Workspaces 核心内容与工作区 | Lessons | Page |
+|:-----------------|:-------------------------------------------------------------------|:-------:|:----:|
+| **Action Plan** | Pacing Overview & Progress Tracker 行动计划与进度追踪 | L1–L6 | **p. 2** |
+| **Step 1** | Prompt Breakdown, Thesis & Sourcing Log 审题、论点与史料记录 | L1–L3 | **pp. 3–6** |
+| **Step 2** | 1st Draft Blueprint (Intro, Legal, Slavery, Counter, Conclusion) | L2–L3 | **pp. 7–8** |
+| **Step 3** | Criteria C & D Peer Audit & Revision Action Plan 互评与修改计划 | L4 | **p. 9** |
+| **Step 4** | 2nd Draft on Loose Paper & Works Cited Organizer 参考文献整理 | L5 | **p. 10** |
+| **Step 5** | Pre-Submission Checklist & Proficient Target Rubric 终稿核查与量规 | L6 | **p. 11** |
+
+{{< pagebreak >}}
+
+**Assessment Structure 评估构成:** **Assessment 1 (Crit B: Investigating)** completed in this booklet (L1–3) · **Assessment 2 (Crit C & D: Final Essay)** drafted in booklet & on loose paper (L2–5), peer audited (L4), and typed in L6.
+
+### Class-by-Class Action Plan & Progress Tracker | 分课时行动计划与进度追踪表（标准 B Strand ii）
+
+| Lesson | Target Lesson Goal 本课核心目标 | Status | Student Reflection 学生反思记录 |
+|:-----------|:---------------------------------------------------|:---------:|:-----------------------------------------------|
+| **W1 · L1**<br>第1课 | Deconstruct prompt; draft initial RQ & thesis; harvest sources. 审题、初始问题论点与收集史料。 | ☐ Done<br>☐ In Prog | • **Success 成因:** {{< blank 1.3in >}}<br>• **Next focus 改进:** {{< blank 1.3in >}} |
+| **W1 · L2**<br>第2课 | Source evaluation (Value & Limitation); draft Steps 2.1 Intro, 2.2 Legal & 2.3 Slavery. | ☐ Done<br>☐ In Prog | • **Success 成因:** {{< blank 1.3in >}}<br>• **Next focus 改进:** {{< blank 1.3in >}} |
+| **W1 · L3**<br>第3课 | Finalize Crit B checklist; draft Step 2.4 Counter (Adv) & Step 2.5 Conclusion. | ☐ Done<br>☐ In Prog | • **Success 成因:** {{< blank 1.3in >}}<br>• **Next focus 改进:** {{< blank 1.3in >}} |
+| **W2 · L4**<br>第4课 | Step 3: Peer Audit (Glows & Grows) or drafting buffer to finish 1st draft paragraphs. | ☐ Done<br>☐ In Prog | • **Success 成因:** {{< blank 1.3in >}}<br>• **Next focus 改进:** {{< blank 1.3in >}} |
+| **W2 · L5**<br>第5课 | Write revised 2nd draft on loose lined paper; complete Step 4.6 Works Cited Organizer. | ☐ Done<br>☐ In Prog | • **Success 成因:** {{< blank 1.3in >}}<br>• **Next focus 改进:** {{< blank 1.3in >}} |
+| **W2 · L6**<br>第6课 | Type polished English essay from booklet/drafts; pre-submission check; submit booklet. | ☐ Done<br>☐ In Prog | • **Success 成因:** {{< blank 1.3in >}}<br>• **Next focus 改进:** {{< blank 1.3in >}} |
+
+{{< pagebreak >}}
+
+# Step 1 (Lesson 1): Prompt Breakdown, Thesis & Research Plan 步骤一（第1课时）：审题拆解、中心论点与研究计划
+
+::: {.callout-tip title="Essential Bilingual Academic Vocabulary Bank 核心双语学术词汇库（写作高频词）" icon=false}
+- **Commands 指令词:** {{< vocab "formulate" zh=true >}} · {{< vocab "investigate" zh=true >}} · {{< vocab "analyse" text="analyze" zh=true >}} · {{< vocab "evaluate" zh=true >}} · {{< vocab "explain" zh=true >}} · {{< vocab "synthesize" zh=true >}} · {{< vocab "reflect" zh=true >}}
+- **Governance & Law 治理与法律:** democracy 民主 · assembly 公民大会 · republic 共和 · checks & balances 制衡 · **Twelve Tables** 《十二铜表法》 · **due process** 正当法律程序 · legal equality 法律平等
+- **Slavery & Control 奴隶制与控制:** **chattel slavery** 动产奴隶制 · continuous dependence 持续依赖 · helots 希洛人 · **latifundia** 庄园 · {{< vocab "gladiator" text="gladiators" zh=true >}} · **civic exclusion** 公民权排斥
+:::
+
+### Step 1.1: Deconstructing the Summative Prompt | 步骤 1.1：拆解总结性评估题目
+
+| Key Phrase 关键词句 | Guiding Questions (Bilingual) 思考引导问题 | My Initial Brainstorm & Examples 我的思路 |
+|:-----------------------|:-------------------------------------------------------|:---------------------------------------|
+| **1. "To what extent…"**<br>“在多大程度上……” | How much real progress was achieved? Major, partial, or only for citizens? 究竟实现了多少真正的进步？是巨大进步还是仅属于少数公民？ | {{< lines 1 gap="0.18in" >}} |
+| **2. "…governance progress…"**<br>“……治理体系代表了进步……” | Which system(s) will you {{< vocab "analyse" text="analyze" zh=true >}} (Athens democracy, Rome Republic & Twelve Tables)? How did law protect citizens? 公民投票或法律如何保障公民？ | {{< lines 1 gap="0.18in" >}} |
+| **3. "…dependence on slavery?"**<br>“……鉴于对奴隶制的持续依赖？” | How did Athens (mines), Sparta (helots 8:1), or Rome (latifundia) depend on slavery? Who was excluded? 希腊罗马如何依赖奴隶制？谁被排斥？ | {{< lines 1 gap="0.18in" >}} |
+
+{{< pagebreak >}}
+
+## Step 1.2: Focused Research Question & Initial Thesis Claim | 步骤 1.2：聚焦研究问题与初始中心论点（标准 B Strand i）
+
+**1. {{< vocab "formulate" text="Formulate" zh=true >}} My Focused Research Question (focused on Greece, Rome, or both):**
+我的聚焦研究问题（聚焦古希腊、古罗马或两者对比）：
+
+{{< lines 2 >}}
+
+::: {.callout-note title="Model Thesis Statement Frame 中心论点句型模板（可参考改写）" icon=false}
+*"Although Classical Mediterranean governance in **[Athens / the Roman Republic / Greece and Rome]** represented significant political and legal progress through **[citizen voting / checks and balances / the Twelve Tables]**, this progress was fundamentally limited because **[these societies continuously depended on institutional slavery and excluded the majority of the population from civic rights]**."*
+
+**中文逻辑参考：** “尽管古典地中海文明（雅典/罗马共和国）通过（公民投票/权力制衡/《十二铜表法》）在政治与法律上取得了显著进步，但这种进步在根本上是有限的，因为这些社会持续依赖制度化的奴隶制，并将大多数人口排斥在公民权利之外。”
+:::
+
+**2. {{< vocab "formulate" text="Formulate" zh=true >}} My Initial Thesis Statement (Write in English):**
+我的初始中心论点（请用英文撰写）：
+
+{{< lines 2 >}}
+
+::: {.callout-tip title="Thesis Statement Quality Self-Check 中心论点自查清单" icon=false}
+☐ **Answers "To what extent":** Explicitly judges the degree of progress (e.g., *partially, to a limited extent, significantly yet conditionally*).\
+☐ **Balances Both Sides:** Connects civic/legal breakthroughs directly to continuous dependence on chattel slavery and civic exclusion.
+:::
+
+{{< pagebreak >}}
+
+## Step 1.3: Research & Evidence Harvesting Log | 步骤 1.3：史料研究与证据收集记录表（标准 B Strand iii）
+
+{{< vocab "use" text="Use" zh=true >}} library books and class texts to gather specific facts, laws, and statistics. {{< vocab "document" text="Document" zh=true >}} author, title, and page numbers.
+查阅书籍教材收集具体史实、法律与数据，并在右侧初拟 MLA 参考文献条目（`Author. *Title*. Publisher, Year.`）。
+
+| Source 史料 | Title / Author / Pages 书名作者页码 | Key Historical Evidence & Thesis Link 核心史实与论点关联 | Draft MLA Works Cited 参考文献初拟 |
+|:--------------------|:-----------------------------------|:-------------------------------------------------------|:-----------------------------------|
+| **Source 1**<br>Class Textbook / Packet<br>*(教材或阅读包)* | **Title:** {{< blank 1.1in >}}<br>**Author:** {{< blank 0.9in >}}<br>**Page(s):** {{< blank 0.5in >}} | **Evidence & Thesis Link:**<br>{{< lines 1 gap="0.18in" >}} | **MLA Format:**<br>{{< lines 1 gap="0.18in" >}} |
+| **Source 2**<br>Library Book #1<br>*(图书馆馆藏书籍 #1)* | **Title:** {{< blank 1.1in >}}<br>**Author:** {{< blank 0.9in >}}<br>**Page(s):** {{< blank 0.5in >}} | **Evidence & Thesis Link:**<br>{{< lines 1 gap="0.18in" >}} | **MLA Format:**<br>{{< lines 1 gap="0.18in" >}} |
+| **Source 3**<br>Library Book #2 / Primary<br>*(图书馆书籍 #2 / 原始史料)* | **Title:** {{< blank 1.1in >}}<br>**Author:** {{< blank 0.9in >}}<br>**Page(s):** {{< blank 0.5in >}} | **Evidence & Thesis Link:**<br>{{< lines 1 gap="0.18in" >}} | **MLA Format:**<br>{{< lines 1 gap="0.18in" >}} |
+| **Source 4**<br>Additional (Counter / Base)<br>*(补充史料：反方/基准)* | **Title:** {{< blank 1.1in >}}<br>**Author:** {{< blank 0.9in >}}<br>**Page(s):** {{< blank 0.5in >}} | **Evidence & Thesis Link:**<br>{{< lines 1 gap="0.18in" >}} | **MLA Format:**<br>{{< lines 1 gap="0.18in" >}} |
+
+{{< pagebreak >}}
+
+### Step 1.4: Claim-Evidence Alignment & Criterion B Self-Assessment | 步骤 1.4：论点与证据匹配度核查及标准 B 自我评估表
+
+**Alignment Check & Revised Thesis 论点匹配反思与修正:** ☐ Evidence fully aligns with thesis 完全一致 · ☐ Partially aligned (claim refined) 部分一致需微调\
+**Final / Revised Thesis Statement 修正/确认论点:** {{< blank 5.2in >}}
+
+| Criterion B Self-Assessment Checklist 自评指标 | L1–2 Check | L3 Final 已确认 |
+|:-----------------------------------------------------------------------------------|:-----------------:|:-----------------:|
+| **1. Focused Research Question (Strand i):** Focused RQ examining governance & slavery. 提出聚焦研究问题。 | ☐ Incomplete<br>☐ Complete | ☐ Verified Complete 已确认完成 |
+| **2. Arguable Thesis Claim (Strand i):** Answers "to what extent" governance represented progress. 明确回应“在多大程度上”。 | ☐ Incomplete<br>☐ Complete | ☐ Verified Complete 已确认完成 |
+| **3. Library Books & Class Texts (Strand iii):** Documented specific evidence from BOTH books & texts. 同时引用书籍与教材。 | ☐ Incomplete<br>☐ Complete | ☐ Verified Complete 已确认完成 |
+| **4. Governance Progress Evidence (Strand iii):** Evidence showing how democracy/republic benefitted citizens. 证明治理进步。 | ☐ Incomplete<br>☐ Complete | ☐ Verified Complete 已确认完成 |
+| **5. Slavery Dependence Evidence (Strand iii):** Evidence showing how slavery limited progress. 证明奴隶制限制进步。 | ☐ Incomplete<br>☐ Complete | ☐ Verified Complete 已确认完成 |
+| **6. Claim-Evidence Alignment (Strand ii/iv):** Sources support thesis; revised thesis if needed. 核查证据与论点匹配。 | ☐ Incomplete<br>☐ Complete | ☐ Verified Complete 已确认完成 |
+
+**Source Appropriateness, Value & Limitation 史料价值与局限性评估（Strand iv）:**\
+• **Source Value 价值:** ONE library/primary source and why it is helpful: {{< blank 4.2in >}}\
+• **Source Limitation 局限:** One limitation of this source (e.g. written by elite citizen): {{< blank 4.0in >}}
+
+{{< pagebreak >}}
+
+# Step 2 (Lessons 2 & 3): 1st Draft Blueprint 步骤二（第2–3课时）：论文第一稿结构蓝图
+
+::: {.callout-tip title="Academic Sentence Starters & Transitions Bank 英文学术句型与过渡词工具箱" icon=false}
+- **Governance Progress 阐述治理进步:** *"A major political breakthrough in [Athens/Rome] was…"* | *"According to [Source/Author], the Twelve Tables established…"*
+- **Contradiction of Slavery 转折引入奴隶制:** *"However, this civic progress was severely undermined by…"* | *"Despite these legal protections, [Athens/Rome] remained dependent on…"*
+- **Counter-Claim & Rebuttal (Advanced) 反方观点与批驳:** *"Some historians argue that judged by ancient standards, [democracy/law] was still revolutionary because…"* → *"Nevertheless, this overlooks the reality that citizen freedom was financed by…"*
+:::
+
+## Step 2.1: Introduction Paragraph 引言段
+
+**Checklist 写作核查:** ☐ Historical Context 时代背景 · ☐ Tension between citizen rights & slavery 公民权利与奴隶制矛盾 · ☐ Thesis Claim 中心论点收尾
+
+{{< lines 4 gap="0.30in" >}}
+
+## Step 2.2 (Lesson 2): Legal Body Paragraph — Governance & Law 治理与法律进步主体段
+
+**Checklist 写作核查:** ☐ Clear Topic Sentence 主题句 · ☐ Cited Evidence (Assembly, Twelve Tables) 引用具体法律史实 · ☐ Explain HOW it represented progress for citizens 阐述进步意义
+
+{{< lines 5 gap="0.30in" >}}
+
+{{< pagebreak >}}
+
+## Step 2.3 (Lesson 2): Slavery Body Paragraph — Slavery & Exclusion 奴隶制依赖与排斥主体段
+
+**Checklist 写作核查:** ☐ Contrast Transition (*"However..."*) 转折主题句 · ☐ Cited Evidence (mines, helots 8:1, latifundia) 引用奴隶制证据 · ☐ Citizen vs. Enslaved Perspective 对比公民与奴隶视角
+
+{{< lines 4 gap="0.30in" >}}
+
+## Step 2.4 (Lesson 3 — Advanced Path): Counter-Claim & Rebuttal 反方观点与批驳 *(Advanced)*
+
+**Checklist 写作核查:** ☐ Strong Counter-Argument formulated 提出合理反方观点 · ☐ Justify rebuttal with evidence showing why slavery cannot be separated from governance 用史实有力批驳
+
+{{< lines 3 gap="0.30in" >}}
+
+## Step 2.5 (Lesson 3): Conclusion Paragraph 结论段
+
+**Checklist 写作核查:** ☐ Restate thesis in new words 重申论点 · ☐ Weigh civic breakthroughs vs. human cost of slavery 综合权衡 · ☐ Final "To what extent" judgment 给出最终历史评判
+
+{{< lines 4 gap="0.30in" >}}
+
+{{< pagebreak >}}
+
+# Step 3 (Lesson 4): Peer Audit & Revision Action Plan 步骤三（第4课时）：同伴互评与修改行动计划
+
+**Track A:** Peer Audit with partner · **Track B:** Drafting Buffer to finish 1st draft, then rapid audit.\
+**Peer Auditor Name 互评同伴姓名:** {{< blank 2.0in >}} **Date 日期:** {{< blank 1.2in >}}
+
+| Peer Audit Checkpoints 互评核查点 | Peer Rating 评级 | Suggestion / Note 具体修改建议 |
+|:---------------------------------------------------|:-------------------:|:-------------------------------|
+| **1. Thesis Clarity (Crit D):** Clear "to what extent" claim linking governance & slavery? | ☐ Strong<br>☐ Dev<br>☐ Miss | {{< lines 1 gap="0.18in" >}} |
+| **2. Legal Body Evidence (Crit B/D):** Specific cited laws/facts from books/texts? | ☐ Strong<br>☐ Dev<br>☐ Miss | {{< lines 1 gap="0.18in" >}} |
+| **3. Slavery & Perspectives (Crit D):** Contrasts citizen vs. enslaved perspectives? | ☐ Strong<br>☐ Dev<br>☐ Miss | {{< lines 1 gap="0.18in" >}} |
+| **4. Counter-Claim (Adv · Crit D):** Fair counter-argument + evidence-based rebuttal? | ☐ Strong<br>☐ Dev<br>☐ Miss | {{< lines 1 gap="0.18in" >}} |
+| **5. Academic Structure (Crit C):** Analytical transitions (*however, whereas*)? | ☐ Strong<br>☐ Dev<br>☐ Miss | {{< lines 1 gap="0.18in" >}} |
+| **6. Citations (Crit C):** Explicitly documented authors, titles, and page numbers? | ☐ Strong<br>☐ Dev<br>☐ Miss | {{< lines 1 gap="0.18in" >}} |
+
+• **Peer Glows (2 Strengths 亮点):** {{< blank 4.5in >}}\
+• **Peer Grows (2 Improvements 改进):** {{< blank 4.5in >}}\
+• **Author's Revision Plan (Lesson 5 修改计划):** {{< blank 4.5in >}}
+
+{{< pagebreak >}}
+
+# Step 4 (Lesson 5): 2nd Draft & Works Cited 步骤四（第5课时）：第二稿修改与参考文献整理
+
+::: {.callout-note title="Second Draft Instructions 第二稿撰写说明（在活页纸上手写）" icon=false}
+**Write your revised Second Draft on separate lined paper (or in your digital notebook as directed by your teacher).**
+请在**单独的活页横线纸**上撰写修改后的第二稿（或按老师要求在电子文档中完成）。
+
+{{< vocab "use" text="Use" zh=true >}} feedback from your Step 3 Peer Audit and teacher guidance. Focus on:
+1. **Clear TEEL paragraph structure** with analytical transitions (*however, whereas, despite*).
+2. **Criterion D depth:** Explicitly contrast the lived experience of free male citizens vs. enslaved laborers/helots.
+3. **Criterion C citations:** Embed parenthetical citations `(Author, p. xx)` for all evidence.
+
+**Revision Checklist for Your Loose Paper Draft 活页第二稿段落核查清单:**
+☐ **4.1 Intro:** Context + tension between citizen rights & slavery + arguable Thesis.\
+☐ **4.2 Legal Body ¶:** Athenian assembly / Roman law + cited evidence + citizen progress explained.\
+☐ **4.3 Slavery Body ¶:** Contrast transition + cited evidence + citizen vs. enslaved perspective analysis.\
+☐ **4.4 Counter-Claim ¶ (Adv):** Counter-argument formulated + evidence-based rebuttal.\
+☐ **4.5 Conclusion:** Thesis synthesized + balanced judgment answering "To what extent?"
+:::
+
+## Step 4.6: Works Cited Organizer (Criterion C) 步骤 4.6：参考文献列表整理区
+
+{{< vocab "list" text="List" zh=true >}} and {{< vocab "document" zh=true >}} all library books and class texts cited in your essay. Copy and finalize your Step 1.3 MLA drafts below so they are ready to type in Lesson 6.
+请整理并抄写步骤 1.3 中已初拟的 MLA 条目，形成规范的参考文献列表，准备在第6课时录入论文末尾。
+
+**MLA Format Template 格式模板:** `Author Last Name, First Name. Title of Book. Publisher, Year, pp. xx–xx.`
+
+{{< lines 6 gap="0.30in" >}}
+
+{{< pagebreak >}}
+
+# Step 5 (Lesson 6): Type Final Essay & Rubrics 步骤五（第6课时）：终稿录入核查与双语评估量规
+
+::: {.callout-important title="Lesson 6 Final Pre-Submission Checklist 终稿提交前核查" icon=false}
+☐ **1. Assessment 1 (Crit B) Complete:** RQ, Sourcing Log (1.3), Alignment & Checklist (1.4) 100% finished in booklet.\
+☐ **2. Assessment 2 (Crit C & D) Complete:** Revised essay typed from booklet & loose-leaf draft, with Works Cited.\
+☐ **3. Physical Booklet Turned In:** Submitting this booklet & loose draft to teacher alongside final typed essay.
+:::
+
+### Assessment Target: Proficient Standard (PR · 75–89%) | 熟练达标评估目标
+
+| Assessment 评估项目 | Criterion 评估标准 | Proficient Target Standard (PR · 75–89%) 熟练达标具体表现 |
+|:--------------------|:---------------------|:---------------------------------------------------------------------|
+| **Assessment 1**<br>Inquiry Booklet | **Criterion B: Investigating**<br>标准 B：探究 *(Strands i–iv)* | • **Clear RQ & thesis claim** addressing "to what extent". 提出聚焦的研究问题与论点。<br>• **Action plan & alignment check** completed in L1–3. 完成行动计划与匹配核查。<br>• **Relevant cited evidence** from books & texts; source evaluation. 收集准确证据与史料评估。 |
+| **Assessment 2**<br>Final Essay | **Criterion D: Thinking Critically**<br>标准 D：批判性思维 | • **Analyzes governance progress** while evaluating continuous dependence on slavery.<br>• **Supports body paragraphs** with specific historical facts and laws. 用具体法律与史实支撑。<br>• **Contrasts perspectives** of free citizens vs. enslaved people. 体现公民与奴隶不同视角。 |
+| **Assessment 2**<br>Final Essay | **Criterion C: Communicating**<br>标准 C：沟通表达 | • **Communicates clearly** in formal academic English. 使用正式清晰的学术英文表达。<br>• **Follows structured essay blueprint** (Intro, TEEL Body, Conclusion). 严格遵循论文结构。<br>• **Accurately cites sources** and completes Step 4.6 Works Cited list. 规范标明引用与文献列表。 |
+
+::: {.content-visible when-profile="teacher"}
+## Full Mingwan Bilingual Proficiency Rubric (Teacher Reference) | 明湾完整四等级双语量规
+
+| Band 等级 | Assessment 1: Criterion B Investigating 探究 (Booklet 手册) | Assessment 2: Criterion D Thinking Critically 批判性思维 | Assessment 2: Criterion C Communicating 沟通表达 |
+|---|---|---|---|
+| **EX**<br>Exceeding<br>卓越<br>*(90–100%)* | • Formulates a nuanced research question & thesis; refines claim to align with evidence. 提出深刻聚焦的研究问题与论点，并根据证据精准修正论点。<br>• Harvests rich, balanced evidence from both library books & class texts. 从图书馆书籍与课堂教材中收集丰富、均衡的史料证据。<br>• Thoroughly evaluates source value and limitations. 深入评估史料的适用性、价值与局限性。 | • Deeply analyzes both Classical governance progress and systemic dependence on slavery. 深入剖析古典治理进步与对奴隶制的系统性依赖。<br>• Evaluates citizen vs. enslaved perspectives and integrates a strong counter-claim/rebuttal (or baseline). 对比公民与奴隶视角，有力融入反方观点与批驳。<br>• Nuanced "to what extent" judgment. 得出深刻辩证的“在多大程度上”最终评判。 | • Exceptionally coherent, persuasive academic English essay. 英文论文逻辑极为严密、有说服力，学术语体规范。<br>• Sophisticated transitions linking arguments. 熟练运用高阶分析与对比过渡词。<br>• Accurate in-text citations and complete Works Cited list. 段内引用准确规范，参考文献列表完整。 |
+| **PR**<br>Proficient<br>熟练达标<br>*(75–89%)* | • Clear research question & arguable thesis claim. 提出清晰的研究问题与可论证的中心论点。<br>• Completes action plan & alignment check within Lessons 1–3. 在第1–3课内完成行动计划与证据匹配核查。<br>• Relevant, accurate evidence from library books & class texts; completes source checklist. 从图书馆书籍与教材中收集准确相关的证据，认真完成自评表。 | • Clearly explains how Classical governance represented progress while remaining dependent on slavery. 清晰解释古典治理如何既代表进步又持续依赖奴隶制。<br>• Supports body paragraphs with specific historical evidence. 用具体史实支撑各主体段。<br>• Considers different perspectives and reaches a reasoned conclusion. 体现不同历史视角并得出合理结论。 | • Communicates clearly in formal academic English. 使用正式、清晰的学术英文进行表达。<br>• Follows structured essay blueprint (Intro, Body Paragraphs, Conclusion). 严格遵循论文结构蓝图。<br>• Cites library and class sources accurately. 准确标明所引用的书籍与教材来源。 |
+| **DE**<br>Developing<br>发展阶段<br>*(60–74%)* | • Basic question or claim that only partially addresses the prompt. 研究问题或论点较为宽泛，仅部分回应题目。<br>• Action plan or checklist is partially completed. 行动计划或自评表仅部分完成。<br>• Relies mostly on one source or descriptive facts without checking claim alignment. 主要依赖单一史料或仅摘抄表面事实，未核查与论点的匹配度。 | • Describes Greek/Roman government or slavery, but analysis of "progress" is superficial. 仅描述希腊/罗马政体或奴隶制史实，对“进步程度”的分析停留在表面。<br>• Discusses governance and slavery separately without analyzing their contradiction. 将治理与奴隶制割裂叙述，缺乏内在矛盾分析与多视角思考。 | • Emerging clarity; some organizational or grammar issues. 表达基本达意，但存在一定篇章结构或语法问题。<br>• Uneven paragraph structure; limited transitions. 段落发展不均衡，过渡词较少。<br>• Incomplete citations or reference list. 史料引用或参考文献列表不完整。 |
+| **EM**<br>Emerging<br>起步阶段<br>*(1–59%)* | • Unclear or missing research question/claim. 研究问题或中心论点缺失或混乱。<br>• Minimal source evidence recorded; checklist incomplete. 几乎未记录有效史料证据，自评表未完成。 | • Inaccurate or minimal explanation of governance and slavery. 对古典治理或奴隶制的理解不准确。<br>• Expresses unsupported personal opinions without historical evidence. 仅凭个人主观印象发表观点，缺乏史实依据。 | • Fragmented writing lacking paragraph structure. 文字零散，缺乏基本的段落组织。<br>• Minimal academic vocabulary; no source citations. 学术词汇匮乏，无任何史料引用。 |
+
+::: {.callout-note title="Teacher Guide: 6-Lesson Pacing & Dual Checkpoints"}
+- **Lesson 1 (50 min) — Prompt, Thesis & Research:** Deconstruct prompt terms; model focused RQ & initial thesis frame; introduce curated library books & class texts. *Checkpoint:* Criterion B Check 1 (Steps 1.1–1.4 initiated).
+- **Lesson 2 (50 min) — Steps 2.2 & 2.3 (Legal + Slavery Body ¶):** Mini-lesson on TEEL paragraph structure & embedding citations; finalize Criterion B Source Quality Checklist; draft Step 2.1 Intro, Step 2.2 Legal Body Paragraph (Governance Progress), and Step 2.3 Slavery Body Paragraph. *Checkpoint:* Criterion B Check 2 + Steps 2.1–2.3 drafted.
+- **Lesson 3 (50 min) — Step 2.4 Counter-Claim & Step 2.5 Conclusion:** Final deadline to verify Criterion B Self-Assessment Checklist (ready for Assessment 1); Advanced Path drafts Step 2.4 (Counter-Claim & Rebuttal); all students draft Step 2.5 Conclusion. *Checkpoint:* Criterion B Finalized + Complete 1st Draft.
+- **Lesson 4 (50 min) — Peer Audit + Drafting Buffer:** Track A (Ready Students) conducts structured Peer Audit in Step 3 (2 Glows, 2 Grows, Revision Plan); Track B (Drafting Students) finishes 1st Draft paragraphs followed by rapid check.
+- **Lesson 5 (50 min) — 2nd Draft on Loose Paper & Works Cited:** Mini-lesson on upgrading `DE` to `PR`/`EX` (citizen vs. enslaved perspective analysis, analytical transitions, Works Cited formatting); students write 2nd Draft on loose lined paper and compile Step 4.6 Works Cited in booklet.
+- **Lesson 6 (50 min) — Type the Final Essay:** HOLD status academic integrity rules (students type directly from annotated physical booklet and loose-leaf drafts). Collect the physical booklet alongside the final essay.
+:::
+:::

@@ -1,0 +1,145 @@
+---
+title: "MYP Year 1 Assessment Criteria 评估标准 (Grade 6)"
+type: reference
+description: "Official IB MYP Individuals & Societies Year 1 assessment criteria (Grade 6) covering Criteria A, B, C, and D with level descriptors, student target skills, and 中文 support."
+order: 2
+audience: [teacher, student, parent]
+doc-type: Reference
+packet: false
+format:
+  html: default
+  typst: default
+---
+
+In the IB Middle Years Programme (MYP) Individuals and Societies, Grade 6 students develop foundational historical and geographical inquiry skills. Student work is assessed against four equally weighted criteria. Each criterion has a maximum score of **8 points**, giving a total possible score of **32 points**.
+
+在国际文凭中学项目（IB MYP）“个人与社会”课程中，六年级（MYP Year 1）着重培养学生的基础历史探究、空间地理认知与批判性表达能力。学生的所有表现均依据四大核心评估标准进行评价，每项满分 **8 分**，总计 **32 分**。
+
+::: {.callout-tip title="Four Assessment Criteria at a Glance (Grade 6 · MYP Year 1 评估标准总览)" icon=false}
+| Criterion | Focus | Max Score | Key Question You Answer |
+|---|---|:---:|---|
+| **Criterion A: Knowing and understanding**<br>标准 A：知识与理解 | Key vocabulary, historical facts, and causal explanations. | **/ 8** | *What happened, why did it happen, and can I use the vocabulary accurately?* |
+| **Criterion B: Investigating**<br>标准 B：调查研究 | Choosing a research question, following a step-by-step action plan, and collecting facts. | **/ 8** | *Can I pick a focused question, follow my plan, and gather evidence?* |
+| **Criterion C: Communicating**<br>标准 C：交流表达 | Clear writing, logical organization, and listing where I found my information. | **/ 8** | *Is my writing clear, well-structured, and did I list my sources properly?* |
+| **Criterion D: Thinking critically**<br>标准 D：批判性思考 | Finding main ideas, giving an opinion with evidence, and seeing different perspectives. | **/ 8** | *What is the author's point of view, what is my opinion, and how do I back it up?* |
+: {tbl-colwidths="[30,30,12,28]"}
+:::
+
+::: {.content-visible when-format="html"}
+::: {.callout-note title="Year 1 Strand Expectations (Grade 6 Focus)"}
+These descriptors are the official **IB MYP Year 1** criteria from the *MYP Individuals and Societies Guide*. They are tailored specifically for Grade 6 learners, focusing on guided research, clear communication, and identifying multiple perspectives.
+:::
+:::
+
+{{< pagebreak >}}
+
+## Criterion A: Knowing and Understanding (标准 A：知识与理解)
+
+**Maximum: 8**
+
+At the end of Year 1 (Grade 6), students should be able to:
+
+i. **{{< vocab "use" text="use" zh=true >}} vocabulary in context** *(在特定语境中准确运用学科词汇)*
+ii. **{{< vocab "demonstrate" text="demonstrate" zh=true >}} knowledge and understanding of subject-specific content and concepts**, using {{< vocab "describe" text="descriptions" zh=true >}}, {{< vocab "explain" text="explanations" zh=true >}} and {{< vocab "exemplify" text="examples" zh=true >}} *(通过描述、解释和举例，展示对学科内容和概念的知识与理解)*
+
+| Achievement level | Level descriptor |
+|:---:|---|
+| **0** | The student does not reach a standard described by any of the descriptors below.<br>*(学生未达到下列任何标准所述的水平。)* |
+| **1–2** | The student:<br>i. makes **limited** use of vocabulary<br>ii. demonstrates **basic** knowledge and understanding of content and concepts through **limited** descriptions and/or examples.<br>*(学生：很少使用学科词汇；通过有限的描述和／或举例，展示基础的知识与理解。)* |
+| **3–4** | The student:<br>i. uses some vocabulary **accurately**<br>ii. demonstrates **satisfactory** knowledge and understanding of content and concepts through **simple** descriptions, explanations and examples.<br>*(学生：准确运用部分学科词汇；通过简单的描述、解释和举例，展示令人满意的知识与理解。)* |
+| **5–6** | The student:<br>i. uses **considerable** and **relevant** vocabulary **accurately**<br>ii. demonstrates **substantial** knowledge and understanding of content and concepts through descriptions, explanations and examples.<br>*(学生：准确运用大量且相关的学科词汇；通过深入的描述、解释和举例，展示实质性的知识与理解。)* |
+| **7–8** | The student:<br>i. **consistently** uses a **range** of vocabulary **accurately**<br>ii. demonstrates **detailed** knowledge and understanding of content and concepts through **developed** and **accurate** descriptions, explanations and examples.<br>*(学生：一贯准确运用广泛的专业词汇；通过充分展开且准确的描述、解释和举例，展示详尽透彻的知识与理解。)* |
+: {tbl-colwidths="[18,82]"}
+
+::: {.callout-note title="Grade 6 Strand Checklist for Criterion A" icon=false}
+- [ ] **Vocabulary Check:** Did I include at least 4 bold vocab words from our unit list?
+- [ ] **Example Check:** Did I give a specific real-world or historical example for every claim?
+- [ ] **Because / So What:** Did I explain *why* this event happened, not just *when*?
+:::
+
+{{< pagebreak >}}
+
+## Criterion B: Investigating (标准 B：调查研究)
+
+**Maximum: 8**
+
+At the end of Year 1 (Grade 6), students should be able to:
+
+i. **{{< vocab "explain" text="explain" zh=true >}} the choice of a research question** *(解释选择该探究问题的原因与意义)*
+ii. **follow an action plan** to explore a research question *(遵循行动计划以探究该问题)*
+iii. **{{< vocab "use" text="use" zh=true >}} methods to collect and record relevant information** *(运用适当方法收集并记录相关信息)*
+iv. **{{< vocab "evaluate" text="evaluate" zh=true >}} the process and results of the investigation** *(评估调查的过程与结果)*
+
+| Achievement level | Level descriptor |
+|:---:|---|
+| **0** | The student does not reach a standard described by any of the descriptors below.<br>*(学生未达到下列任何标准所述的水平。)* |
+| **1–2** | The student:<br>i. **identifies** a research question<br>ii. follows a **limited** action plan or **does not follow** a plan<br>iii. collects and records **limited or sometimes irrelevant** information<br>iv. with guidance, **reflects** on the research process and results in a **limited** way.<br>*(学生：指出一个探究问题；遵循有限的行动计划或未遵循计划；收集并记录有限或不相关的信息；在指导下以有限的方式反思探究过程与结果。)* |
+| **3–4** | The student:<br>i. **identifies** a **clear** research question and **describes its relevance**<br>ii. **partially follows** an action plan to investigate a research question<br>iii. uses a method to collect and record **some relevant** information<br>iv. with guidance, **reflects** on the research process and results.<br>*(学生：指出一个清晰的探究问题并描述其相关性；部分遵循行动计划以调查该问题；运用方法收集并记录部分相关信息；在指导下反思探究过程与结果。)* |
+| **5–6** | The student:<br>i. **explains the choice** of a clear and focused research question<br>ii. **mostly follows** a **developed** action plan to investigate a research question<br>iii. uses methods to collect and record **appropriate relevant** information<br>iv. with guidance, **evaluates** the research process and results.<br>*(学生：解释选择一个清晰聚焦的探究问题的原因；基本遵循较为完善的行动计划；运用方法收集并记录恰当的相关信息；在指导下评估探究过程与结果。)* |
+| **7–8** | The student:<br>i. **explains in detail the choice** of a clear and focused research question<br>ii. **effectively follows** a **consistent** action plan to investigate a research question<br>iii. uses methods to collect and record **appropriate, varied and relevant** information<br>iv. with guidance, provides a **detailed evaluation** of the research process and results.<br>*(学生：详尽解释选择清晰聚焦的探究问题的原因；切实遵循一贯的行动计划；运用方法收集并记录恰当、多样且相关的信息；在指导下对探究过程与结果提供详细深入的评估。)* |
+: {tbl-colwidths="[18,82]"}
+
+::: {.callout-note title="Grade 6 Year 1 Scaffold: 4-Step Action Plan Template" icon=false}
+1. **Step 1 (Find):** Where will I look? *(Class textbook, WeDrive primary source folder, Britannica School)*
+2. **Step 2 (Record):** How will I take notes? *(Cornell notes, 2-column table, bullet points in notebook)*
+3. **Step 3 (Select):** Which facts answer my question directly? *(Highlight 3 key facts)*
+4. **Step 4 (Review):** What was easy and what was tricky during my search? *(1 reflection sentence)*
+:::
+
+{{< pagebreak >}}
+
+## Criterion C: Communicating (标准 C：交流表达)
+
+**Maximum: 8**
+
+At the end of Year 1 (Grade 6), students should be able to:
+
+i. **communicate information and ideas with clarity** *(清晰地表达信息与观点)*
+ii. **organize information and ideas in order to suit the task** *(按照任务要求有序组织信息与观点)*
+iii. **list sources of information in a way that follows the task instructions** *(根据任务指令规范列出信息来源清单)*
+
+| Achievement level | Level descriptor |
+|:---:|---|
+| **0** | The student does not reach a standard described by any of the descriptors below.<br>*(学生未达到下列任何标准所述的水平。)* |
+| **1–2** | The student:<br>i. communicates information and ideas with **limited clarity**<br>ii. organizes information in a **limited** way<br>iii. lists sources in a **limited** way.<br>*(学生：表达信息与观点的清晰度有限；以有限的方式组织信息；以有限的方式列出信息来源。)* |
+| **3–4** | The student:<br>i. communicates information and ideas **satisfactorily with some clarity**<br>ii. organizes information and ideas **logically to suit the task**<br>iii. lists sources **following some task instructions**.<br>*(学生：以一定的清晰度令人满意地表达信息与观点；合乎逻辑地组织信息以符合任务要求；遵循部分要求列出信息来源。)* |
+| **5–6** | The student:<br>i. communicates information and ideas **clearly**<br>ii. organizes information and ideas in a **well-structured way to suit the task**<br>iii. lists sources **consistently following task instructions**.<br>*(学生：清晰地表达信息与观点；以结构良好的方式组织信息以符合任务要求；一贯遵循任务要求列出信息来源。)* |
+| **7–8** | The student:<br>i. communicates information and ideas with **high clarity and appropriate style**<br>ii. organizes information and ideas **effectively and logically to suit the task**<br>iii. creates an **accurate and complete list of sources** following task instructions.<br>*(学生：以极高的清晰度和适宜的风格传达信息与观点；有效且合乎逻辑地组织信息与观点；按照任务要求编制准确完整的参考文献来源清单。)* |
+: {tbl-colwidths="[18,82]"}
+
+::: {.callout-note title="Grade 6 Year 1 Source Listing Scaffold" icon=false}
+In Grade 6, we practice listing sources with these 4 essential ingredients:
+1. **Who created it?** (Author or Organization name)
+2. **What is it called?** (Title of the article or book chapter)
+3. **When was it published or accessed?** (Year or Date)
+4. **Where can someone find it?** (Website link or book title)
+:::
+
+{{< pagebreak >}}
+
+## Criterion D: Thinking Critically (标准 D：批判性思考)
+
+**Maximum: 8**
+
+At the end of Year 1 (Grade 6), students should be able to:
+
+i. **{{< vocab "identify" text="identify" zh=true >}} the main points of ideas, events, visual representation or arguments** *(识别观点、历史事件、视觉图片或论述的核心要点)*
+ii. **use information to give an opinion** *(利用所学信息提出有根据的个人见解)*
+iii. **{{< vocab "identify" text="identify" zh=true >}} perspectives** *(识别不同人物或群体的视角与立场)*
+iv. **{{< vocab "identify" text="identify" zh=true >}} the implications of personal choices on societies or the environment** *(识别个人选择对社会或自然环境所产生的影响)*
+
+| Achievement level | Level descriptor |
+|:---:|---|
+| **0** | The student does not reach a standard described by any of the descriptors below.<br>*(学生未达到下列任何标准所述的水平。)* |
+| **1–2** | The student:<br>i. **identifies limited points** in ideas, events, visuals or arguments<br>ii. expresses an opinion with **limited support**<br>iii. identifies **limited perspectives**<br>iv. identifies **limited implications** of personal choices.<br>*(学生：识别出有限的要点；提出缺乏充分支持的见解；识别有限的视角；识别出个人选择带来的有限影响。)* |
+| **3–4** | The student:<br>i. **identifies some main points** in ideas, events, visuals or arguments<br>ii. gives an opinion supported by **some evidence**<br>iii. identifies **different perspectives**<br>iv. identifies **some implications** of personal choices on societies or the environment.<br>*(学生：识别出部分主要要点；提出有一定证据支持的见解；识别出不同的视角；识别出个人选择对社会或环境产生的部分影响。)* |
+| **5–6** | The student:<br>i. **identifies the main points accurately** in ideas, events, visuals or arguments<br>ii. gives a **reasoned opinion supported by relevant evidence**<br>iii. identifies and **describes different perspectives**<br>iv. identifies and **describes clear implications** of personal choices on societies or the environment.<br>*(学生：准确识别主要要点；提出由相关证据支持且有说服力的见解；识别并描述不同的视角；识别并描述个人选择对社会或环境产生的清晰影响。)* |
+| **7–8** | The student:<br>i. **analyzes and clearly identifies the main points in detail**<br>ii. gives a **well-reasoned opinion thoroughly supported by evidence**<br>iii. clearly **identifies and compares distinct perspectives**<br>iv. identifies and **explains significant implications** of personal choices on societies and the environment.<br>*(学生：深入分析并清晰详尽地识别主要要点；提出经过严密推敲、由充分证据支持的见解；清晰识别并比较不同的视角；识别并解释个人选择对社会及环境产生的深远影响。)* |
+: {tbl-colwidths="[18,82]"}
+
+::: {.callout-note title="Grade 6 Year 1 Sentence Starters (Perspective & Evidence)" icon=false}
+- **Main Idea:** *The central message of this source is that... because...*
+- **Giving an Opinion:** *Based on the archaeological evidence from [Site], I argue that...*
+- **Identifying Perspectives:** *While the rulers viewed the law code as [Opinion A], ordinary farmers may have viewed it as [Opinion B] because...*
+- **Implications:** *If a community chose to build canals, the consequence for the environment was...*
+:::

@@ -1,0 +1,59 @@
+# Builds the STUDENT version of the site on every push to main and publishes it to GitHub Pages:
+#   https://levinnate-design.github.io/levin_chalkline/
+# (Student version: no answer keys or teacher-only notes, safe to share publicly with students.)
+
+name: Publish student site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:          # or run it by hand: Actions tab > Publish student site > Run workflow
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Python packages
+        run: pip install -r requirements.txt
+
+      - name: Chinese font for slide PDFs (web pages and PDFs otherwise use brand/fonts/)
+        run: sudo apt-get update -q && sudo apt-get install -y -q fonts-noto-cjk
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.19     # same version as on our computers
+
+      - name: Build the student site
+        run: |
+          export QUARTO_PYTHON="$(which python)"
+          quarto render
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
