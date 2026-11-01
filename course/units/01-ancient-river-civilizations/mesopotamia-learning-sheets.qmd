@@ -1,7 +1,8 @@
 ---
-title: "Mesopotamia Learning Sheets (Periods 1–3) 美索不达米亚学习单（第1–3课时）"
+title: "Mesopotamia Student Learning Packet 美索不达米亚学习单"
+subtitle: "Looking at Ancient Civilizations · Chapter 1 观察古代文明 · 第1章"
 type: worksheet
-description: "Guided notes, map tasks, 3-step primary source analysis, Hammurabi's Code argument paragraph, and exit tickets for Periods 1–3."
+description: "Grade 6 student learning packet: section vocabulary banks, map observation, Sumerian inventions, Hammurabi's Code, and MYP Year 1 reflection."
 order: 4
 audience: [teacher, student]
 doc-type: Worksheet
@@ -17,273 +18,194 @@ from vocab import load_unit, pick, word_bank
 terms = load_unit(1)
 ```
 
-```{python}
-#| output: asis
-print(word_bank({
-    "Period 1 (Environment)": pick(terms, "Fertile Crescent", "Mesopotamia", "silt", "irrigation", "surplus", "division of labour", "city-state"),
-    "Period 2 (Culture)": pick(terms, "polytheism", "ziggurat", "cuneiform", "primary source"),
-    "Period 3 (Empires & Law)": pick(terms, "dynasty", "empire", "cultural diffusion", "Code of Hammurabi"),
-}))
-```
+::: {.callout-note title="Welcome to Ancient Civilizations! · 欢迎学习古代文明！" icon=false}
+In this chapter, we will explore the world's first cities. We will use our eyes to observe maps, our minds to think about rules, and our words to share ideas with classmates! \
+*([在这一章中，我们将探索世界上最早的城市。我们将用眼睛观察地图，用大脑思考规则，用语言与同学们分享观点！]{.zh})*
+:::
 
 ---
 
-## Period 1 · Environment & City-States 第1节：环境与城邦
+## 🌍 Section 1: The Land Between Two Rivers 第1节：两河之间的土地
 
-**Big Question · 核心问题:** Why did {{< vocab "city-state" text="city-states" zh=true >}} emerge in {{< vocab "Mesopotamia" zh=true >}}? *(美索不达米亚的城邦为何兴起？)*
+::: {.callout-tip title="Section 1 Vocabulary Bank · 核心词汇库" icon=false}
+- **{{< vocab "Mesopotamia" zh=true >}}** *(美索不达米亚)*: The land between two rivers.
+- **{{< vocab "Fertile Crescent" zh=true >}}** *(新月沃地)*: Green, fertile land in Southwest Asia that is good for growing crops.
+- **Tigris & Euphrates Rivers** *(底格里斯河与幼发拉底河)*: The two great rivers flowing into the Persian Gulf.
+- **{{< vocab "silt" zh=true >}}** *(淤泥)*: Rich, fine soil left on fields after river floods.
+:::
 
-### Task 1 · Warm-up 热身 (WU1: Why Rivers? 为什么是河流？)
+Long ago, people moved to a place called **Mesopotamia** *([美索不达米亚]{.zh})*. In Greek, Mesopotamia means *"the land between the rivers."* \
+*([很久以前，人们搬到了一个叫美索不达米亚的地方。在希腊语中，美索不达米亚的意思是“两河之间的土地”。]{.zh})*
 
-*Predict first — look at the map and think!* *(先看地图写下你的预测。)*
+There are two big rivers here: the **Tigris River** *([底格里斯河]{.zh})* and the **Euphrates River** *([幼发拉底河]{.zh})*. The rivers gave people fresh water to drink and water for their crops. Every year, floodwaters brought rich soil called **silt**. This green area is called the **Fertile Crescent** *([新月沃地]{.zh})*. \
+*([这里有两条大河：底格里斯河与幼发拉底河。河流为人们提供饮用水和农田灌溉用水。每年洪水带来被称为淤泥的肥沃泥土。这片绿色的区域被称为新月沃地。]{.zh})*
 
-1. Why might people want to live near a river? (1–2 sentences · 人们为什么想住在河流附近？)
-   - *Sentence Frame (G7 Support):* People wanted to live near a river because _______________________.
+![Figure 1 · Map of Mesopotamia and the Fertile Crescent](images/fertile-crescent-map.png){width="85%" fig-alt="Map showing Mesopotamia, Tigris and Euphrates rivers, and Fertile Crescent"}
+
+### ✏️ Activity 1.1: Observing the Map 观察地图
+
+Look at the map above carefully. Complete the three sentences: \
+*([仔细观察上方的地图，完成以下三个填空：]{.zh})*
+
+1. **Mesopotamia** means the land between two ____________________. \
+   *([美索不达米亚的意思是两条____________________之间的土地。]{.zh})*
+
+2. The names of the two great rivers are the ____________________ River and the ____________________ River. \
+   *([这两条大河的名字分别是____________________河与____________________河。]{.zh})*
+
+3. The green land shaped like a quarter-moon that is very good for farming is called the ____________________ Crescent. \
+   *([形如初月、非常适合农耕的绿色土地被称为____________________沃地。]{.zh})*
+
+### 🗣️ Discuss and Share 讨论与分享
+
+Turn and talk to your partner: **Why do people like to live near a river?** \
+*([与同桌讨论：人们为什么喜欢住在河流附近？]{.zh})*
+
+- **Sentence Starter (句型引导):** \
+  *"I think people live near rivers because ____________________________________________________."* \
+  *([“我认为人们住在河边是因为 ____________________________________________________。”]{.zh})*
 
 ::: {.answer-lines}
 - 
 - 
 :::
-
-2. What problems could a river cause? (1–2 sentences · 河流可能带来什么问题？)
-   - *Sentence Frame (G7 Support):* However, a river could cause problems such as _______________________.
-
-::: {.answer-lines}
-- 
-- 
-:::
-
-3. If you had to pick **ONE invention** that helped people live near rivers, what would it be? Why? *(选一项帮助人们在河边生活的发明并说明理由。)*
-
-::: {.answer-lines}
-- 
-- 
-:::
-
-### Task 2 · Direct Instruction Notes 听课笔记 (边听边填)
-
-**A · Complete the 5-stage causal chain 完成因果链:**
-
-$$\text{Unpredictable Floods 洪水} \rightarrow \text{Irrigation 灌溉} \rightarrow \underline{\hspace{3cm}} \rightarrow \text{Division of Labour 分工} \rightarrow \underline{\hspace{3cm}}$$
-
-**B · Environmental Challenges & Solutions 环境挑战与解决方案表 (FA2):**
-
-| 环境挑战 · Environmental Challenge | 解决方案 · Sumerian Solution |
-|---|---|
-| **1.** Unpredictable flooding & drought (洪水难料与干旱) |  |
-| **2.** No natural barriers for defense (无天然防御屏障) |  |
-| **3.** Scarce natural resources — no stone, wood, or metal (自然资源匮乏) |  |
-
-**C · In Your Own Words 用自己的话:** What is a **{{< vocab "city-state" zh=true >}}**? (1–2 sentences)
-
-::: {.answer-lines}
-- 
-- 
-:::
-
-### Task 3 · Formative Activity 形成性活动 (FA1 · MYP Criterion A)
-
-1. **{{< vocab "describe" text="Describe" zh=true >}} (描述):** Where is the {{< vocab "Fertile Crescent" zh=true >}}, and which two rivers run through it? (2 sentences)
-   - *Starter:* The Fertile Crescent is located _______________________. The _______________________ and _______________________ rivers run through it.
-
-::: {.answer-lines}
-- 
-- 
-:::
-
-2. **{{< vocab "explain" text="Explain" zh=true >}} (解释):** Why did Sumerian {{< vocab "city-state" text="city-states" >}} cluster on the **southern plain** near the Persian Gulf rather than in the northern mountains, and how did they solve **one** environmental challenge there? (2–3 sentences)
-
-::: {.answer-lines}
-- 
-- 
-- 
-:::
-
-3. **{{< vocab "use" text="Use" zh=true >}} Terms (造句):** Write **ONE complete sentence** using `city-state` correctly in historical context.
-
-::: {.answer-lines}
-- 
-:::
-
-### Task 4 · Period 1 Exit Ticket (ET1 · Answer from Memory 独立完成)
-
-1. What does **"Mesopotamia"** mean in Greek? *(“Mesopotamia”在希腊语中是什么意思？)*
-   ___________________________________________________________________
-2. {{< vocab "list" text="List" zh=true >}} the **three environmental challenges** the Sumerians faced, and give **one solution** for each:
-   - Challenge 1 & Solution: ___________________________________________________
-   - Challenge 2 & Solution: ___________________________________________________
-   - Challenge 3 & Solution: ___________________________________________________
-3. **Reflection (课末回顾):** Look back at Task 1 — what did you learn today that you did **NOT** predict at the start of class?
-   ___________________________________________________________________
 
 ---
 
-## Period 2 · Sumerian Culture & Beliefs 第2节：苏美尔文化与信仰
+## 🏛️ Section 2: The Sumerians and the First Writing 第2节：苏美尔人与最早的文字
 
-**Big Question · 核心问题:** How did Sumerian beliefs and society reflect a harsh environment? *(信仰与社会如何反映严酷的环境？)*
-
-### Task 1 · Warm-up 热身 (WU2: Predict the Land 预测这片土地)
-
-1. Looking at the map of the {{< vocab "Fertile Crescent" >}}, where do you think **most people** lived, and where did **very few people** live? Why? (2–3 sentences)
-
-::: {.answer-lines}
-- 
-- 
-- 
+::: {.callout-tip title="Section 2 Vocabulary Bank · 核心词汇库" icon=false}
+- **{{< vocab "Sumerians" zh=true >}}** *(苏美尔人)*: The first people who built cities in southern Mesopotamia.
+- **{{< vocab "cuneiform" zh=true >}}** *(楔形文字)*: The world's first writing system, pressed into wet clay tablets.
+- **The Wheel** *(车轮)*: A circular invention that helped carts and wagons move heavy goods.
+- **{{< vocab "ziggurat" zh=true >}}** *(阶梯神庙)*: A giant mud-brick temple at the center of a Sumerian city.
 :::
 
-### Task 2 · Direct Instruction Notes 听课笔记 (Social Pyramid & Religion)
+The first people to build cities in Mesopotamia were the **Sumerians** *([苏美尔人]{.zh})*. They built big cities surrounded by tall protective mud-brick walls. At the center of each city stood a towering pyramid-temple called a **ziggurat**. \
+*([最早在美索不达米亚建立城市的人是苏美尔人。他们建造了由高大泥砖城墙围绕的大城市。在每个城市的中心矗立着一座名为吉库拉特的高大阶梯神庙。]{.zh})*
 
-**A · Label the Sumerian Social Pyramid 标注苏美尔社会金字塔 (FA9 · 自上而下 4 层):**
+The Sumerians were very smart inventors:
+1. **The Wheel (车轮):** They invented wheeled carts to carry grain, wood, and heavy stones.
+2. **Writing (文字):** They invented the world's first writing system, called **cuneiform** *([楔形文字]{.zh})*. \
+*([苏美尔人是聪明的发明家：他们发明了轮式车辆来运输粮食与石材；他们还发明了世界上最早的文字系统——楔形文字。]{.zh})*
 
-| Social Tier 社会层级 | Who Belonged to This Group & Their Role 该阶层成员与职责 |
-|---|---|
-| **1 · Top 顶层 (最高)** |  |
-| **2 · Second Tier 第二层** |  |
-| **3 · Third Tier 第三层** |  |
-| **4 · Bottom 底层 (最低)** |  |
-
-**B · Religion & the Afterlife 多神信仰与来世观:**
-
-1. What is **{{< vocab "polytheism" zh=true >}}**? Name **ONE** Sumerian god and {{< vocab "explain" zh=true >}} why Sumerians feared their gods. (1–2 sentences)
-
-::: {.answer-lines}
-- 
-- 
+:::: {.columns}
+::: {.column width="60%"}
+They did not have paper or pencils. Scribes used a sharpened reed stick (a **stylus**) to press wedge-shaped marks into soft, wet clay tablets. Then they baked the clay tablets under the hot sun until they became hard as rock! \
+*([他们没有纸和铅笔。抄写员用削尖的芦苇笔将楔形印痕压入柔软的湿泥板上，随后将泥板在阳光下晒干，硬如岩石！]{.zh})*
 :::
-
-2. What did Sumerians believe happens after death? (1 sentence · 苏美尔人相信死后会去哪里？)
-
-::: {.answer-lines}
-- 
+::: {.column width="40%"}
+![Figure 2 · Sumerian Cuneiform Tablet](images/RIV-014.svg){width="75%" fig-alt="Cuneiform writing"}
 :::
+::::
 
-### Task 3 · Formative Activity 史料分析 (FA3 · MYP Criterion D: 3-Step Method)
+### ✏️ Activity 1.2: Match the Words 连线题
 
-**Primary Sources:** (Left) *Votive Statue of Iku-Shamagen, King of Mari* (Louvre Museum) · (Right) *Gold Ram of Ur* (Penn Museum).
-**{{< vocab "use" text="Use" zh=true >}} the 3-step method:** **Observe (观察) → Infer (推断) → Evidence (证据)**.
+Draw a line to match each English term to its definition and Chinese translation: \
+*([画线将每个英文单词连接到对应的英文释义与中文释义：]{.zh})*
 
-1. **Observe (观察):** {{< vocab "describe" text="Describe" zh=true >}} what you see in each artifact (pose, expression, materials).
-
-::: {.answer-lines}
-- 
-- 
-:::
-
-2. **Infer (推断):** Why was the statue placed inside a temple ({{< vocab "ziggurat" zh=true >}})? What does *"votive"* (还愿) mean?
-
-::: {.answer-lines}
-- 
-- 
-:::
-
-3. **Infer & Evidence (推断与证据):** The gold ram was found in a royal burial tomb. What does this tell us about Sumerian beliefs about death and royal status?
-
-::: {.answer-lines}
-- 
-- 
-:::
-
-4. **{{< vocab "synthesize" text="Synthesize" zh=true >}} (综合):** Both artifacts connect the king to the gods and the afterlife. What does this suggest about Sumerian ideas of **kingship (王权)**?
-
-::: {.answer-lines}
-- 
-- 
-:::
-
-5. **{{< vocab "document" text="Document" zh=true >}} (引用史料出处):** Write the date and museum location for both artifacts.
-   ___________________________________________________________________
+| English Term | Line (连线) | Definition & Chinese Meaning (含义与中文) |
+|:---|:---:|:---|
+| **1. Sumerians** | | **A.** [楔形文字 · The first wedge-shaped writing system pressed on clay tablets]{.zh} |
+| **2. Cuneiform** | | **B.** [车轮 · A circular invention that helps wagons carry heavy loads]{.zh} |
+| **3. Wheel** | | **C.** [苏美尔人 · The first civilization to build cities in Mesopotamia]{.zh} |
 
 ---
 
-## Period 3 · Empires & Hammurabi's Code 第3节：帝国与《汉谟拉比法典》
+## ⚖️ Section 3: King Hammurabi and His Laws 第3节：汉谟拉比国王与他的法律
 
-**Big Question · 核心问题:** Was the {{< vocab "Code of Hammurabi" zh=true >}} a *"rule of righteousness"*? *(《汉谟拉比法典》是“正义之治”吗？)*
-
-### Task 1 · Warm-up 热身 (You Be the Judge 我来断案)
-
-Read **Law §196**: *"If a man has destroyed the eye of a free man, his own eye shall be destroyed."*
-Is this punishment **FAIR (公正)** or **UNFAIR (不公正)**? Give **ONE reason** (1–2 sentences).
-
-::: {.answer-lines}
-- 
-- 
+::: {.callout-tip title="Section 3 Vocabulary Bank · 核心词汇库" icon=false}
+- **{{< vocab "Hammurabi" zh=true >}}** *(汉谟拉比)*: King of Babylon who united Mesopotamia under one empire.
+- **{{< vocab "Code of Hammurabi" zh=true >}}** *(《汉谟拉比法典》)*: A collection of 282 written laws carved on stone.
+- **Babylon** *(古巴比伦)*: A powerful Mesopotamian kingdom located on the Euphrates River.
+- **"An eye for an eye"** *(以眼还眼)*: The rule that punishment should match the harm caused.
 :::
 
-### Task 2 · Direct Instruction Notes 听课笔记 (Timeline & Key Terms)
+Many years later, a powerful king named **Hammurabi** *([汉谟拉比]{.zh})* ruled Mesopotamia from the city of **Babylon** *([古巴比伦]{.zh})*. \
+*([许多年以后，一位名叫汉谟拉比的强大国王在巴比伦城统治了美索不达米亚。]{.zh})*
 
-**A · Complete the Timeline 完成从城邦到帝国的时间线:**
+King Hammurabi wanted his large kingdom to have order, safety, and fairness. He collected **282 laws** and had them carved onto a 2-meter tall black stone pillar (stele) set up in public for all citizens to see. This famous law collection is called the **Code of Hammurabi** *([《汉谟拉比法典》]{.zh})*. \
+*([汉谟拉比国王希望他辽阔的王国井然有序、安全而公正。他汇编了 282 条法律，刻在一根立于公共场所供全体臣民观看的 2 米高黑色石柱上。这套著名的法典被称为《汉谟拉比法典》。]{.zh})*
 
-| Year 年代 | Historical Event 历史事件 |
-|---|---|
-| **c. 3300 B.C.** | Sumerian independent {{< vocab "city-state" text="city-states" >}} rise (苏美尔独立城邦兴起) |
-| **c. 2330 B.C.** |  |
-| **1792–1750 B.C.** |  |
-
-**B · Vocabulary in Context 用术语造句:**
-
-1. Write ONE sentence using **{{< vocab "empire" zh=true >}}**:
-   ___________________________________________________________________
-2. Write ONE sentence using **{{< vocab "cultural diffusion" zh=true >}}**:
-   ___________________________________________________________________
-
-### Task 3 · Formative Activity 论证段落写作 (FA5/FA6 · MYP Criterion C & D)
-
-**Prompt:** *Was the {{< vocab "Code of Hammurabi" >}} a fair system of justice?* Write a **5–7 sentence argument paragraph**.
-
-**Self-Assessment Checklist (写完后勾选自评清单):**
-- [ ] **Position (明确立场):** I stated clearly whether the Code was fair, unfair, or only fair for some classes.
-- [ ] **Evidence (引用两条法条):** I cited at least **two specific laws** (`§8`, `§53`, `§142–143`, `§196`, `§198`, or `§199`).
-- [ ] **Analysis (分析原因):** I explained *why* those laws prove my position.
-- [ ] **Counter-Argument (反方观点):** I acknowledged an opposite viewpoint (*"Some people may argue that… However,…"*).
-- [ ] **Conclusion (总结句):** I ended with a clear conclusion sentence.
-
-::: {.callout-tip title="Sentence Starters · 参考句式" icon=false}
-- *"I believe Hammurabi's Code (was / was not) a fair system of justice because…"*
-- *"For example, Law §___ states that…, whereas Law §___ states that…"*
-- *"Some people may argue that the Code brought order because…; however,…"*
-- *"In conclusion, Hammurabi's Code…"*
+:::: {.columns}
+::: {.column width="35%"}
+![Figure 3 · Stele of Hammurabi](images/stele-of-hammurabi.png){width="80%" fig-alt="Stele of Hammurabi stone pillar"}
 :::
+::: {.column width="65%"}
+The most famous rule from his code was: \
+*([他的法典中最著名的一条法则是：]{.zh})*
+
+> ### *"An eye for an eye, a tooth for a tooth."*
+> ### *“以眼还眼，以牙还牙。”*
+
+This meant that if someone knocked out another person's eye or tooth, their own eye or tooth would be removed as punishment. \
+*([这意味着如果有人打掉了别人的眼睛或牙齿，他自己的眼睛或牙齿也会被剥夺作为惩罚。]{.zh})*
+:::
+::::
+
+### 🤔 Activity 1.3: Think and Think! 思考与思考！
+
+Read the rule again: *"An eye for an eye."* Do you think this law is fair today? \
+*([再次思考这条法则：“以眼还眼”。你认为这条法律在今天公平吗？]{.zh})*
+
+1. **Circle your choice (圈出你的选择):**
+   
+   [**YES (公平)** &emsp;&emsp;&emsp;&emsp; / &emsp;&emsp;&emsp;&emsp; **NO (不公平)**]{style="font-size: 1.25em; font-weight: bold;"}
+
+2. **Write ONE reason using this sentence starter (用下列句型写出一个理由):** \
+   👉 *"I think it is _______________ because __________________________________________________________________* \
+   *___________________________________________________________________________________________________________."*
 
 ::: {.answer-lines}
 - 
 - 
 - 
-- 
-- 
-- 
-- 
-- 
 :::
 
-### Task 4 · Period 3 Exit Ticket (ET3 · Answer from Memory 独立完成)
+---
 
-1. Who was **Hammurabi**, and when did he rule Babylon?
-   ___________________________________________________________________
-2. Pick **ONE law** (`§8`, `§53`, `§142–143`, `§196`, `§198`, `§199`). Was it **FAIR** or **UNFAIR** by today's standards? Why?
-   ___________________________________________________________________
-3. The Prologue says the Code's goal is *"so that the strong should not harm the weak."* Did it reach that goal? Cite **one law** as evidence.
-   ___________________________________________________________________
+## 🌟 What I Have Learnt 我学到了什么
+
+Check each box when you can confidently explain the idea to a classmate: \
+*([当你能自信地向同学解释以下知识点时，请在方框内打勾：]{.zh})*
+
+- [ ] **Mesopotamia** means the land between the **Tigris** and **Euphrates** rivers. *(美索不达米亚是底格里斯河与幼发拉底河之间的土地。)*
+- [ ] The **Sumerians** were the first to build cities, and they invented the **wheel** and **cuneiform** writing. *(苏美尔人最早建立城市，并发明了车轮与楔形文字。)*
+- [ ] King **Hammurabi** of Babylon carved the first set of 282 written laws based on *"an eye for an eye"*. *(古巴比伦的汉谟拉比国王刻下了包含 282 条法律的第一套成文法典，主张“以眼还眼”。)*
+
+---
 
 ::: {.content-visible when-profile="teacher"}
----
 
-## Teacher Answer Key · 教师参考答案 (Periods 1–3)
+## 👩‍🏫 Teacher Guide & MYP Year 1 Assessment Rubric 教师指南与评分标准
 
-### Period 1 Key
-- **Task 2A Causal Chain:** Floods → Irrigation → **Food {{< vocab "surplus" >}} (农业余粮)** → Division of labour → **{{< vocab "city-state" text="City-state" >}} (城邦)**.
-- **Task 2B Table:** (1) Unpredictable flooding & drought → **Dug {{< vocab "irrigation" >}} ditches, canals, and dikes**; (2) No natural barriers → **Built mud-brick city walls**; (3) Scarce resources → **Traded surplus grain, cloth, and tools for stone, timber, and metal**.
-- **Task 2C:** A {{< vocab "city-state" >}} is an independent city and the surrounding farmland it controls, functioning like an independent country with its own government, ruler, and patron god (e.g., Ur or Uruk).
-- **Task 3 (FA1):** (1) The {{< vocab "Fertile Crescent" >}} is a crescent-shaped arc of rich farmland in Southwest Asia between the Persian Gulf and the Mediterranean Sea; the Tigris and Euphrates rivers run through it. (2) City-states clustered on the flat southern plain because annual floods deposited rich {{< vocab "silt" >}} ideal for grain farming, and digging irrigation canals required large populations living and working together.
-- **Task 4 (ET1):** (1) *"Land between the rivers"* (希腊语“两河之间的土地”). (2–3) Unpredictable floods/drought → irrigation canals; no natural barriers → mud-brick walls; scarce natural resources → long-distance trade.
+### 1. IB MYP Individuals & Societies Assessment Rubric (Year 1)
 
-### Period 2 Key
-- **Task 2A Social Pyramid:** (1) **Top:** Kings, landlords & high priests; (2) **Second:** Wealthy merchants; (3) **Third:** Farmers, artisans & labourers; (4) **Bottom:** Enslaved people (war captives or debt slaves).
-- **Task 2B:** (1) {{< vocab "polytheism" text="Polytheism" >}} is the belief in many gods (e.g., **Enlil**, god of storms and floods). Sumerians feared them because violent, unpredictable floods made the gods seem angry and unpredictable. (2) Sumerians believed souls went to a dark, gloomy underworld (*"the land of no return"*) where they ate dust and clay.
-- **Task 3 (FA3):** (1) Left: limestone statue of King Iku-Shamagen with wide eyes and clasped hands in prayer; Right: gold, silver, and lapis lazuli ram standing against a flowering shrub. (2) Placed in the temple to pray continuously to the gods on the king's behalf (*votive* = offered in fulfillment of a vow/prayer). (3) Royal tombs were filled with luxury goods, showing that kings and elites sought comfort in the afterlife even though ordinary Sumerians viewed the underworld gloomily. (4) Kings derived their legitimacy from serving the gods and mediating between the city and the divine. (5) c. 2600–2500 B.C.; Louvre Museum (Paris) and University of Pennsylvania Museum of Archaeology.
+| Level | Criterion A: Knowing & Understanding (Year 1) | Criterion D: Thinking Critically (Year 1) |
+|:---:|:---|:---|
+| **0** | The student does not reach a standard described by any descriptors. | The student does not reach a standard described by any descriptors. |
+| **1–2** | • Recognizes **some vocabulary** (*Mesopotamia, river, wheel*).<br>• Demonstrates basic knowledge of content through **limited descriptions or examples**. | • Identifies main points of ideas to a **limited extent**.<br>• Uses information to give **limited opinions** (e.g. circles YES/NO without explanation). |
+| **3–4** | • Uses **some vocabulary** accurately.<br>• Demonstrates satisfactory knowledge through **simple descriptions or examples**. | • Identifies some main points.<br>• Uses information to give **adequate opinions** with a basic reason using sentence starter. |
+| **5–6** | • Uses **considerable relevant vocabulary**, often accurately.<br>• Demonstrates substantial knowledge through **clear descriptions and explanations**. | • Identifies main points of arguments clearly.<br>• Uses information to give **substantial opinions** with clear reasons and some implications. |
+| **7–8** | • Consistently uses **relevant vocabulary accurately** (*Tigris, Euphrates, Cuneiform, Hammurabi's Code*).<br>• Demonstrates excellent understanding through **detailed descriptions and explanations**. | • Identifies in detail the main points of the law code.<br>• Uses information to give **detailed, well-reasoned opinions** explaining why retaliation is/isn't fair today. |
 
-### Period 3 Key
-- **Task 2A Timeline:** **2330 B.C.:** Sargon of Akkad conquers Sumerian city-states and creates the world's first {{< vocab "empire" >}}. **1792–1750 B.C.:** King Hammurabi rules the Babylonian Empire and issues the 282 laws of the {{< vocab "Code of Hammurabi" >}}.
-- **Task 3 (FA5/FA6 Sample Proficient Paragraph):**
-  > *I believe Hammurabi's Code was not a truly fair system of justice because it treated people unequally based on their social class and gender. For example, Law §196 states that if a nobleman destroys the eye of another nobleman, his own eye is put out, whereas Law §199 states that destroying the eye of a slave only requires paying half the slave's value in silver. Similarly, Law §8 demands a 30-fold repayment for stealing from a temple or palace, but only 10-fold for stealing from a commoner, and imposes death on poor people who cannot pay. Some people may argue that the Code was fair because it made rules public on stone steles and sought "that the strong should not harm the weak," as in Law §53 which held farmers responsible for maintaining irrigation dams. However, in conclusion, the Code primarily protected the property and power of wealthy nobles over commoners and enslaved people.*
-- **Task 4 (ET3):** (1) King of the Babylonian Empire who ruled from 1792 to 1750 B.C. and unified Mesopotamia under a single stone law code. (2–3) Any supported verdict citing one of the six laws (`§8`, `§53`, `§142–143`, `§196–199`).
+### 2. Answer Key & Scoring Guide
+
+#### Activity 1.1 (Observing the Map)
+1. **rivers** *(两条大河)*
+2. **Tigris** River and **Euphrates** River *(底格里斯河与幼发拉底河)*
+3. **Fertile** Crescent *(新月沃地)*
+- *Discuss & Share look-for:* Students should identify that rivers provide fresh water to drink, irrigation for crops, and silt for farming, or transport by boat.
+
+#### Activity 1.2 (Match the Words)
+- **1. Sumerians** $\rightarrow$ **C.** 苏美尔人 (The first civilization to build cities in Mesopotamia)
+- **2. Cuneiform** $\rightarrow$ **A.** 楔形文字 (The first wedge-shaped writing system pressed on clay tablets)
+- **3. Wheel** $\rightarrow$ **B.** 轮子 (A circular invention that helps wagons carry heavy loads)
+
+#### Activity 1.3 (Think and Think! Criterion D Exemplars)
+- **Level 1–2 (Limited):** "NO because I don't like it." / "YES because it is good."
+- **Level 3–4 (Adequate):** "I think it is unfair because hurting people does not fix what was broken."
+- **Level 5–6 (Substantial):** "I think it is unfair because today we have police and courts to put criminals in jail instead of using physical violence against them."
+- **Level 7–8 (Detailed/Excellent):** "I think it is unfair today because while ancient Babylon used retaliation to stop uncontrolled revenge, modern societies believe justice should rehabilitate people and prevent cruel punishments, rather than repeating the violence."
+
 :::

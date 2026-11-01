@@ -242,3 +242,17 @@ terms:
   zh: 哈拉帕印章
   image: RIV-032.svg
   vex_id: RIV-032
+- term: Sumerians
+  definition: The first people to build cities and invent writing in Mesopotamia.
+  example: The Sumerians built the world's first cities in Mesopotamia.
+  notes: Living in southern Mesopotamia around 3500 BCE, the Sumerians built walled city-states, developed cuneiform writing, used wheels for transport, and dug canals to irrigate their crops.
+  zh: 苏美尔人
+  image: ''
+  vex_id: RIV-037
+- term: Hammurabi
+  definition: King of Babylon who wrote one of history's first written law codes.
+  example: King Hammurabi wrote down 282 laws on a tall black stone pillar.
+  notes: Ruling Babylon around 1792 to 1750 BCE, King Hammurabi united Mesopotamia and carved 282 laws onto a tall stone stele for all people to see, establishing rules based on retaliation.
+  zh: 汉谟拉比
+  image: ''
+  vex_id: RIV-038
