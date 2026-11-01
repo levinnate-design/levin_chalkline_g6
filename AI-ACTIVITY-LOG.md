@@ -47,16 +47,6 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
-### [2026-11-01 22:22] COMPLETED — Expand G6 Mesopotamia unit to 3 content lessons + tourism capstone with vertical slides
-- **AI Assistant:** Antigravity
-- **Status:** COMPLETED
-- **Files Touched:** course/units/01-ancient-river-civilizations-draft/mesopotamia-slides.qmd,course/units/01-ancient-river-civilizations-draft/mesopotamia-reading-booklet.qmd
-- **Notes:** Upgraded draft deck to 2D grid navigation with 4 horizontal lesson stacks (#) and 16 vertical sub-slides (##). Built full 4-step check-in routine per lesson (Choral/Turn-and-Talk + Stop & Check quick write + Partner Discussion with sentence starter + Mini Exit Ticket). Expanded paired student reading booklet to mirror all 3 content lessons and the Capstone Tourism Poster Workspace with MYP Year 1 rubrics. Tested clean compilation (0 errors, 0 warnings) and pushed to levin_chalkline_g6 (commit 5b179e3).
-### [2026-11-01 22:15] IN PROGRESS — Expand G6 Mesopotamia unit to 3 content lessons + tourism capstone with vertical slides
-- **AI Assistant:** Antigravity
-- **Status:** IN PROGRESS
-- **Files Touched:** course/units/01-ancient-river-civilizations-draft/*
-- **Notes:** Expanding slide deck to 2D grid navigation (# horizontal lessons, ## vertical content & check-ins) across 3 content lessons + capstone poster, with 4-step check-in routine and paired student booklet.
 ### [2026-11-01 22:02] COMPLETED — Create G6 draft unit for Ancient River Civilizations with interactive slides and reading packet
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED
