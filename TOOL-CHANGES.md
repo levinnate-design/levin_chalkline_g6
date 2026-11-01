@@ -16,6 +16,17 @@ Newest entries first.
 - **AI assistant:** which one made the change.
 -->
 
+## 2026-11-01: Roll out G7/8 tool updates to G6 Chalkline (unified `_extensions/chalkline`, All Slides wall, Bilingual switch, Slide Kit, Review Games & Classroom Toolbox)
+- **Asked for:** "Roll out the updates that have been made to the G7/8 Chalkline to the G6 Chalkline"
+- **Why:** To bring the Grade 6 course up to date with the latest unified Chalkline architecture (`_extensions/chalkline`, `chalkline.py` CLI, All Slides wall, bilingual language toggle, Slide Kit layouts and brand schemes, review games, and classroom toolbox) while preserving Grade 6 MYP Year 1 rubrics, scaffolded materials, and site identity.
+- **Changed:**
+  - `_extensions/chalkline/` & `chalkline.py` (replaces legacy `_extensions/classroom/`, `_extensions/pdf-viewer/`, `brand/typst/`, `brand/fonts/print/`, `brand/type-colors.html`) — installed unified Chalkline extension, including bilingual toggle (`[English | 中文]{.bi}`), Slide Kit layout tokens, color schemes (`night`, `sky`, `lagoon`, `sunrise`), slide wall, review games, and Classroom Toolbox.
+  - `_quarto.yml`, `_quarto-teacher.yml`, `_quarto-student.yml`, `all-slides.qmd`, `families.qmd`, `index.qmd`, `course/review-games.qmd`, `course/play.qmd` — configured `project: type: chalkline`, `school: "Mingwan School"`, `student-site: "https://levinnate-design.github.io/levin_chalkline_g6/"`, All Slides wall, Review Games, Play at Home, and For Families pages while preserving Grade 6 titles.
+  - `course/teacher/start-here/` — updated with Quick Start, Chalkline Tour, and Slide Kit demo decks.
+  - `Start Chalkline.command`, `Start Chalkline.bat`, `.vscode/`, `.github/workflows/publish.yml`, `requirements.txt`, `.gitignore`, `CLAUDE.md` — updated launchers, tasks, GitHub Actions publish workflow with font caching, and SOP documentation.
+- **Who it helps:** Grade 6 students and teachers.
+- **AI assistant:** Antigravity (Gemini)
+
 ## 2026-10-22: Add 'Teachers Only 教师专区' section to teacher profile (`_quarto-teacher.yml`)
 - **Asked for:** "Add the new onboarding page for my coteacher to the current Chalkline, under a teachers only section"
 - **Why:** To provide an exclusive sidebar section in the Teacher Edition (`_site-teacher/`) for teacher onboarding, setup guides, and co-teaching rubrics without exposing internal developer and git credentials on the student or parent sites.

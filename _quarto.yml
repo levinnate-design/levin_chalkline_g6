@@ -2,45 +2,46 @@
 #
 # How this repo is organized (so it can be remixed for another subject):
 #   course/                 CONTENT  (swap this folder for a different subject)
-#   brand/                  APPEARANCE (colors, fonts, logos, page and slide layouts)
-#   _extensions/classroom/  CODE: shortcodes, polls, timer, clock
-#   scripts/                CODE: catalog builder, vocab tools
+#   brand/                  APPEARANCE: the school's colors, fonts and logos
+#   _extensions/chalkline/  CHALKLINE: shortcodes, games, toolbox, page and slide layouts, scripts
+#                           (run them with `python chalkline.py ...`)
 #   index.qmd               overview page, built automatically from every document's labels
 
+profile:
+  default: student           # `quarto render` builds the student site (_quarto-student.yml); --profile teacher builds yours
+
 project:
-  type: website
+  type: chalkline            # a Chalkline website: its page, slide and PDF layouts (_extensions/chalkline)
   output-dir: _site          # student build goes here
   execute-dir: project       # Python code runs from the repo root, so "course/..." paths work everywhere
-  pre-render:
-    - scripts/freeze_check.py  # clears saved Python results (_freeze/) when season, vocab, scripts or the date change
-    - scripts/catalog.py   # reads every document's labels and writes generated/catalog.yml for the overview
-    - scripts/lessons.py   # reads course/lessons/ and writes the lesson map and each lesson's before/next links
-    - scripts/vocab_terms.py   # reads vocab/data/vocab.csv and writes generated/vocab-terms.json for {{< vocab >}} pop-ups
-    - scripts/vocab_brand.py   # gives the vocab app the brand colors and fonts (writes vocab/app/brand.css)
+  # Chalkline's own steps before and after each render (the catalog, packets, slide PDFs, slide pictures...)
+  # come with `type: chalkline`. Course-specific post-render steps go here:
   post-render:
-    - scripts/parent_site.py  # family site only: removes pages and PDFs not meant for families
-    - scripts/packets.py   # each unit's printables as one packet PDF, plus a year packet (full renders only)
     - scripts/student_copies.py   # teacher site: a clean Student Edition PDF next to the Teacher Edition (full renders only)
-    - scripts/slides_pdf.py   # every slide deck as a PDF, one slide per page (full renders only)
   render:
     - index.qmd
+    - families.qmd
+    - all-slides.qmd           # every deck as rows of slide pictures
     - "course/**/*.qmd"
   resources:                 # the vocab app and its data, copied into the site as-is (vocab/app/)
     - /vocab/index.html      # the leading / means "from the project folder"; without it these
-    - /vocab/app/**          # also match the copies inside _site-teacher/ and _site-parent/
+    - /vocab/app/**          # also match the copies inside _site-teacher/
     - /vocab/data/*.csv
     - /vocab/config.js       # the vocab app's settings for this course
     - /vocab/images/**
-    - /brand/fonts/*.ttf     # web fonts, for the vocab app (not brand/fonts/print/: those are for PDFs only)
+    - /brand/fonts/*.ttf     # web fonts, for the vocab app (the print fonts are in the Chalkline extension)
   preview:
     port: 4200               # Grade 6 preview port (separate from 4100)
     browser: true            # open it in the browser when the preview starts
 
 brand: brand/_brand.yml      # colors, fonts, logos (see brand/README.md)
 vocab-title: "G6 History Vocab"  # name of the vocab app, used on {{< vocab >}} pop-up links
+student-site: "https://levinnate-design.github.io/levin_chalkline_g6/"   # published student site for toolbox QR codes
 
 filters:
-  - classroom                # turns content markers into slides/PDF/web output (see _extensions/classroom)
+  - chalkline                # turns content markers into slides/PDF/web output (see _extensions/chalkline)
+
+school: "Mingwan School"     # printed in PDF headers and footers
 
 website:
   title: "Mingwan School · Grade 6 Social Studies"
@@ -58,33 +59,40 @@ website:
       - text: "History vocab 词汇"
         href: vocab/app/index.html   # the vocab app (copied in via resources above)
         icon: book
+      - text: "All slides 所有幻灯片"
+        href: all-slides.qmd       # every deck as rows of slide pictures, by unit
+        icon: grid-3x3-gap
+      - text: "Review games 复习游戏"
+        href: course/review-games.qmd  # any game, any unit (slides)
+        icon: controller
+      - text: "Play at home 课后闯关"
+        href: course/play.qmd    # one-player games for phones and computers
+        icon: phone
       - text: "Command Terms 指令词"
         href: course/references/command-terms.qmd
         icon: card-checklist
       - text: "Assessment Criteria 评估标准"
         href: course/references/assessment-criteria.qmd
         icon: award
+      - text: "For families 给家长"
+        href: families.qmd       # a welcome, the unit goals, and the files marked for families
+        icon: house-heart
       - auto: course/units      # one section per unit folder, titled from its index.qmd
       - auto: course/summatives # one section per summative folder, titled from its index.qmd
 
 # Defaults for each output format. Individual files choose which formats they use.
 format:
   html:
-    theme: [cosmo, brand/styles.scss]
-    include-after-body: brand/type-colors.html   # color-codes slide decks and packets in tables
+    theme: [brand/styles.scss]   # the school's fonts and overrides, after Chalkline's page design
     toc: true
     format-links:              # names for the download links in the right margin
       - {format: typst, text: PDF, icon: file-pdf}
       - docx                   # (at least one plain name, or Quarto lists every format twice)
   typst:
     papersize: a4              # posters override this with papersize: a3
-    font-paths: [brand/fonts/print]   # Noto Sans SC for Chinese in PDFs (the other fonts come from _brand.yml)
-    template-partials:         # branded page layouts (see brand/README.md)
-      - brand/typst/typst-template.typ
-      - brand/typst/typst-show.typ
   docx: default
   revealjs:
-    theme: [default, brand/revealjs.scss]   # "default": no Google Fonts imports ("simple" pulls in two)
+    theme: [brand/revealjs.scss]   # the school's fonts and overrides, after Chalkline's slide design
     logo: /brand/logos/icon-sailboat.svg
     slide-number: true
     transition: fade                 # none, fade, slide, convex, concave or zoom
