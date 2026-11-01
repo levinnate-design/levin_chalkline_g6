@@ -6,49 +6,15 @@ unit: "01-draft"
 type: slides
 order: 10
 audience: [teacher, student]
-description: "4-lesson interactive 2D slide deck: Geography & Rivers, Sumerian Inventions, Hammurabi's Code, and the Tourism Advertisement Challenge."
+description: "5-slide interactive lesson deck with Chalkline overlay zones, bilingual anchors, Stop & Checks, and tourism poster challenge."
 format:
   revealjs:
     slide-number: true
-    navigation-mode: grid
     transition: fade
     background-transition: fade
 ---
 
-# Lesson 1: Geography & The Wild Rivers 第1课：地理与狂暴的河流 {background-color="#003477"}
-
-::: {.columns}
-::: {.column width="48%"}
-![](images/fertile-crescent-map.png){fig-alt="Map of Fertile Crescent and Mesopotamia" style="border-radius: 10px; border: 2px solid #ffffff; box-shadow: 0 4px 14px rgba(0,0,0,0.3);"}
-:::
-
-::: {.column width="52%"}
-### Big Question 核心问题
-**Why did the world's first cities grow between two violent rivers?** \
-*([为什么世界上最早的城市诞生在两条狂暴的河流之间？]{.zh})*
-
-::: {.card style="background: rgba(255,255,255,0.15); border-left: 5px solid #ff8c0f; padding: 10px 14px; margin: 16px 0;"}
-**Bilingual Anchor 核心词汇:** \
-[**Mesopotamia**]{style="color: #ffffff; font-weight: 700; font-size: 1.15em;"} · [美索不达米亚]{.zh style="color: #2de2d6; font-weight: 600;"} \
-[**Tigris & Euphrates**]{style="color: #ffffff; font-weight: 700; font-size: 1.1em;"} · [底格里斯河与幼发拉底河]{.zh style="color: #2de2d6; font-weight: 600;"}
-:::
-
-::: {.callout-note icon=false title="📖 Student Routine"}
-Open your Reading Booklet to **Lesson 1**! \
-*Press Down arrow (↓) to enter vertical content slides!*
-:::
-:::
-:::
-
-::: notes
-**Target Time:** 3 mins
-
-**Teacher script:** "Welcome, Grade 6! Today we travel back 5,000 years to ancient Mesopotamia. Touch the word 'Mesopotamia' in your booklet. It is a big Greek word that means 'land between the rivers'."
-
-**Multilingual Check:** Choral response: "Let's say it together: Me-so-po-ta-mi-a."
-:::
-
-## 1.1 The Land Between Two Rivers 两河之间的土地
+## Welcome to Mesopotamia! 欢迎来到美索不达米亚！
 
 ::: {.columns}
 ::: {.column width="48%"}
@@ -58,13 +24,13 @@ Open your Reading Booklet to **Lesson 1**! \
 ::: {.column width="52%"}
 ### Welcome to the "Land Between the Rivers"!
 
+::: {.callout-note icon=false title="📖 Student Direction"}
+**Open your Reading Booklet to Part 1.**
+:::
+
 ::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 10px 14px; margin-bottom: 12px;"}
-- **Mesopotamia** means *"the land between the rivers."* \
-  *([美索不达米亚在希腊语中意为“两河之间的土地”。]{.zh})*
-- Two wild rivers: **Tigris** and **Euphrates**. \
-  *([两条狂暴的大河：底格里斯河与幼发拉底河。]{.zh})*
-- The **Fertile Crescent** was rich green land good for crops. \
-  *([新月沃地是适合农耕的肥沃绿色平原。]{.zh})*
+**Bilingual Vocabulary Anchor / 核心词汇:** \
+[**Mesopotamia**]{style="font-size: 1.25em; color: #003477; font-weight: 700;"} · [美索不达米亚]{.zh style="font-size: 1.15em; color: #005691; font-weight: 600;"}
 :::
 
 ::: {.callout-tip icon=false title="👆 Student Action"}
@@ -75,56 +41,66 @@ Open your Reading Booklet to **Lesson 1**! \
 :::
 :::
 
-::: {.chalkline-overlay-zone style="min-height: 75px; margin-top: 10px; border: 2px dashed rgba(0, 52, 119, 0.25); border-radius: 8px; background: rgba(255, 255, 255, 0.85); display: flex; align-items: center; justify-content: center; color: #5c677d; font-size: 0.82em;"}
-🖊️ **Chalkline Overlay Space** · Use pen tool to highlight Tigris & Euphrates rivers on the board
-:::
+<!-- Chalkline Overlay Zone: White space at the bottom for live pen and annotation tools -->
+<div class="chalkline-overlay-zone" style="min-height: 80px; margin-top: 10px; border: 2px dashed rgba(0, 52, 119, 0.25); border-radius: 8px; background: rgba(255, 255, 255, 0.85); display: flex; align-items: center; justify-content: center; color: #5c677d; font-size: 0.82em;">
+  <span>🖊️ <strong>Chalkline Overlay Space</strong> · Use pen or spotlight tool to highlight Tigris & Euphrates rivers on the map</span>
+</div>
 
 ::: notes
-**Target Time:** 4 mins
+**Target Time:** 3 mins
 
-**Teacher script:** "Look at the shape of the green area on your map. It looks like a crescent moon! That is why historians call it the Fertile Crescent. Everyone, trace the curve of the crescent with your finger."
+**Teacher script:** "Welcome, Grade 6! Today we are traveling back in time to the very first civilization. Everyone, touch the word 'Mesopotamia' in your booklet. It is a big word, but it just means 'land between the rivers'."
 
-**Multilingual Check:** Point to the two rivers on the board and have students repeat: "Tigris and Euphrates."
+**Multilingual Check:** Choral response: "Let's say it together: Me-so-po-ta-mi-a."
 :::
 
-## 1.2 Violent Floods & Canal Irrigation 凶猛洪水与灌溉水渠
+---
+
+## The Wild Rivers 汹涌的河流
 
 ::: {.columns}
 ::: {.column width="48%"}
 ![](images/flooding-and-canal.svg){fig-alt="Flooding rivers and canal irrigation illustration" style="border-radius: 10px; border: 2px solid #003477; box-shadow: 0 4px 12px rgba(0,0,0,0.12);"}
 
-::: {.card style="background: #fdf6ec; border-left: 5px solid #ff8c0f; padding: 10px 14px; margin-top: 10px;"}
-- The **Tigris** and **Euphrates** flooded violently and unpredictably. \
-  *([两河洪水凶猛且无法预测。]{.zh})*
-- People worked together as a team to **dig irrigation canals**. \
-  *([人们齐心协力开挖灌溉水渠。]{.zh})*
+::: {.card style="background: #fdf6ec; border-left: 5px solid #ff8c0f; padding: 10px 14px; margin-top: 12px;"}
+- The **Tigris** and **Euphrates** rivers flooded violently. \
+  *([底格里斯河和幼发拉底河经常发生凶猛的洪水。]{.zh})*
+- People worked together to **dig canals**. \
+  *([人们齐心协力开挖水渠。]{.zh})*
+:::
+
+::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 8px 14px; margin-top: 10px;"}
+**Bilingual Vocabulary Anchor / 核心词汇:** \
+[**Tigris & Euphrates**]{style="font-size: 1.1em; color: #003477; font-weight: 700;"} · [底格里斯河与幼发拉底河]{.zh style="font-size: 1.05em; color: #005691; font-weight: 600;"}
 :::
 
 ::: {.callout-important icon=false title="🛑 Student Action"}
 **🛑 Stop & Check 1: Circle the two rivers in your packet!**
 :::
+
+{{< timer 7 >}}
 :::
 
 ::: {.column width="52%"}
-::: {.chalkline-overlay-zone style="height: 500px; border: 2.5px dashed #003477; border-radius: 12px; background: rgba(255, 255, 255, 0.94); box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 18px;"}
-::: {.card style="border-bottom: 2px solid #ebf7fd; padding-bottom: 8px; margin-bottom: 12px;"}
-[**📋 Chalkline Overlay: Stop & Check 1**]{style="font-weight: 700; color: #003477; font-size: 0.95em;"}
-:::
-
-**Look at your Reading Booklet map:**
-
-::: {.card style="padding: 10px 14px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0; margin: 12px 0;"}
-⭕ **Circle** the [**Tigris River**]{style="color: #0087ff;"} in blue. \
-⭕ **Circle** the [**Euphrates River**]{style="color: #2d6a4f;"} in green.
-:::
-
-*Why was teamwork needed?* \
-Because no single farmer could build a canal alone!
-
-::: {.small-note style="margin-top: 120px; text-align: center; color: #829ab1; font-size: 0.8em; font-style: italic;"}
-Teacher: Overlay student booklet and demonstrate circling the rivers on the board
-:::
-:::
+<!-- Chalkline Overlay Zone: Left blank intentionally for Stop & Check 1 Circle Activity overlay -->
+<div class="chalkline-overlay-zone" style="height: 520px; border: 2.5px dashed #003477; border-radius: 12px; background: rgba(255, 255, 255, 0.92); box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 18px; display: flex; flex-direction: column; justify-content: space-between;">
+  <div>
+    <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #ebf7fd; padding-bottom: 8px;">
+      <span style="font-weight: 700; color: #003477; font-size: 0.95em;">📋 Chalkline Overlay: Stop & Check 1</span>
+      <span style="background: #ff8c0f; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 12px; font-weight: 700;">Live Projection Zone</span>
+    </div>
+    <div style="margin-top: 20px; font-size: 0.9em; color: #1F2933; line-height: 1.6;">
+      <p><strong>Look at your Reading Booklet map:</strong></p>
+      <p style="padding: 10px 14px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
+        ⭕ <strong>Circle</strong> the <span style="color: #0087ff; font-weight: 700;">Tigris River</span> in your packet. <br>
+        ⭕ <strong>Circle</strong> the <span style="color: #2d6a4f; font-weight: 700;">Euphrates River</span> in your packet.
+      </p>
+    </div>
+  </div>
+  <div style="text-align: center; color: #829ab1; font-size: 0.8em; font-style: italic; border-top: 1px dashed #cbd5e1; padding-top: 10px;">
+    Teacher: Project your student packet here or use pen tool to demonstrate circling on the board
+  </div>
+</div>
 :::
 :::
 
@@ -136,189 +112,50 @@ Teacher: Overlay student booklet and demonstrate circling the rivers on the boar
 **Multilingual Check:** "Who can translate 'violent floods' into Chinese for us? Yes, 凶猛的洪水!"
 :::
 
-## 1.3 Class Discussion: Teamwork & Canals 课堂讨论：协作与水渠
-
-::: {.columns}
-::: {.column width="50%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); min-height: 460px;"}
-#### 🗣️ Partner Turn & Talk (同桌讨论)
-
-**"Why did people living near the Tigris and Euphrates rivers HAVE to work together?"** \
-*([为什么生活在两河沿岸的人们必须团结合作？]{.zh})*
-
-::: {.callout-tip icon=false title="💬 Sentence Starter (必须使用的讨论句型)"}
-**"People worked together to build canals because the wild rivers ________________________________________ ."**
-:::
-
-💡 *Prompt words: flooded violently · washed away crops · brought rich silt*
-
-{{< timer 3 >}}
-:::
-:::
-
-::: {.column width="50%"}
-::: {.card style="background: #ebf7fd; border: 2px solid #0087ff; border-radius: 12px; padding: 18px; min-height: 460px;"}
-#### 🌟 Key Takeaway (核心结论)
-
-- **Violent Floods:** The rivers flooded without warning.
-- **Canals:** Ditches carried flood water safely to farm fields.
-- **Cooperation:** Building canals forced villages to organize rules and leaders!
-
-::: {.card style="background: #ffffff; border-radius: 8px; padding: 12px; border: 1.5px solid #cbd5e1; margin-top: 20px;"}
-**Cooperation** (团结协作) $\rightarrow$ **Surplus Food** (多余粮食) $\rightarrow$ **First Cities** (最早城市)
-:::
-
-::: {.card style="text-align: center; color: #005691; font-weight: 600; margin-top: 25px;"}
-Ready for Lesson 1 Exit Ticket? Press Down (↓)!
-:::
-:::
-:::
-:::
-
-::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "Turn to your elbow partner. Use our sentence starter to explain why teamwork was a matter of life or death in Mesopotamia. You have 2 minutes to talk, then I will call on 3 pairs!"
-
-**Multilingual Check:** Allow students with emerging English to whisper their idea in Chinese first, then say the sentence starter in English.
-:::
-
-## 1.4 Lesson 1 Exit Ticket 当堂小检测
-
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 22px; max-width: 850px; margin: 20px auto; box-shadow: 0 4px 16px rgba(0,0,0,0.1);"}
-### 📝 Lesson 1 Exit Ticket (3 Quick Checks)
-
-1. What does the word **Mesopotamia** mean in Greek? \
-   *([美索不达米亚在希腊语中是什么意思？]{.zh})*
-2. Name the **two great rivers** of Mesopotamia. \
-   *([写出美索不达米亚的两条主要河流。]{.zh})*
-3. Why did farmers build **irrigation canals**? \
-   *([农民为什么要修筑灌溉水渠？]{.zh})*
-
-::: {.card style="background: #fdf6ec; border-left: 4px solid #ff8c0f; padding: 10px 14px; margin-top: 15px;"}
-✍️ *Write your answers in your student booklet under Lesson 1 Exit Ticket!*
-:::
-
-{{< timer 5 >}}
-:::
-
-::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "Pencils up! You have 5 minutes to complete Exit Ticket 1 in your booklet. No talking, do your best without looking at your notes."
-
-**Multilingual Check:** For emerging readers, read each question aloud once in English and point to the corresponding blanks.
-:::
-
 ---
 
-# Lesson 2: Sumerian Inventions & City-States 第2课：苏美尔人的发明与城邦 {background-color="#003477"}
-
-::: {.columns}
-::: {.column width="48%"}
-![](images/ziggurat-diagram.png){fig-alt="Mesopotamian Ziggurat and city structure" style="border-radius: 10px; border: 2px solid #ffffff; box-shadow: 0 4px 14px rgba(0,0,0,0.3);"}
-:::
-
-::: {.column width="52%"}
-### Big Question 核心问题
-**How did teamwork help Sumerians build the first cities and invent writing?** \
-*([团结合作如何帮助苏美尔人建立最早的城市并创造文字？]{.zh})*
-
-::: {.card style="background: rgba(255,255,255,0.15); border-left: 5px solid #ff8c0f; padding: 10px 14px; margin: 16px 0;"}
-**Bilingual Anchor 核心词汇:** \
-[**Sumerians**]{style="color: #ffffff; font-weight: 700; font-size: 1.15em;"} · [苏美尔人]{.zh style="color: #2de2d6; font-weight: 600;"} \
-[**Cuneiform**]{style="color: #ffffff; font-weight: 700; font-size: 1.1em;"} · [楔形文字]{.zh style="color: #2de2d6; font-weight: 600;"} \
-[**City-State**]{style="color: #ffffff; font-weight: 700; font-size: 1.1em;"} · [城邦]{.zh style="color: #2de2d6; font-weight: 600;"}
-:::
-
-::: {.callout-note icon=false title="📖 Student Routine"}
-Open your Reading Booklet to **Lesson 2**! \
-*Press Down arrow (↓) to enter vertical content slides!*
-:::
-:::
-:::
-
-::: notes
-**Target Time:** 3 mins
-
-**Teacher script:** "Now that people had enough food, villages grew into the world's first cities! The people who built them were called Sumerians. Let's see what brilliant things they invented."
-
-**Multilingual Check:** Choral response: "Let's say it together: Su-me-ri-ans. Cu-nei-form."
-:::
-
-## 2.1 The Rise of City-States & Ziggurats 城邦的崛起与神庙塔
-
-::: {.columns}
-::: {.column width="48%"}
-![](images/ziggurat-diagram.png){fig-alt="Ziggurat Diagram" style="border-radius: 10px; border: 2px solid #003477; box-shadow: 0 4px 12px rgba(0,0,0,0.12);"}
-
-::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 8px 12px; margin-top: 10px;"}
-**City-State (城邦):** An independent city that ruled itself and its surrounding farmland (e.g. Ur, Uruk).
-:::
-:::
-
-::: {.column width="52%"}
-### Living in a Sumerian City
-
-::: {.card style="background: #fdf6ec; border-left: 5px solid #ff8c0f; padding: 12px 14px; margin-bottom: 12px;"}
-- **Tall Mud-Brick Walls:** Built to protect the city from rival neighbors and floods.
-- **The Ziggurat (神庙塔):** A giant pyramid-like temple in the city center to honor their city's god.
-- **Priests & Rulers:** Directed canal repairs, stored grain surplus, and led religious ceremonies.
-:::
-
-::: {.callout-tip icon=false title="👀 Visual Observation"}
-Look at the ziggurat stairs. Who walked up those stairs to talk to the gods? Priests!
-:::
-
-{{< timer 4 >}}
-:::
-:::
-
-::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "Imagine standing in the city of Ur. In the center rises a giant mud-brick ziggurat! Each city-state was like its own little country with its own king, army, and god."
-
-**Multilingual Check:** Ask: "What is a city-state in Chinese? Yes, 城邦!"
-:::
-
-## 2.2 Smart Inventions: Wheel & Cuneiform 聪明的发明：车轮与楔形文字
+## Smart Inventions 聪明的发明
 
 ::: {.columns}
 ::: {.column width="30%"}
-::: {.card style="text-align: center; padding: 16px 10px; background: #ffffff; border: 2px solid #c9b48f; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); min-height: 440px;"}
-#### The Wooden Wheel
-*([木制车轮]{.zh})*
-![](images/wheel-icon.svg){fig-alt="Wooden wheel icon" style="width: 140px; margin: 0 auto;"}
-
-::: {.card style="background: #fdf6e2; padding: 8px; border-radius: 8px; font-size: 0.85em; color: #5c3818; font-weight: 600; margin-top: 10px;"}
-Invented for transport carts to carry grain and bricks!
-:::
+::: {.card style="text-align: center; padding: 18px 12px; background: #ffffff; border: 2px solid #c9b48f; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); height: 440px; display: flex; flex-direction: column; justify-content: space-between;"}
+<div>
+  <h4 style="color: #5c3818; margin-top: 0; font-size: 1.1em;">The Wooden Wheel</h4>
+  <p class="zh" style="color: #8b5a2b; font-size: 0.9em; margin-bottom: 12px;">木制车轮</p>
+  ![](images/wheel-icon.svg){fig-alt="Wooden wheel icon" style="width: 150px; margin: 0 auto;"}
+</div>
+<div style="background: #fdf6e2; padding: 10px; border-radius: 8px; font-size: 0.85em; color: #5c3818; font-weight: 600;">
+  Invented for transport carts to move heavy crops!
+</div>
 :::
 :::
 
 ::: {.column width="30%"}
-::: {.card style="text-align: center; padding: 16px 10px; background: #ffffff; border: 2px solid #c9b48f; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); min-height: 440px;"}
-#### Cuneiform Writing
-*([泥板上的楔形文字]{.zh})*
-![](images/cuneiform-icon.svg){fig-alt="Clay tablet with cuneiform" style="width: 140px; margin: 0 auto;"}
-
-::: {.card style="background: #fdf6e2; padding: 8px; border-radius: 8px; font-size: 0.85em; color: #5c3818; font-weight: 600; margin-top: 10px;"}
-Wedge symbols pressed into wet clay using reed sticks!
-:::
+::: {.card style="text-align: center; padding: 18px 12px; background: #ffffff; border: 2px solid #c9b48f; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); height: 440px; display: flex; flex-direction: column; justify-content: space-between;"}
+<div>
+  <h4 style="color: #5c3818; margin-top: 0; font-size: 1.1em;">Cuneiform on Clay</h4>
+  <p class="zh" style="color: #8b5a2b; font-size: 0.9em; margin-bottom: 12px;">泥板上的楔形文字</p>
+  ![](images/cuneiform-icon.svg){fig-alt="Clay tablet with cuneiform" style="width: 150px; margin: 0 auto;"}
+</div>
+<div style="background: #fdf6e2; padding: 10px; border-radius: 8px; font-size: 0.85em; color: #5c3818; font-weight: 600;">
+  First written symbols pressed with reeds into wet clay!
+</div>
 :::
 :::
 
 ::: {.column width="40%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); min-height: 440px;"}
-#### Key Achievements:
+::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); min-height: 440px;"}
+<h4 style="color: #003477; margin-top: 0;">Key Achievements:</h4>
 
-- **Because of teamwork**, they built the first cities.
-- They **invented the wheel** for transport carts.
-- They invented the **first writing on clay**.
+- **Because of teamwork**, they built the first cities. \
+  *([因为团结合作，他们建立了最早的城市。]{.zh})*
+- They **invented the wheel** for carts. \
+  *([他们为马车发明了车轮。]{.zh})*
+- They invented the **first writing on clay**. \
+  *([他们发明了泥板上的最早文字。]{.zh})*
 
-::: {.card style="background: #ebf7fd; border-left: 4px solid #0087ff; padding: 6px 10px; margin: 10px 0;"}
-**Bilingual Anchor:** [Cuneiform]{style="color: #003477; font-weight: 700;"} · [楔形文字]{.zh style="color: #005691; font-weight: 600;"}
+::: {.card style="background: #ebf7fd; border-left: 4px solid #0087ff; padding: 6px 10px; margin: 8px 0;"}
+**Bilingual Anchor / 核心词汇:** [Cuneiform]{style="color: #003477; font-weight: 700;"} · [楔形文字]{.zh style="color: #005691; font-weight: 600;"}
 :::
 
 ::: {.callout-tip icon=false title="✋ Student Action"}
@@ -338,512 +175,110 @@ Wedge symbols pressed into wet clay using reed sticks!
 **Multilingual Check:** Pair-share: "Tell your partner one invention from this slide in English."
 :::
 
-## 2.3 Stop & Check 2 & Discussion 课堂探究与同桌讨论
-
-::: {.columns}
-::: {.column width="50%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); min-height: 460px;"}
-#### 🛑 Stop & Check 2: Match the Inventions
-
-Draw lines in your student packet to match each item:
-
-- **1. Wheel** $\rightarrow$ Moved heavy carts & grain
-- **2. Cuneiform** $\rightarrow$ Recorded taxes & food on clay
-- **3. Ziggurat** $\rightarrow$ Giant temple honoring city gods
-
-::: {.card style="background: #ebf7fd; border-radius: 6px; padding: 10px; margin-top: 25px; font-size: 0.85em; color: #005691;"}
-✍️ *Open your packet to Activity 2.1 to draw your match lines!*
-:::
-:::
-:::
-
-::: {.column width="50%"}
-::: {.card style="background: #fdf6ec; border: 2px solid #ff8c0f; border-radius: 12px; padding: 18px; min-height: 460px;"}
-#### 🗣️ Class Discussion (探究讨论)
-
-**"Why was writing on clay both a GREAT invention and a HARD challenge?"** \
-*([为什么在泥板上书写既是伟大的发明，又是艰难的挑战？]{.zh})*
-
-::: {.callout-note icon=false title="💬 Sentence Starter"}
-**"Writing on clay was great because ________________________, but it was hard because ________________________ ."**
-:::
-
-💡 *Clue words: lasted thousands of years · heavy to carry · wet clay dries fast*
-
-{{< timer 4 >}}
-:::
-:::
-:::
-
-::: notes
-**Target Time:** 6 mins
-
-**Teacher script:** "Take 2 minutes to complete the matching in your packet, then discuss with your partner: What happens if you drop a clay tablet? It breaks! But unlike paper, fire makes it harder!"
-
-**Multilingual Check:** Pair-share: Encourage students to use the two-part sentence starter: "...was great because..., but it was hard because...".
-:::
-
-## 2.4 Lesson 2 Exit Ticket 当堂小检测
-
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 22px; max-width: 850px; margin: 20px auto; box-shadow: 0 4px 16px rgba(0,0,0,0.1);"}
-### 📝 Lesson 2 Exit Ticket (3 Quick Checks)
-
-1. Who were the first people to build cities in Mesopotamia? \
-   *([最早在美索不达米亚建立城市的人是谁？]{.zh})*
-2. What did Sumerians invent to help carts carry heavy loads? \
-   *([苏美尔人发明了什么来帮助手推车运载重物？]{.zh})*
-3. What material did scribes write on? \
-   *([书吏在什么材料上书写文字？]{.zh})*
-
-::: {.card style="background: #ebf7fd; border-left: 4px solid #0087ff; padding: 10px 14px; margin-top: 15px;"}
-✍️ *Record your answers in your student booklet under Lesson 2 Exit Ticket!*
-:::
-
-{{< timer 5 >}}
-:::
-
-::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "Pencils down on desk once finished. 5 minutes for Exit Ticket 2. Check your spelling of Sumerians and Cuneiform."
-
-**Multilingual Check:** Write the word bank on the board: `Sumerians`, `Wheel`, `Clay`.
-:::
-
 ---
 
-# Lesson 3: Hammurabi's Code & Written Law 第3课：汉谟拉比法典与成文法律 {background-color="#003477"}
-
-::: {.columns}
-::: {.column width="48%"}
-![](images/stele-of-hammurabi.png){fig-alt="Stele of King Hammurabi" style="max-height: 380px; display: block; margin: 0 auto; border-radius: 10px; border: 2px solid #ffffff; box-shadow: 0 4px 14px rgba(0,0,0,0.3);"}
-:::
-
-::: {.column width="52%"}
-### Big Question 核心问题
-**Why did ancient cities need written rules, and was "an eye for an eye" fair?** \
-*([为什么古代城市需要成文规则？“以眼还眼”在今天公平吗？]{.zh})*
-
-::: {.card style="background: rgba(255,255,255,0.15); border-left: 5px solid #ff8c0f; padding: 10px 14px; margin: 16px 0;"}
-**Bilingual Anchor 核心词汇:** \
-[**Hammurabi's Code**]{style="color: #ffffff; font-weight: 700; font-size: 1.15em;"} · [《汉谟拉比法典》]{.zh style="color: #2de2d6; font-weight: 600;"} \
-[**Stele**]{style="color: #ffffff; font-weight: 700; font-size: 1.1em;"} · [石柱碑]{.zh style="color: #2de2d6; font-weight: 600;"} \
-[**Justice**]{style="color: #ffffff; font-weight: 700; font-size: 1.1em;"} · [正义与司法]{.zh style="color: #2de2d6; font-weight: 600;"}
-:::
-
-::: {.callout-note icon=false title="📖 Student Routine"}
-Open your Reading Booklet to **Lesson 3**! \
-*Press Down arrow (↓) to enter vertical content slides!*
-:::
-:::
-:::
-
-::: notes
-**Target Time:** 3 mins
-
-**Teacher script:** "When cities grew larger, arguments broke out over water, trade, and property. King Hammurabi of Babylon wanted everyone to know the rules, so he carved them in stone!"
-
-**Multilingual Check:** Choral response: "Ham-mu-ra-bi's Code."
-:::
-
-## 3.1 King Hammurabi & The Black Stone Pillar 汉谟拉比国王与黑石柱
+## The First Written Laws 世界上第一部成文法律
 
 ::: {.columns}
 ::: {.column width="48%"}
 ![](images/stele-of-hammurabi.png){fig-alt="Black stone pillar stele of Hammurabi" style="max-height: 250px; display: block; margin: 0 auto; border-radius: 8px;"}
 
 ::: {.card style="background: #fdf6ec; border-left: 5px solid #ff8c0f; padding: 10px 14px; margin-top: 10px;"}
-- **King Hammurabi** ruled Babylon around 1750 B.C.
-- He carved **282 laws** onto a giant black stone pillar (**stele**).
-- **Public laws:** Set in the center of the city so everyone could see them!
-:::
-:::
-
-::: {.column width="52%"}
-### Why Carve Laws in Stone?
-
-::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 12px 14px; margin-bottom: 12px;"}
-1. **Permanence:** Stone cannot be easily erased or changed secretly.
-2. **Fairness:** Even rich and powerful judges had to follow the written rules.
-3. **Protection:** Laws protected weak people, orphans, and canals from careless neighbors.
+- **King Hammurabi** wrote down the first laws. \
+  *([汉谟拉比国王写下了世界上最早的法律。]{.zh})*
+- Famous rule: **"An eye for an eye."** \
+  *([著名原则：“以眼还眼”。]{.zh})*
 :::
 
-::: {.callout-tip icon=false title="💡 Did You Know?"}
-At the top of the stone, King Hammurabi is shown receiving the laws directly from Shamash, the god of justice!
-:::
-
-{{< timer 5 >}}
-:::
-:::
-
-::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "Why stone? If a law is only spoken, a king can change his mind tomorrow. By carving it in hard stone, the law stood firm for everyone to see."
-
-**Multilingual Check:** EAL prompt: Provide the spelling of Hammurabi clearly on the board.
-:::
-
-## 3.2 "An Eye for an Eye" & Stop & Check 3 “以眼还眼”与探究检查
-
-::: {.columns}
-::: {.column width="48%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"}
-#### The Most Famous Rule:
-
-::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 10px; margin: 8px 0; font-weight: 700; color: #003477;"}
-"An eye for an eye, and a tooth for a tooth." \
-[“以眼还眼，以牙还牙。”]{.zh style="font-size: 0.9em; color: #005691; font-weight: 600;"}
-:::
-
-- If a builder constructed a house poorly and it collapsed and killed the owner, the builder was put to death.
-- If a farmer failed to maintain his canal and flooded his neighbor's wheat, he had to repay all the lost grain!
+::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 8px 14px; margin-top: 8px;"}
+**Bilingual Vocabulary Anchor / 核心词汇:** \
+[**Hammurabi's Code**]{style="font-size: 1.1em; color: #003477; font-weight: 700;"} · [《汉谟拉比法典》]{.zh style="font-size: 1.05em; color: #005691; font-weight: 600;"}
 :::
 
 ::: {.callout-important icon=false title="🛑 Student Action"}
-**🛑 Stop & Check 3: Fill in the blanks in your packet!**
+**🛑 Stop & Check 1: Fill in the blank for the first written laws!**
 :::
+
+{{< timer 10 >}}
 :::
 
 ::: {.column width="52%"}
-::: {.chalkline-overlay-zone style="height: 500px; border: 2.5px dashed #003477; border-radius: 12px; background: rgba(255, 255, 255, 0.94); box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 16px;"}
-::: {.card style="border-bottom: 2px solid #ebf7fd; padding-bottom: 8px; margin-bottom: 12px;"}
-[**📋 Chalkline Overlay: Stop & Check 3**]{style="font-weight: 700; color: #003477; font-size: 0.95em;"}
-:::
+<!-- Chalkline Overlay Zone: Blank space for the Chalkline overlay of the "Fill in the blank" question -->
+<div class="chalkline-overlay-zone" style="height: 520px; border: 2.5px dashed #003477; border-radius: 12px; background: rgba(255, 255, 255, 0.94); box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 18px; display: flex; flex-direction: column; justify-content: space-between;">
+  <div>
+    <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #ebf7fd; padding-bottom: 8px;">
+      <span style="font-weight: 700; color: #003477; font-size: 0.95em;">📋 Chalkline Overlay: Fill in the Blank</span>
+      <span style="background: #0087ff; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 12px; font-weight: 700;">Live Class Check</span>
+    </div>
+    <div style="margin-top: 22px; font-size: 0.92em; color: #1F2933; line-height: 1.7;">
+      <p><strong>Fill in the missing words from your packet:</strong></p>
+      
+      <div style="background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 8px; padding: 14px; margin: 12px 0;">
+        <p style="margin: 0 0 10px 0;">
+          1. King ________________________ carved 282 laws into a black stone pillar. \
+          *([________________________ 国王将 282 条法律刻在黑石柱上。]{.zh})*
+        </p>
+        <p style="margin: 0;">
+          2. His most famous law is: <em>"An ______________ for an ______________."</em> \
+          *([他最著名的法律是：“以______________还______________。”]{.zh})*
+        </p>
+      </div>
 
-**Complete from your packet:**
-
-::: {.card style="background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 8px; padding: 12px; margin: 10px 0;"}
-1. King ____________________ carved 282 laws into a black stone pillar. \
-2. His most famous law is: *"An ____________ for an ____________."*
-:::
-
-::: {.card style="background: #ebf7fd; border-radius: 6px; padding: 6px 10px; font-size: 0.82em; color: #005691;"}
-💡 **Word Bank:** Hammurabi · eye · eye · Babylon · stone
-:::
-
-::: {.small-note style="margin-top: 130px; text-align: center; color: #829ab1; font-size: 0.78em; font-style: italic;"}
-Teacher: Overlay student booklet and demonstrate filling in the blanks
-:::
-:::
-:::
-:::
-
-::: notes
-**Target Time:** 7 mins
-
-**Teacher script:** "Look at your packet for Stop & Check 3. King Hammurabi wanted punishments to fit the crime. Let's fill in the blanks together on the board."
-
-**Multilingual Check:** Read the sentence aloud, pausing at the blanks: "An... eye... for an... eye."
-:::
-
-## 3.3 Whole-Class Debate: Is It Fair Today? 全班辩论：在今天公平吗？
-
-::: {.columns}
-::: {.column width="50%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); min-height: 460px;"}
-#### 🙋 Stand Up / Sit Down Poll
-
-::: {.card style="background: #ebf7fd; border-radius: 8px; padding: 10px; text-align: center; margin: 12px 0;"}
-[**"Do you think 'an eye for an eye' is fair today?"**]{style="color: #003477; font-weight: 700;"} \
-[你认为“以眼还眼”在今天公平吗？]{.zh style="font-size: 0.85em; color: #005691; font-weight: 600;"}
-:::
-
-::: {.columns}
-::: {.column width="50%"}
-::: {.card style="background: #e8f5e9; border: 2px solid #2e7d32; border-radius: 8px; padding: 10px; text-align: center;"}
-[**STAND UP**]{style="color: #2e7d32; font-size: 1.1em; font-weight: 700;"} \
-YES (公平)
-:::
-:::
-::: {.column width="50%"}
-::: {.card style="background: #ffebee; border: 2px solid #c62828; border-radius: 8px; padding: 10px; text-align: center;"}
-[**STAY SEATED**]{style="color: #c62828; font-size: 1.1em; font-weight: 700;"} \
-NO (不公平)
-:::
-:::
-:::
-
-Circle your choice in your packet: **YES** or **NO**!
-
-{{< timer 3 >}}
-:::
-:::
-
-::: {.column width="50%"}
-::: {.card style="background: #fdf6ec; border: 2px solid #ff8c0f; border-radius: 12px; padding: 18px; min-height: 460px;"}
-#### 🗣️ Partner Justification (阐述理由)
-
-::: {.callout-note icon=false title="💬 Sentence Starter"}
-**"I think it is [fair / unfair] today because ________________________________________ ."**
-:::
-
-::: {.card style="background: #ffffff; border-radius: 8px; padding: 12px; border: 1px solid #cbd5e1; margin-top: 15px; font-size: 0.9em; line-height: 1.6;"}
-**Example Reasons:** <br>
-- *"Fair because people should suffer the exact harm they caused."* <br>
-- *"Unfair because modern laws use fines or jail instead of physical violence."*
-:::
-
-::: {.card style="text-align: center; color: #8b5a2b; font-weight: 600; margin-top: 25px;"}
-Write your reason down in your packet before moving to Exit Ticket 3!
-:::
-:::
+      <div style="background: #ebf7fd; border-radius: 6px; padding: 8px 12px; font-size: 0.85em; color: #005691;">
+        💡 <strong>Word Bank:</strong> Hammurabi · eye · eye · Babylon
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; color: #829ab1; font-size: 0.8em; font-style: italic; border-top: 1px dashed #cbd5e1; padding-top: 10px;">
+    Teacher: Overlay student booklet and demonstrate filling in the blanks
+  </div>
+</div>
 :::
 :::
 
 ::: notes
-**Target Time:** 6 mins
+**Target Time:** 10 mins
 
-**Teacher script:** "On the count of three: if you think 'an eye for an eye' is fair today, STAND UP! If you think it is unfair, STAY SEATED! One, two, three! Now, turn to your neighbor and explain why using our sentence starter."
+**Teacher script:** "With cities getting bigger, they needed rules. King Hammurabi carved his laws into a giant stone so everyone could see them. Look at your packet and let's fill in the blank together on the board."
 
-**Multilingual Check:** Accept simple reasoning: "Unfair because hurting people is bad" or "Fair because he did it first."
-:::
-
-## 3.4 Lesson 3 Exit Ticket 当堂小检测
-
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 22px; max-width: 850px; margin: 20px auto; box-shadow: 0 4px 16px rgba(0,0,0,0.1);"}
-### 📝 Lesson 3 Exit Ticket (3 Quick Checks)
-
-1. What king wrote down the first laws on a stone pillar? \
-   *([哪位国王在石柱上写下了第一部成文法律？]{.zh})*
-2. How many laws were carved on the pillar? (Hint: 282) \
-   *([石柱上雕刻了多少条法律？]{.zh})*
-3. Why was carving laws into stone better than just saying them out loud? \
-   *([为什么把法律刻在石头上比口头宣布更好？]{.zh})*
-
-::: {.card style="background: #fdf6ec; border-left: 4px solid #ff8c0f; padding: 10px 14px; margin-top: 15px;"}
-✍️ *Record your answers in your student booklet under Lesson 3 Exit Ticket!*
-:::
-
-{{< timer 5 >}}
-:::
-
-::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "5 minutes for Exit Ticket 3. Once done, close your booklet and get ready for our final Capstone: The Tourism Advertisement Challenge!"
-
-**Multilingual Check:** Encourage students to answer question 3 with: "Because people cannot change stone."
+**Multilingual Check:** EAL prompt: Provide the spelling of Hammurabi clearly on the board for students to copy accurately into their blanks.
 :::
 
 ---
 
-# Lesson 4: Tourism Advertisement Challenge 第4课：美索不达米亚旅游推介挑战 {background-color="#003477"}
+## Tourism Poster Challenge 旅游海报挑战
 
 ::: {.columns}
 ::: {.column width="45%"}
-![](images/tourism-poster-card.svg){fig-alt="Mesopotamia Tourism Poster Example" style="border-radius: 12px; border: 2px solid #ffffff; box-shadow: 0 6px 18px rgba(0,0,0,0.3); width: 95%;"}
+![](images/tourism-poster-card.svg){fig-alt="Mesopotamia Tourism Poster Example" style="border-radius: 12px; border: 2px solid #003477; box-shadow: 0 6px 18px rgba(0,0,0,0.15); width: 95%;"}
 :::
 
 ::: {.column width="55%"}
-### Capstone Mission 探究总任务
-**Act as an ancient travel agent to convince travelers to visit your Mesopotamian city-state!** \
-*([化身古代旅行规划师，撰写并绘制旅游推介海报，吸引各地旅行者探访你的城邦！]{.zh})*
+### Your Task: Create a tourism poster for Mesopotamia!
 
-::: {.card style="background: rgba(255,255,255,0.15); border-left: 5px solid #ff8c0f; padding: 10px 14px; margin: 16px 0;"}
-**Synthesis Checklist 综合要素清单:** \
-🗺️ **1 Geographic Fact** *(Tigris, Euphrates, silt, Fertile Crescent)* \
-💡 **1 Smart Invention** *(wheel, cuneiform, canal, ziggurat)* \
-✍️ **Required Sentence Starter**
+::: {.callout-note icon=false title="🎯 Poster Requirements · 海报要求"}
+Your poster **MUST INCLUDE**:
+1. 🗺️ **1 geographic fact** *(e.g., Tigris River, Euphrates River, fertile silt)*
+2. 💡 **1 invention** *(e.g., wheel, cuneiform writing, irrigation canals, ziggurat)*
 :::
 
-::: {.callout-note icon=false title="📖 Student Routine"}
-Open your Reading Booklet to **Part 4: Poster Workspace**! \
-*Press Down arrow (↓) to enter vertical instruction & workshop slides!*
-:::
-:::
+::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 10px 14px; margin-bottom: 14px;"}
+**Bilingual Vocabulary Anchor / 核心词汇:** \
+[**City-State**]{style="font-size: 1.15em; color: #003477; font-weight: 700;"} · [城邦 (如乌尔、巴比伦)]{.zh style="font-size: 1.05em; color: #005691; font-weight: 600;"}
 :::
 
-::: notes
-**Target Time:** 3 mins
-
-**Teacher script:** "Now it is your turn to be a travel agent! You want tourists from all over the ancient world to visit your Mesopotamian city-state. Draw a beautiful poster and write our sentence starter."
-
-**Multilingual Check:** Clarify the meaning of 'tourism poster': a poster that advertises a place so visitors want to travel there.
-:::
-
-## 4.1 The Three Poster Requirements 海报三大必备要求
-
-::: {.columns}
-::: {.column width="33%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 16px; min-height: 440px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); text-align: center;"}
-[🗺️]{style="font-size: 2.2em; display: block; margin-bottom: 8px;"}
-#### 1. Geographic Fact
-*([地理要素]{.zh})*
-
-Must show or name at least one geographic feature:
-
-- Tigris River 🌊
-- Euphrates River 🌊
-- Rich Fertile Silt 🌱
-- Fertile Crescent 🌙
-:::
-:::
-
-::: {.column width="33%"}
-::: {.card style="background: #ffffff; border: 2px solid #ff8c0f; border-radius: 12px; padding: 16px; min-height: 440px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); text-align: center;"}
-[💡]{style="font-size: 2.2em; display: block; margin-bottom: 8px;"}
-#### 2. Smart Invention
-*([智慧发明]{.zh})*
-
-Must show or draw at least one Sumerian/Babylonian achievement:
-
-- The Wooden Wheel ⚙️
-- Cuneiform Tablets 📜
-- Irrigation Canals 🌾
-- Ziggurat Temple 🏛️
-:::
-:::
-
-::: {.column width="33%"}
-::: {.card style="background: #ffffff; border: 2px solid #2d6a4f; border-radius: 12px; padding: 16px; min-height: 440px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); text-align: center;"}
-[✍️]{style="font-size: 2.2em; display: block; margin-bottom: 8px;"}
-#### 3. Sentence Starter
-*([核心推介句型]{.zh})*
-
-Must write this complete sentence at the bottom:
-
-::: {.card style="background: #e8f5e9; border-radius: 6px; padding: 8px; font-size: 0.82em; text-align: left; font-weight: 600; color: #1b5e20; margin-top: 15px;"}
-"The ____ river is a great reason to visit ____ because _______ ."
-:::
-:::
-:::
-:::
-
-::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "Check off all three items on this slide as you plan your poster. If you have a river, an invention, and your sentence starter, you can earn maximum points on Criterion A & D!"
-
-**Multilingual Check:** Reiterate in Chinese: 1个地理事实 + 1项发明 + 完整句型。
-:::
-
-## 4.2 Analyzing the Travel Poster Model 范例海报赏析
-
-::: {.columns}
-::: {.column width="45%"}
-![](images/tourism-poster-card.svg){fig-alt="Model poster example" style="border-radius: 10px; border: 2px solid #003477; box-shadow: 0 4px 14px rgba(0,0,0,0.15); width: 95%;"}
-:::
-
-::: {.column width="55%"}
-### What makes this poster great?
-
-::: {.card style="background: #ebf7fd; border-left: 4px solid #0087ff; padding: 10px 14px; margin-bottom: 12px;"}
-- **Catchy Title:** *"Visit Mesopotamia!"*
-- **Clear Art:** Sun, stepped Ziggurat, blue rivers.
-- **Invention Highlights:** Badges showcasing the wheel and cuneiform.
-- **City-State:** Mentions Babylon / Ur.
-:::
-
-::: {.callout-tip icon=false title="💬 Example Sentence"}
-[**"The Euphrates river is a great reason to visit Ur because its rich silt feeds our great cities and you can ride carts with new wooden wheels!"**]{style="color: #003477; font-weight: 600; font-size: 0.92em;"}
-:::
-
-[Ready to create your own? Press Down arrow (↓) for the 20-minute workspace!]{style="font-size: 0.85em; color: #5c677d; display: block; margin-top: 10px;"}
-:::
-:::
-
-::: notes
-**Target Time:** 4 mins
-
-**Teacher script:** "Look at how the model poster uses bright colors, big titles, and clear labels. Your drawing does not have to be complicated, but it must be neat and clearly labeled!"
-
-**Multilingual Check:** Point out how the sentence connects the river (geographic reason) to the wheel (invention reason).
-:::
-
-## 4.3 20-Minute Creative Challenge 20分钟创作工作坊
-
-::: {.columns}
-::: {.column width="50%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); min-height: 480px;"}
-#### 🎨 Work Steps in Your Packet:
-
-1. Pick your city-state name: **Ur** or **Babylon**.
-2. Draw your river and ziggurat temple in the poster frame.
-3. Add a picture of the wheel or cuneiform clay tablet.
-4. Write your complete sentence starter carefully!
-
-::: {.card style="background: #fdf6ec; border-left: 4px solid #ff8c0f; padding: 10px; border-radius: 4px; font-size: 0.85em; margin: 15px 0;"}
-💡 **Sentence Starter:** <br>
-*The ________ river is a great reason to visit ________ because ________________________________________ .*
+::: {.callout-tip icon=false title="✍️ Sentence Starter · 核心句型 (Must Write in Poster)"}
+[**"The ________ river is a great reason to visit ________ because ________________________________________ ."**]{style="font-size: 1.05em; color: #003477; font-weight: 700;"}
 :::
 
 {{< timer 20 >}}
 :::
 :::
 
-::: {.column width="50%"}
-::: {.chalkline-overlay-zone style="height: 480px; border: 2.5px dashed #003477; border-radius: 12px; background: rgba(255, 255, 255, 0.94); box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 18px;"}
-::: {.card style="border-bottom: 2px solid #ebf7fd; padding-bottom: 8px; margin-bottom: 15px;"}
-[**📋 Chalkline Overlay: Live Poster Gallery**]{style="font-weight: 700; color: #003477; font-size: 0.95em;"}
-:::
-
-**Teacher Projection Zone:**
-
-::: {.card style="padding: 12px 14px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0; margin-top: 15px;"}
-📷 Project standout student drawings here using your document camera or tablet mirror during the activity!
-:::
-
-::: {.small-note style="margin-top: 180px; text-align: center; color: #829ab1; font-size: 0.8em; font-style: italic;"}
-Teacher: Overlay outstanding student work in progress to inspire the class
-:::
-:::
-:::
-:::
-
 ::: notes
 **Target Time:** 20 mins
 
-**Teacher script:** "Music on, heads down! You have 20 minutes to craft your ancient travel poster. Remember: neatness counts, and your sentence starter must have a full reason!"
+**Teacher script:** "Now it is your turn to be a travel agent. You want tourists to visit your Mesopotamian city-state! Draw a beautiful poster, and use our sentence starter to convince them to come."
 
-**Multilingual Check:** Circulate and support emerging bilinguals: encourage them to draft their "because..." reason in Chinese on scratch paper first, then help them translate into English.
-:::
-
-## 4.4 Peer Showcase & MYP Year 1 Rubric 同伴展示与评估
-
-::: {.columns}
-::: {.column width="50%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 18px; min-height: 460px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"}
-#### 🗣️ Peer Turn & Share (同伴分享)
-
-1. Hold your poster up and show your partner your drawings.
-2. Read your completed sentence starter aloud to your partner.
-3. Partner says one thing they love about your poster!
-
-::: {.callout-note icon=false title="💬 Partner Feedback Frame"}
-**"I love that your poster shows [the river / the wheel / the ziggurat] because ________________________ !"**
-:::
-
-{{< timer 5 >}}
-:::
-:::
-
-::: {.column width="50%"}
-::: {.card style="background: #ebf7fd; border: 2px solid #0087ff; border-radius: 12px; padding: 16px; min-height: 460px; font-size: 0.88em; line-height: 1.6;"}
-#### 📊 MYP Year 1 Criteria Check:
-
-::: {.card style="background: #ffffff; border-radius: 8px; padding: 10px; border: 1px solid #cbd5e1; margin-bottom: 10px;"}
-**Criterion A: Knowing & Understanding** <br>
-- Includes at least 1 accurate geographic fact (Tigris/Euphrates/silt). <br>
-- Includes at least 1 verified invention (wheel/cuneiform/canal).
-:::
-
-::: {.card style="background: #ffffff; border-radius: 8px; padding: 10px; border: 1px solid #cbd5e1;"}
-**Criterion D: Thinking Critically** <br>
-- Sentence starter is fully finished with a clear *"because..."* justification connecting nature to human invention.
-:::
-
-::: {.card style="text-align: center; margin-top: 15px; font-weight: 700; color: #ff8c0f;"}
-🎉 Hand in your packet to your teacher!
-:::
-:::
-:::
-:::
-
-::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "Time is up! Show your poster to your table partner. Read your sentence out loud. Then stack all packets neatly in the center of your table for collection."
-
-**Multilingual Check:** Choral cheer: "Congratulations Grade 6 on completing your first Mesopotamian inquiry!"
+**Multilingual Check:** Allow emerging bilinguals to draft their "because..." reasoning in Chinese first, then work with a partner or teacher to translate it into simple English.
 :::
