@@ -1,15 +1,9 @@
 <!--
-  Countdown timer for reveal.js slides.
-
-  Add to a slide deck's front matter:
-      include-after-body: ../../assets/countdown.html
-  Then put a timer on any slide:
-      ::: {.countdown data-minutes="20"}
-      :::
-
-  Buttons: Start / Pause, Reset, +1 min. Keyboard on the timer slide: T = start/pause.
-  While it runs, a small copy follows you onto other slides (bottom center).
-  It turns orange at 5 minutes left, red at 1 minute, and chimes at zero.
+  Countdown timer for reveal.js slides with Draggable & Follow across slides support.
+  Buttons: Start / Pause, Reset, +1 min. 
+  Follow: Toggle 📌 Follow to keep the timer floating and visible across all slides!
+  Drag: Click & drag the timer header to position it anywhere on screen.
+  Keyboard: T = start/pause timer on the timer slide.
 -->
 <style>
   .countdown {
@@ -17,23 +11,92 @@
     --cd-warn: var(--brand-orange, #ff8c0f);
     --cd-end: #C8372D;
     text-align: center;
-    margin-top: 0.4em;
+    margin: 0.5em auto;
+    width: 100%;
+    max-width: 320px;
+    background: #ffffff !important;
+    border: 1.5px solid rgba(0, 52, 119, 0.22);
+    border-radius: 14px;
+    padding: 8px 12px 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    user-select: none;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .countdown.cd-floating {
+    position: fixed !important;
+    z-index: 99999 !important;
+    margin: 0 !important;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+    border-color: var(--brand-navy, #003477);
+  }
+  .countdown.cd-dragging {
+    opacity: 0.92;
+    cursor: grabbing !important;
+  }
+  .countdown .cd-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(0, 52, 119, 0.12);
+    font-size: 13px;
+    color: var(--brand-navy, #003477);
+  }
+  .countdown .cd-drag-handle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    cursor: grab;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .countdown .cd-drag-handle:hover {
+    background: rgba(0, 52, 119, 0.08);
+  }
+  .countdown .cd-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .countdown .cd-header-btn {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 52, 119, 0.3);
+    background: #f7f9fa;
+    color: var(--brand-navy, #003477);
+    cursor: pointer;
+    line-height: 1.3;
+    transition: background 0.15s, color 0.15s;
+  }
+  .countdown .cd-header-btn:hover {
+    background: #eef3f8;
+  }
+  .countdown .cd-header-btn.active {
+    background: var(--brand-navy, #003477);
+    color: #ffffff;
+    border-color: var(--brand-navy, #003477);
   }
   .countdown .cd-time {
     font-family: var(--r-heading-font, inherit);
-    font-size: 3.6em;
+    font-size: 2.3em;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.05;
     letter-spacing: 0.02em;
     color: var(--cd-ok);
     font-variant-numeric: tabular-nums;
     transition: color 0.4s;
+    margin: 2px 0 4px;
   }
   .countdown .cd-bar {
-    height: 14px;
-    width: 70%;
-    margin: 0.5em auto 0.7em;
-    border-radius: 7px;
+    height: 8px;
+    width: 85%;
+    margin: 4px auto 8px;
+    border-radius: 999px;
     background: rgba(0, 0, 0, 0.08);
     overflow: hidden;
   }
@@ -43,19 +106,29 @@
     background: var(--cd-ok);
     transition: width 1s linear, background 0.4s;
   }
-  .countdown button {
+  .countdown .cd-controls {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: nowrap;
+  }
+  .countdown .cd-btn {
     font: inherit;
-    font-size: max(0.55em, 16px);   /* a smaller timer (in a box, beside other things) keeps buttons you can tap */
+    font-size: 13px;
     font-weight: 600;
-    padding: 0.35em 1.1em;
-    margin: 0 0.25em;
+    padding: 4px 10px;
     border-radius: 999px;
-    border: 2px solid var(--brand-navy, #003477);
+    border: 1.5px solid var(--brand-navy, #003477);
     background: #fff;
     color: var(--brand-navy, #003477);
     cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
   }
-  .countdown button.cd-primary {
+  .countdown .cd-btn:hover {
+    background: #f0f4f9;
+  }
+  .countdown .cd-btn.cd-primary {
     background: var(--brand-navy, #003477);
     color: #fff;
   }
@@ -80,6 +153,7 @@
     font-variant-numeric: tabular-nums;
     display: none;
     cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
   }
   #cd-mini.warn { background: var(--brand-orange, #ff8c0f); color: #003477; }
   #cd-mini.end { background: #C8372D; }
@@ -114,14 +188,178 @@
   document.querySelectorAll(".countdown").forEach(function (el) {
     const total = Math.round(parseFloat(el.dataset.minutes || "5") * 60);
     let left = total, timer = null, endAt = 0, full = total;
+    let isFloating = false, isFollowing = false, savedPos = null;
+
+    // Create placeholder inside slide to reserve docking position
+    const placeholder = document.createElement("div");
+    placeholder.className = "cd-placeholder";
+    if (el.parentNode) {
+      el.parentNode.insertBefore(placeholder, el);
+    }
 
     el.innerHTML =
-      '<div class="cd-time"></div><div class="cd-bar"><div class="cd-fill"></div></div>' +
-      '<button class="cd-primary cd-go">Start</button>' +
-      '<button class="cd-reset">Reset</button>' +
-      '<button class="cd-add">+1 min</button>';
-    const time = el.querySelector(".cd-time"), fill = el.querySelector(".cd-fill"),
-          go = el.querySelector(".cd-go");
+      '<div class="cd-header">' +
+        '<div class="cd-drag-handle" title="Drag to move timer anywhere">' +
+          '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>' +
+          '<span>Timer</span>' +
+        '</div>' +
+        '<div class="cd-header-actions">' +
+          '<button type="button" class="cd-header-btn cd-follow-btn" title="Pin timer to follow across all slides">📌 Follow</button>' +
+          '<button type="button" class="cd-header-btn cd-dock-btn" title="Float / Dock timer">Float</button>' +
+        '</div>' +
+      '</div>' +
+      '<div class="cd-time"></div>' +
+      '<div class="cd-bar"><div class="cd-fill"></div></div>' +
+      '<div class="cd-controls">' +
+        '<button type="button" class="cd-btn cd-primary cd-go">Start</button>' +
+        '<button type="button" class="cd-btn cd-reset">Reset</button>' +
+        '<button type="button" class="cd-btn cd-add">+1 min</button>' +
+      '</div>';
+
+    const time = el.querySelector(".cd-time"),
+          fill = el.querySelector(".cd-fill"),
+          go = el.querySelector(".cd-go"),
+          dragHandle = el.querySelector(".cd-drag-handle"),
+          followBtn = el.querySelector(".cd-follow-btn"),
+          dockBtn = el.querySelector(".cd-dock-btn");
+
+    function homeSlide() {
+      return placeholder.closest("section");
+    }
+
+    function onTimerSlide() {
+      if (!window.Reveal || !Reveal.getCurrentSlide) return true;
+      const cur = Reveal.getCurrentSlide();
+      const home = homeSlide();
+      return cur === home || (home && cur && home.contains(cur));
+    }
+
+    function clampPosition(x, y) {
+      const W = window.innerWidth, H = window.innerHeight;
+      const w = el.offsetWidth || 320, h = el.offsetHeight || 130;
+      return {
+        x: Math.max(10, Math.min(x, W - w - 10)),
+        y: Math.max(10, Math.min(y, H - h - 10))
+      };
+    }
+
+    function floatTo(x, y) {
+      if (!isFloating) {
+        document.body.appendChild(el);
+        el.classList.add("cd-floating");
+        isFloating = true;
+        dockBtn.textContent = "Dock";
+      }
+      const pos = clampPosition(x, y);
+      el.style.left = pos.x + "px";
+      el.style.top = pos.y + "px";
+      savedPos = pos;
+    }
+
+    function dockBack() {
+      if (!isFloating) return;
+      placeholder.parentNode.insertBefore(el, placeholder.nextSibling);
+      el.classList.remove("cd-floating");
+      el.style.left = "";
+      el.style.top = "";
+      el.style.display = "block";
+      isFloating = false;
+      dockBtn.textContent = "Float";
+    }
+
+    // Toggle Follow
+    followBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      isFollowing = !isFollowing;
+      followBtn.classList.toggle("active", isFollowing);
+      followBtn.title = isFollowing ? "Timer follows across slides (click to unpin)" : "Pin timer to follow across all slides";
+      if (isFollowing && !isFloating) {
+        const rect = el.getBoundingClientRect();
+        floatTo(rect.left || (window.innerWidth - 340), rect.top || 60);
+      }
+      syncVisibility();
+    });
+
+    // Toggle Float / Dock
+    dockBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      if (isFloating) {
+        dockBack();
+        if (isFollowing) {
+          isFollowing = false;
+          followBtn.classList.remove("active");
+        }
+      } else {
+        const rect = el.getBoundingClientRect();
+        floatTo(rect.left || (window.innerWidth - 340), rect.top || 60);
+      }
+      syncVisibility();
+    });
+
+    // Dragging Logic
+    let isDragging = false, startX = 0, startY = 0, origX = 0, origY = 0;
+
+    function onPointerDown(e) {
+      if (e.target.closest("button")) return;
+      if (e.button !== 0) return;
+      e.preventDefault();
+      isDragging = true;
+      startX = e.clientX;
+      startY = e.clientY;
+
+      if (!isFloating) {
+        const rect = el.getBoundingClientRect();
+        floatTo(rect.left, rect.top);
+      }
+      const rect = el.getBoundingClientRect();
+      origX = rect.left;
+      origY = rect.top;
+      el.classList.add("cd-dragging");
+
+      window.addEventListener("pointermove", onPointerMove);
+      window.addEventListener("pointerup", onPointerUp);
+      window.addEventListener("pointercancel", onPointerUp);
+    }
+
+    function onPointerMove(e) {
+      if (!isDragging) return;
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      const pos = clampPosition(origX + dx, origY + dy);
+      el.style.left = pos.x + "px";
+      el.style.top = pos.y + "px";
+      savedPos = pos;
+    }
+
+    function onPointerUp() {
+      if (!isDragging) return;
+      isDragging = false;
+      el.classList.remove("cd-dragging");
+      window.removeEventListener("pointermove", onPointerMove);
+      window.removeEventListener("pointerup", onPointerUp);
+      window.removeEventListener("pointercancel", onPointerUp);
+    }
+
+    dragHandle.addEventListener("pointerdown", onPointerDown);
+    el.querySelector(".cd-header").addEventListener("pointerdown", onPointerDown);
+
+    function syncVisibility() {
+      const onHome = onTimerSlide();
+      if (isFollowing) {
+        // Floating timer follows across slides
+        el.style.display = "block";
+        mini.style.display = "none";
+      } else if (onHome) {
+        el.style.display = "block";
+        mini.style.display = "none";
+      } else {
+        // Not following and left home slide
+        if (isFloating) {
+          el.style.display = "none";
+        }
+        mini.style.display = (timer || (left < total && left > 0)) ? "block" : "none";
+      }
+    }
 
     function paint() {
       time.textContent = left > 0 ? fmt(left) : "Time's up!";
@@ -133,7 +371,7 @@
       mini.textContent = left > 0 ? fmt(left) : "0:00";
       mini.className = state;
       go.textContent = timer ? "Pause" : (left < total && left > 0 ? "Resume" : "Start");
-      showMini();
+      syncVisibility();
     }
 
     function tick() {
@@ -141,48 +379,48 @@
       if (left === 0) { stop(); chime(); }
       paint();
     }
+
     function start() {
       if (left <= 0) return;
       endAt = Date.now() + left * 1000;
       timer = setInterval(tick, 250);
       paint();
     }
+
     function stop() { clearInterval(timer); timer = null; paint(); }
 
     go.addEventListener("click", function () { timer ? stop() : start(); });
+
     el.querySelector(".cd-reset").addEventListener("click", function () {
       stop(); left = total; full = total; paint();
     });
-    // The toolbox's "Reset for the next class".
+
+    // The toolbox's "Reset for the next class"
     document.addEventListener("chalkline:reset", function (e) {
       if (e.detail && e.detail.timers) { stop(); left = total; full = total; paint(); }
     });
+
     el.querySelector(".cd-add").addEventListener("click", function () {
       left += 60; full = Math.max(full, left);
       if (timer) endAt += 60000;
       paint();
     });
 
-    // The small corner copy shows while the timer runs and you're on another slide.
-    function onTimerSlide() {
-      return window.Reveal && Reveal.getCurrentSlide && Reveal.getCurrentSlide().contains(el);
-    }
-    function showMini() {
-      mini.style.display = (timer || (left < total)) && !onTimerSlide() ? "block" : "none";
-    }
     mini.addEventListener("click", function () {
-      const slide = el.closest("section");
+      const slide = homeSlide();
       if (window.Reveal && slide) {
         const idx = Reveal.getIndices(slide);
         Reveal.slide(idx.h, idx.v);
       }
     });
+
     if (window.Reveal) {
-      Reveal.on("slidechanged", showMini);
+      Reveal.on("slidechanged", syncVisibility);
       Reveal.addKeyBinding({ keyCode: 84, key: "T", description: "Start/pause timer" }, function () {
-        if (onTimerSlide()) { timer ? stop() : start(); }
+        if (onTimerSlide() || isFollowing) { timer ? stop() : start(); }
       });
     }
+
     paint();
   });
 })();

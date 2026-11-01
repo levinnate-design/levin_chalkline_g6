@@ -54,7 +54,7 @@ terms = load_unit(1)
 - Stage 4 (5′): Choral read closure takeaways and collect packets for formative check.
 :::
 
-## Warm-up: Welcome to Mesopotamia! 导入：欢迎来到美索不达米亚！ {background-color="#002b49"}
+## Warm-up: Welcome to Mesopotamia! 导入：欢迎来到美索不达米亚！
 
 :::: {.columns}
 ::: {.column width="50%"}

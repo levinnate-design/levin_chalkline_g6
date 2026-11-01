@@ -16,6 +16,7 @@ website:
   - course/teacher/start-here/index.qmd
   - course/teacher/start-here/quick-start.qmd
   - course/teacher/start-here/slide-kit-slides.qmd
+  - course/teacher/start-here/slide-style-slides.qmd
   - course/teacher/start-here/slides.qmd
   - course/teacher/test-units/91-test-unit-1-ancient-greece/athens-vs-sparta.qmd
   - course/teacher/test-units/91-test-unit-1-ancient-greece/city-states-slides.qmd

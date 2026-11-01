@@ -16,6 +16,18 @@ Newest entries first.
 - **AI assistant:** which one made the change.
 -->
 
+## 2026-11-01: Draggable & Persistent Slide Timers, High-Contrast Slide Rules, and Slide Style Editor Function
+- **Asked for:** "Double check the G6 Chalkline for formatting issues, some slides have poor contrast between text and backgrounds, timers are awkwardly placed (make it such that prebuilt timers can be moved around the slide and follow to other slides if needed). Also pull from John's Chalkline (https://insufficientdoubt.github.io/project-chalkline/course/units/00-start-here/slide-style-slides.html#/schools-of-thought) and push the slide style editor function."
+- **Why:** To eliminate text-background contrast issues on dark slides, prevent timers from breaking slide layouts by making them compact, draggable, and capable of following across slides during teacher presentation, and enable John's live Slide Style Editor function for experimenting with slide layouts, looks, and color schemes.
+- **Changed:**
+  - `_extensions/chalkline/countdown.html` — redesigned the countdown timer into a compact, elegant draggable card with grip handle, 📌 Follow across slides mode, ⤢ Float / ⤓ Dock toggles, and viewport clamping so teachers can reposition timers anywhere on screen and keep them ticking as they switch slides.
+  - `brand/revealjs.scss` — expanded dark slide contrast rules to target all `data-background-color` dark sections, `.has-dark-background`, and `.section-slide`, enforcing pure white text, warm golden amber bold highlights (`#ffb347`), luminous turquoise subtitles (`#2de2d6`), and white callout/card backgrounds with dark navy text.
+  - `course/teacher/start-here/slide-style-slides.qmd` & `slide-style-teacher.css` — imported John's complete Slide Style experiment deck, custom CSS schemes (`bamboo`, `scroll`), and 10 historical images from project-chalkline with `audience: [teacher, student]` for live site deployment.
+  - `_quarto-teacher.yml` — registered Slide Style Editor under Teachers Only.
+- **Who it helps:** Every Chalkline course using countdown timers and styled slide decks.
+- **AI assistant:** Antigravity (Gemini)
+
+
 ## 2026-11-01: Roll out G7/8 tool updates to G6 Chalkline (unified `_extensions/chalkline`, All Slides wall, Bilingual switch, Slide Kit, Review Games & Classroom Toolbox)
 - **Asked for:** "Roll out the updates that have been made to the G7/8 Chalkline to the G6 Chalkline"
 - **Why:** To bring the Grade 6 course up to date with the latest unified Chalkline architecture (`_extensions/chalkline`, `chalkline.py` CLI, All Slides wall, bilingual language toggle, Slide Kit layouts and brand schemes, review games, and classroom toolbox) while preserving Grade 6 MYP Year 1 rubrics, scaffolded materials, and site identity.

@@ -48,6 +48,8 @@ website:
             href: course/teacher/start-here/slides.qmd
           - text: "Slide Kit & Schemes 双语课件套件"
             href: course/teacher/start-here/slide-kit-slides.qmd
+          - text: "Slide Style Editor 样式编辑器"
+            href: course/teacher/start-here/slide-style-slides.qmd
           - text: "Test Unit 1: Ancient Greece"
             href: course/teacher/test-units/91-test-unit-1-ancient-greece/index.qmd
           - text: "Test Unit 2: Ancient Rome"
