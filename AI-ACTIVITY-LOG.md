@@ -47,6 +47,16 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-01 22:02] COMPLETED — Create G6 draft unit for Ancient River Civilizations with interactive slides and reading packet
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/01-ancient-river-civilizations-draft/*
+- **Notes:** Built separate G6 draft unit (course/units/01-ancient-river-civilizations-draft/): 5-slide interactive lesson deck with Chalkline overlay zones, bilingual vocab anchors, paired student reading booklet with Stop & Checks 1 & 2, and Tourism Poster Challenge workspace with MYP Criteria A & D rubrics. Rendered HTML, Typst PDF, and unit packet with 0 errors, committed and pushed to levin_chalkline_g6 (commit 5f73f25).
+### [2026-11-01 21:53] IN PROGRESS — Create draft Unit 1 with slides and reading booklet for G6
+- **AI Assistant:** Antigravity
+- **Status:** IN PROGRESS
+- **Files Touched:** course/units/01-ancient-river-civilizations-draft/*
+- **Notes:** Building G6-adapted draft unit: 5-slide interactive deck with Chalkline overlay space, paired student reading booklet with Stop & Checks, and poster challenge.
 ### [2026-11-01 20:57] COMPLETED — Push Slide Style deck under units/00-start-here and enable toolbox menu
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED
