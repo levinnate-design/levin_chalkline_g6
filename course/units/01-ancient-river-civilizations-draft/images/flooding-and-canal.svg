@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="100%" height="240">
+  <!-- Sky / Background -->
+  <rect width="360" height="260" rx="16" fill="#f0f7fb"/>
+  
+  <!-- Flooding River Waters (Tigris/Euphrates Wild Floods) -->
+  <path d="M0,40 Q90,20 180,50 T360,35 L360,110 Q270,125 180,100 T0,115 Z" fill="#38a3a5" opacity="0.85"/>
+  <path d="M0,60 Q90,75 180,60 T360,70" stroke="#ffffff" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M0,90 Q90,105 180,90 T360,95" stroke="#22577a" stroke-width="3" fill="none" opacity="0.7"/>
+
+  <!-- Fertile Silt Riverbank -->
+  <path d="M0,110 Q120,120 200,115 T360,120 L360,260 L0,260 Z" fill="#c2b092"/>
+
+  <!-- Dug Irrigation Canal cutting through the fields -->
+  <path d="M120,115 L145,260 L185,260 L150,115 Z" fill="#57cc99"/>
+  <path d="M132,120 L160,260" stroke="#38a3a5" stroke-width="3" fill="none"/>
+
+  <!-- Green Crops growing along canal -->
+  <g fill="#2d6a4f">
+    <ellipse cx="60" cy="180" rx="16" ry="24"/>
+    <ellipse cx="85" cy="195" rx="14" ry="20"/>
+    <ellipse cx="40" cy="210" rx="18" ry="26"/>
+    <ellipse cx="230" cy="175" rx="18" ry="25"/>
+    <ellipse cx="270" cy="190" rx="20" ry="28"/>
+    <ellipse cx="310" cy="210" rx="16" ry="22"/>
+  </g>
+
+  <!-- Farmer with Hoe / Shovel digging canal -->
+  <circle cx="178" cy="165" r="9" fill="#7f4f24"/>
+  <line x1="178" y1="174" x2="175" y2="205" stroke="#7f4f24" stroke-width="4"/>
+  <!-- Arms & Shovel into Canal -->
+  <line x1="175" y1="185" x2="160" y2="200" stroke="#7f4f24" stroke-width="3"/>
+  <line x1="175" y1="185" x2="155" y2="190" stroke="#7f4f24" stroke-width="3"/>
+  <line x1="148" y1="180" x2="168" y2="225" stroke="#4a3b32" stroke-width="4"/>
+  <polygon points="163,222 173,228 165,236 158,228" fill="#5c677d"/>
+
+  <!-- Second Farmer pulling water/bucket -->
+  <circle cx="215" cy="155" r="8" fill="#936639"/>
+  <line x1="215" y1="163" x2="218" y2="192" stroke="#936639" stroke-width="3.5"/>
+  <line x1="215" y1="172" x2="202" y2="182" stroke="#936639" stroke-width="3"/>
+  <line x1="215" y1="172" x2="228" y2="185" stroke="#936639" stroke-width="3"/>
+
+  <!-- Captions / Labels -->
+  <rect x="15" y="15" width="165" height="26" rx="6" fill="#003477"/>
+  <text x="97" y="32" fill="#ffffff" font-family="'Source Sans 3', sans-serif" font-size="12" font-weight="700" text-anchor="middle">Wild Violent Floods 洪水</text>
+
+  <rect x="195" y="15" width="150" height="26" rx="6" fill="#2d6a4f"/>
+  <text x="270" y="32" fill="#ffffff" font-family="'Source Sans 3', sans-serif" font-size="12" font-weight="700" text-anchor="middle">Canal Irrigation 灌溉水渠</text>
+</svg>

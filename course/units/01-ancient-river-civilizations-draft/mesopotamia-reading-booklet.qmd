@@ -1,0 +1,178 @@
+---
+title: "Mesopotamia Reading Booklet & Activity Packet 美索不达米亚阅读与活动手册"
+subtitle: "Grade 6 Social Studies · Ancient River Civilizations (Draft Unit) 六年级社会学科 · 古代河流文明（草稿单元）"
+type: worksheet
+description: "Student reading booklet and activity packet for Part 1: Fertile Crescent map circling, smart inventions, Hammurabi's Code fill-in-the-blank, and the Tourism Poster Challenge."
+order: 20
+audience: [teacher, student]
+doc-type: Worksheet
+name-box: true
+format:
+  html: default
+  typst: default
+---
+
+```{python}
+import sys; sys.path.append("scripts")
+from vocab import load_unit, pick, word_bank
+terms = load_unit(1)
+```
+
+::: {.callout-note title="Welcome to Mesopotamia! · 欢迎来到美索不达米亚！" icon=false}
+**Welcome, Grade 6!** Today we are traveling back in time to the very first civilization. Open your booklet, follow the reading with your finger, and complete the Stop & Checks and Tourism Poster Challenge! \
+*([六年级同学们好！今天我们将穿越时空，探索人类最早的文明。请打开手册，跟随手指朗读，并完成课堂探究检查点与旅游海报挑战！]{.zh})*
+:::
+
+---
+
+## 📚 Bilingual Vocabulary Vault 双语核心词汇库
+
+Before we read, touch and read each word aloud with your class: \
+*([阅读前，请用手指轻触并与全班同学一起大声朗读以下核心词汇：]{.zh})*
+
+| English Term | 简体中文 | Student-Friendly Definition | In-Context Example |
+| :--- | :--- | :--- | :--- |
+| **Mesopotamia** | 美索不达米亚 | The land between two rivers in Southwest Asia. | 🌊 *Mesopotamia means "land between the rivers."* |
+| **Tigris & Euphrates** | 底格里斯河与幼发拉底河 | The two wild rivers that brought water and rich silt. | ⚡ *The Tigris and Euphrates rivers flooded violently.* |
+| **Fertile Crescent** | 新月沃地 | A quarter-moon shaped region of rich, green farm land. | 🌾 *Farmers grew grain across the Fertile Crescent.* |
+| **Cuneiform** | 楔形文字 | The world's first writing system, pressed onto wet clay. | ✏️ *Scribes pressed wedge symbols into soft clay tablets.* |
+| **Hammurabi's Code** | 《汉谟拉比法典》 | A set of 282 written laws carved into a tall black stone pillar. | ⚖️ *King Hammurabi wrote down the first laws for fairness.* |
+| **City-State** | 城邦 | An independent city and its surrounding farms with its own ruler. | 🏛️ *Ur and Babylon were famous Mesopotamian city-states.* |
+
+---
+
+## 🌍 Part 1: The Land Between the Rivers 两河之间的土地
+
+Long ago, people moved to a place called **Mesopotamia** *([美索不达米亚]{.zh})*. In Greek, Mesopotamia means *"the land between the rivers."* 
+
+There are two big rivers here: the **Tigris River** *([底格里斯河]{.zh})* and the **Euphrates River** *([幼发拉底河]{.zh})*. Every year, these rivers flooded violently. When the water went down, it left behind thick, fertile mud called **silt** *([淤泥]{.zh})*. This mud helped people grow lots of food in a green region called the **Fertile Crescent** *([新月沃地]{.zh})*.
+
+![Figure 1 · Map of Mesopotamia and the Fertile Crescent](images/fertile-crescent-map.png){width="85%" fig-alt="Map of Fertile Crescent with Tigris and Euphrates rivers"}
+
+### 🛑 Stop & Check 1: Working with Maps 地图探究检查点
+
+1. **Map Action (地图行动):**
+   - ⭕ **Circle** the **Tigris River** on the map above in **blue**. \
+     *([在上方的地图中用蓝色笔圈出底格里斯河。]{.zh})*
+   - ⭕ **Circle** the **Euphrates River** on the map above in **green**. \
+     *([在上方的地图中用绿色笔圈出幼发拉底河。]{.zh})*
+   - 👆 **Touch and point** to the green **Fertile Crescent** between the two rivers. \
+     *([用手指指出两河之间的绿色新月沃地。]{.zh})*
+
+2. **Complete the Sentence (完成填空):**
+   - Mesopotamia is the land between the ____________________ and ____________________ rivers. \
+     *([美索不达米亚是____________________河与____________________河之间的土地。]{.zh})*
+
+3. **🗣️ Turn & Talk (同桌讨论):**
+   - *"Why did people work together to build canals?"* \
+     *([为什么人们需要团结协作开挖灌溉水渠？]{.zh})*
+   - **Sentence Frame:** *"People worked together to build canals because the wild rivers ________________________________________ ."*
+
+---
+
+## 💡 Part 2: Smart Inventions 聪明的发明
+
+Because people worked together, they built the world's first cities. They also created smart inventions that changed human history forever!
+
+::: {.columns}
+::: {.column width="50%"}
+![The Wooden Wheel · 木制车轮](images/wheel-icon.svg){width="55%"}
+
+**1. The Wheel (车轮):** \
+The Sumerians invented the wheel for carts. This helped them transport heavy grain and bricks across long distances. \
+*([苏美尔人发明了用于马车和手推车的轮子，帮助他们远距离运送粮食与沉重的泥砖。]{.zh})*
+:::
+
+::: {.column width="50%"}
+![Cuneiform on Clay · 泥板楔形文字](images/cuneiform-icon.svg){width="55%"}
+
+**2. Cuneiform Writing (楔形文字):** \
+They invented the first written symbols. Scribes used sharp reed sticks to press triangle wedge shapes into soft clay tablets. \
+*([他们发明了世界上最早的书写系统。书吏用尖锐的芦苇杆在软泥板上压印出楔形符号。]{.zh})*
+:::
+:::
+
+::: {.callout-tip title="✋ Action: Finger Trace in the Air · 手指模拟活动" icon=false}
+**Trace a cuneiform shape in the air with your finger!** Notice the sharp triangle head and straight line: `▼—` \
+*([用手指在空中模拟书写一个楔形文字！注意它由三角形的尖头和直线笔画组成。]{.zh})*
+:::
+
+---
+
+## ⚖️ Part 3: The First Written Laws 世界上第一部成文法律
+
+As cities grew larger, rulers needed rules to keep order and prevent fighting. A powerful king of Babylon named **Hammurabi** wrote down the first laws.
+
+![The Stele of King Hammurabi · 汉谟拉比法典石柱](images/stele-of-hammurabi.png){width="35%"}
+
+King Hammurabi carved 282 laws into a tall black stone pillar called a **stele** *([石柱]{.zh})* so everyone could see them. His most famous rule was: \
+[**"An eye for an eye, and a tooth for a tooth."**]{style="color: #003477;"} \
+*([“以眼还眼，以牙还牙。”]{.zh})*
+
+### 🛑 Stop & Check 2: Fill in the Blank 填空探究检查点
+
+Complete the facts about the first written laws using the word bank: \
+*([使用词汇库中的单词完成关于第一部成文法律的填空：]{.zh})*
+
+::: {.callout-note title="Word Bank · 词汇库" icon=false}
+**Hammurabi** · **laws** · **eye** · **stone** · **cities**
+:::
+
+1. King ________________________ carved 282 rules onto a tall black ________________________ pillar. \
+   *([________________________ 国王将 282 条规则刻在一根高大的黑________________________柱上。]{.zh})*
+
+2. The famous rule states: *"An ________________________ for an eye."* \
+   *([这条著名的规则指出：“以________________________还眼。”]{.zh})*
+
+3. As Mesopotamian ________________________ grew larger, people needed written ________________________ to keep peace. \
+   *([随着美索不达米亚的________________________越来越大，人们需要成文的________________________来维护和平。]{.zh})*
+
+---
+
+## 🎨 Part 4: Tourism Poster Challenge 旅游海报大挑战
+
+Imagine you are a travel agent in ancient Mesopotamia! You want travelers from all over the ancient world to visit your city-state.
+
+::: {.callout-important title="🎯 Poster Requirements (海报评分要求)" icon=false}
+Your tourism poster **MUST INCLUDE**:
+1. 🗺️ **1 Geographic Fact** *(e.g. Tigris River, Euphrates River, fertile silt, green crescent)*
+2. 💡 **1 Smart Invention** *(e.g. the wheel, cuneiform writing, irrigation canals, ziggurat temple)*
+3. ✍️ **The Required Sentence Starter** written clearly at the bottom!
+:::
+
+### 🖼️ Your Poster Workspace 海报创作区
+
+::: {.card style="border: 2.5px dashed #003477; border-radius: 12px; background: #fffdfa; padding: 18px; margin: 15px 0;"}
+
+::: {style="text-align: center; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; margin-bottom: 15px;"}
+[**VISIT MESOPOTAMIA! · 畅游美索不达米亚！**]{style="color: #003477; font-size: 1.3em;"} \
+*(Draw your city-state, rivers, ziggurat, and inventions in the drawing area below · 请在下方画出城邦、河流、神庙与发明)*
+:::
+
+::: {.poster-drawing-box style="height: 220px; border: 1px dotted #cbd5e1; border-radius: 8px; margin: 15px 0; background: #ffffff;"}
+:::
+
+::: {style="border-top: 2px dashed #003477; padding-top: 14px; margin-top: 15px;"}
+**✍️ Write Your Sentence Here (必须填写的推介句):**
+
+[**The** __________________________ **river is a great reason to visit** __________________________]{style="color: #003477;"} \
+*(Fill in river name: Tigris / Euphrates)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(Fill in city-state: Ur / Babylon / Mesopotamia)*
+
+[**because** __________________________________________________________________________________ .]{style="color: #003477;"} \
+*(Explain why: e.g., "its rich silt grows delicious grain and you can see the world's first wheels!")*
+:::
+
+:::
+
+---
+
+## 👩‍🏫 Teacher & Peer Evaluation 评价与评估标准
+
+::: {.teacher-only}
+### MYP Year 1 Assessment Rubric (Criteria A & D)
+
+| Criterion | Level 1–2 (Emerging) | Level 3–4 (Competent) | Level 5–6 (Substantial) |
+| :--- | :--- | :--- | :--- |
+| **Criterion A:** Knowing & Understanding (Vocab & Geography) | Identifies fewer than 2 geographic facts or terms correctly. | Correctly locates Tigris/Euphrates and identifies at least 1 invention. | Accurately identifies both rivers, fertile silt, and explains the purpose of the wheel and cuneiform. |
+| **Criterion D:** Thinking Critically (Sentence Starter & Justification) | Sentence starter is incomplete or provides no reason. | Completes sentence starter with an adequate reason connected to water or farming. | Completes sentence starter with a compelling, detailed reason linking geographic gifts to human invention. |
+:::
