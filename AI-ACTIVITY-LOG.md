@@ -47,6 +47,16 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-01 19:14] COMPLETED — Simplify Mesopotamia content in G6 Chalkline from WeDrive markdown
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/01-ancient-river-civilizations/mesopotamia-slides.qmd,course/units/01-ancient-river-civilizations/mesopotamia-learning-sheets.qmd,course/units/01-ancient-river-civilizations/mesopotamia-formative.qmd,course/vocab/01-ancient-river-civilizations.yml,vocab/data/vocab.csv
+- **Notes:** Built Grade 6 (MYP Year 1) 40-min 4-stage slides, all-in-one learning packet with section vocab banks and activities 1.1-1.3, and formative assessment. Wired up verified image assets, added RIV-037 (Sumerians) & RIV-038 (Hammurabi), integrated Year 1 Criteria A & D rubrics into Teacher profile, rendered both HTML and Typst PDFs with 0 errors, rebuilt unit packet, and pushed to origin/main (commit 7774af9).
+### [2026-11-01 19:08] IN PROGRESS — Adapt G6 Unit 1 Mesopotamia content from WeDrive markdown
+- **AI Assistant:** Antigravity
+- **Status:** IN PROGRESS
+- **Files Touched:** course/units/01-ancient-river-civilizations/mesopotamia-slides.qmd,course/units/01-ancient-river-civilizations/mesopotamia-learning-sheets.qmd,vocab/data/vocab.csv
+- **Notes:** Building G6-adapted 40-min 4-stage slides, all-in-one student learning packet with vocab banks & bilingual toggle, Year 1 MYP rubrics, and existing image assets.
 ### [2026-11-01 17:24] COMPLETED — Roll out G7/8 tool updates to G6 Chalkline (unified _extensions/chalkline, All Slides wall, bilingual toggle, Slide Kit, and Review Games)
 - **AI Assistant:** Antigravity (Gemini)
 - **Status:** COMPLETED
