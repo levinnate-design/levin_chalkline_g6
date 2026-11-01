@@ -127,7 +127,7 @@
     return "{" + parts.join(" ") + "}";
   }
 
-  T.tool("style", { title: "Slide style", icon: "palette", w: 400, h: 480, minW: 320, minH: 260, keys: ["style"], menu: false,
+  T.tool("style", { title: "Slide style", icon: "palette", w: 400, h: 480, minW: 320, minH: 260, keys: ["style"], menu: true,
       start: function () { return { x: window.innerWidth - 416, y: 56 }; } },
     class extends T.ToolElement {
       static css = `

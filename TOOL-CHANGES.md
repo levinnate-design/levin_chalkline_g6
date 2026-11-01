@@ -22,7 +22,8 @@ Newest entries first.
 - **Changed:**
   - `_extensions/chalkline/countdown.html` — redesigned the countdown timer into a compact, elegant draggable card with grip handle, 📌 Follow across slides mode, ⤢ Float / ⤓ Dock toggles, and viewport clamping so teachers can reposition timers anywhere on screen and keep them ticking as they switch slides.
   - `brand/revealjs.scss` — expanded dark slide contrast rules to target all `data-background-color` dark sections, `.has-dark-background`, and `.section-slide`, enforcing pure white text, warm golden amber bold highlights (`#ffb347`), luminous turquoise subtitles (`#2de2d6`), and white callout/card backgrounds with dark navy text.
-  - `course/teacher/start-here/slide-style-slides.qmd` & `slide-style-teacher.css` — imported John's complete Slide Style experiment deck, custom CSS schemes (`bamboo`, `scroll`), and 10 historical images from project-chalkline with `audience: [teacher, student]` for live site deployment.
+  - `_extensions/chalkline/toolbox/tools/style.js` — enabled `menu: true` so the Slide Style panel can be opened from the Classroom Toolbox (W menu) as well as the top-right corner on styled slides.
+  - `course/units/00-start-here/slide-style-slides.qmd` & `slide-style-teacher.css` — placed John's complete Slide Style experiment deck, custom CSS schemes (`bamboo`, `scroll`), and 10 historical images matching John's exact URL path (`course/units/00-start-here/slide-style-slides.html#/schools-of-thought`) with `audience: [teacher, student]` for live student and teacher site deployment.
   - `_quarto-teacher.yml` — registered Slide Style Editor under Teachers Only.
 - **Who it helps:** Every Chalkline course using countdown timers and styled slide decks.
 - **AI assistant:** Antigravity (Gemini)
