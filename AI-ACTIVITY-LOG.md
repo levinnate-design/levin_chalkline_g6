@@ -47,6 +47,11 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-01 20:54] COMPLETED — Draggable timers, contrast fix & slide style editor in G6 Chalkline
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** _extensions/chalkline/countdown.html,brand/revealjs.scss,course/units/01-ancient-river-civilizations/mesopotamia-slides.qmd,course/teacher/start-here/slide-style-slides.qmd,course/teacher/start-here/slide-style-teacher.css,TOOL-CHANGES.md
+- **Notes:** Upgraded countdown timer to draggable card with 📌 Follow across slides and ⤢ Float/Dock controls; expanded revealjs dark contrast CSS rules for high readability; pulled John's slide style experiment deck & teacher CSS from upstream with live site support; committed & pushed to levin_chalkline_g6 (commit a179224).
 ### [2026-11-01 19:14] COMPLETED — Simplify Mesopotamia content in G6 Chalkline from WeDrive markdown
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED
