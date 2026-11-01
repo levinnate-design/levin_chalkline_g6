@@ -47,6 +47,11 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-01 20:57] COMPLETED — Push Slide Style deck under units/00-start-here and enable toolbox menu
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/00-start-here/slide-style-slides.qmd,course/units/00-start-here/slide-style-teacher.css,_extensions/chalkline/toolbox/tools/style.js,TOOL-CHANGES.md
+- **Notes:** Deployed John's exact path (course/units/00-start-here/slide-style-slides.qmd) with 10 historical images, enabled Slide style tool in Classroom Toolbox W menu, and pushed to origin/main (commit b449d2c).
 ### [2026-11-01 20:54] COMPLETED — Draggable timers, contrast fix & slide style editor in G6 Chalkline
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED
