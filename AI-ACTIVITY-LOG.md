@@ -47,6 +47,11 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-02 11:40] COMPLETED — Update Mesopotamia Artifact Images & Condense Sources to Single Page
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/01-ancient-river-civilizations-draft/images/sumerian-votive-statue.png,course/units/01-ancient-river-civilizations-draft/images/ram-in-a-thicket-ur.png,course/units/01-ancient-river-civilizations-draft/mesopotamia-reading-booklet.qmd
+- **Notes:** Extracted high-res cutout Votive Statue and Golden Ram PNGs from teacher-provided docx; updated image assets; streamlined Activity 2.2 3-step investigation table so both sources, prompts, sentence frames, and Exit Ticket 2 fit cleanly on Page 6.
 ### [2026-11-02 10:52] COMPLETED — Reformat G6 Mesopotamia Draft Student Packet
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED

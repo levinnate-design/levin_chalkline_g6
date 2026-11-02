@@ -112,22 +112,22 @@ Fill in the three tiers of the Mesopotamian social hierarchy using the Word Bank
 
 Examine the two primary artifacts from ancient Sumer side-by-side: *([仔细对比观察下方两件古苏美尔原始文物，完成三步史料探究分析：]{.zh})*
 
-| Source A: Votive Statue (阿斯马尔还愿雕像) | Source B: Royal Ram / Bull (乌尔皇陵公羊/金牛神兽) |
-| :--- | :--- |
-| ![](images/sumerian-votive-statue.png){height="70pt"} | ![](images/ram-in-a-thicket-ur.png){height="70pt"} |
-| **Step 1: Observe (第一步：仔细观察)**<br>• What are hands & eyes doing? *([雕像动作与眼神？]{.zh})*<br>*Frame:* Hands are folded in ____________________ *(prayer)* and eyes are wide ____________________.<br>*([雕像双手合十祈祷，双眼睁大。]{.zh})* | **Step 1: Observe (第一步：仔细观察)**<br>• What precious materials? *([由哪些贵重原料精制？]{.zh})*<br>*Frame:* Crafted from precious ____________________ and blue ____________________ *(gold / lapis lazuli)*.<br>*([器物由黄金和深蓝色青金石雕琢而成。]{.zh})* |
-| **Step 2: Infer (第二步：合理推断)**<br>• Why placed in the temple? *([为何供奉在神殿？]{.zh})*<br>*Frame:* Placed in the ziggurat to continuously ____________________ to the gods in their place.<br>*([供奉于塔庙，代表自己时刻向神明祈祷。]{.zh})* | **Step 2: Infer (第二步：合理推断)**<br>• What does this show about royal power? *([展现了统治者怎样的权势？]{.zh})*<br>*Frame:* Being buried in a royal tomb shows rulers possessed enormous ____________________.<br>*([奢华随葬品表明统治者拥有巨大权力。]{.zh})* |
-| **Step 3: Evidence (第三步：实证推论)**<br>• What core belief does this prove? *([证实了什么核心宗教信仰？]{.zh})*<br>*Frame:* Proves Sumerians practiced ____________________ *(polytheism)* and feared the gods.<br>*([实证苏美尔人信奉多神信仰，敬畏神明。]{.zh})* | **Step 3: Evidence (第三步：实证推论)**<br>• What does this prove about society? *([证实了苏美尔社会怎样的发展水平？]{.zh})*<br>*Frame:* Fine carving proves Sumer had skilled ____________________ and distinct social classes.<br>*([精湛工艺实证苏美尔拥有工匠与阶层分化。]{.zh})* |
+| Source A: Votive Statue (阿斯马尔还愿雕像) | Source B: Golden Ram of Ur (乌尔皇陵金羊神兽) |
+| :---: | :---: |
+| ![](images/sumerian-votive-statue.png){height="75pt"} | ![](images/ram-in-a-thicket-ur.png){height="75pt"} |
+| **Step 1: Observe (第一步：仔细观察)** <br> Hands are folded in ____________________ *(prayer)* and eyes are wide ____________________ . <br> *([雕像双手合十祈祷，双眼睁大。]{.zh})* | **Step 1: Observe (第一步：仔细观察)** <br> Crafted from precious ____________________ and blue ____________________ *(gold / lapis)*. <br> *([器物由珍贵黄金和深蓝色青金石精雕而成。]{.zh})* |
+| **Step 2: Infer (第二步：合理推断)** <br> Placed in ziggurat to continuously ____________________ to the gods in their place. <br> *([供奉于塔庙，代表自己时刻向神明祈祷。]{.zh})* | **Step 2: Infer (第二步：合理推断)** <br> Buried in a royal tomb shows that rulers possessed great ____________________ . <br> *([奢华随葬品表明苏美尔统治者拥有巨大权力。]{.zh})* |
+| **Step 3: Evidence (第三步：实证推论)** <br> Proves that Sumerians practiced ____________________ *(polytheism)* and feared gods. <br> *([实证苏美尔人信奉多神信仰，敬畏神明。]{.zh})* | **Step 3: Evidence (第三步：实证推论)** <br> Fine carving proves Sumer had skilled ____________________ and distinct social classes. <br> *([精湛工艺实证苏美尔拥有工匠与阶层分化。]{.zh})* |
 
 ### 📝 Exit Ticket ET-2 当堂检测 2 (不看笔记作答)
 
 1. What is **polytheism**? *([什么是多神信仰？]{.zh})* \
-   *Sentence Frame:* Polytheism is the belief in ____________________ gods. *([多神信仰是指相信并崇拜 ________ 位神灵。]{.zh})*
-2. What was the purpose of building a **ziggurat**? *([修建塔庙神殿的主要目的是什么？]{.zh})* \
-   *Sentence Frame:* Sumerians built ziggurats as a temple to ____________________ the gods. *([建造塔庙是为了 ________ 神明。]{.zh})*
+   *Sentence Frame:* Polytheism is the belief in ____________________ gods. *([相信并崇拜 ________ 位神灵。]{.zh})*
+2. What was the purpose of building a **ziggurat**? *([修建塔庙神殿的主要目的？]{.zh})* \
+   *Sentence Frame:* Built as a temple to ____________________ the gods. *([作为神殿来 ________ 神明。]{.zh})*
 3. List the **three social classes** from top to bottom: *([按自上而下的顺序列出三大阶层：]{.zh})* \
    (1) ________________________ $\rightarrow$ (2) ________________________ $\rightarrow$ (3) ________________________ \
-   *(Word Bank: Kings & Priests 国王与祭司 · Farmers & Artisans 农民与工匠 · Enslaved People 奴隶)*
+   *(Word Bank: Kings & Priests 国王祭司 · Farmers & Artisans 平民工匠 · Enslaved People 奴隶)*
 
 {{< pagebreak >}}
 
