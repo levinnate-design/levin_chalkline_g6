@@ -47,6 +47,11 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-02 10:12] COMPLETED — Recompile Mesopotamia Grade 6 Draft Slide Deck
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/01-ancient-river-civilizations-draft/mesopotamia_grade6_deck.html
+- **Notes:** Recompiled standalone Reveal.js deck with isolated 16:9 styles, removed default theme conflicts, enforced max-height constraints (290px) on media cards, verified clean Quarto rendering of draft unit index.
 ### [2026-11-02 09:02] COMPLETED — Add 3-period Mesopotamia deck and packet to G6 Chalkline under DRAFT
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED
