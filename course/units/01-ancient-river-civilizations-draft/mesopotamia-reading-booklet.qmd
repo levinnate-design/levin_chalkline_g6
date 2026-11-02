@@ -1,6 +1,6 @@
 ---
-title: "Mesopotamia Reading Booklet & Activity Packet 美索不达米亚阅读与活动手册"
-subtitle: "Grade 6 Social Studies · Ancient River Civilizations (Draft Unit) 六年级社会学科 · 古代河流文明（草稿单元）"
+title: "G6 Mesopotamia Reading Booklet & Activity Packet 美索不达米亚阅读与活动手册"
+subtitle: "Grade 6 Social Studies · Ancient River Civilizations 六年级社会学科 · 古代河流文明"
 type: worksheet
 description: "Student reading booklet and 3-period activity packet: Fertile Crescent map, challenges & solutions, artifact 3-step analysis, Hammurabi's Code writing scaffold, exit tickets, and the Tourism Poster Challenge."
 order: 20

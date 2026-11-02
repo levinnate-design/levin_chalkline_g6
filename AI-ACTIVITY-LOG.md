@@ -47,6 +47,11 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-02 11:54] COMPLETED — Update Header & Remove Draft Mention in G6 Mesopotamia Booklet
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/01-ancient-river-civilizations-draft/mesopotamia-reading-booklet.qmd
+- **Notes:** Updated booklet title and running header to 'G6 Mesopotamia Reading Booklet & Activity Packet 美索不达米亚阅读与活动手册'; removed '(Draft Unit)' / '（草稿单元）' from subtitle; rebuilt PDF and HTML.
 ### [2026-11-02 11:40] COMPLETED — Update Mesopotamia Artifact Images & Condense Sources to Single Page
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED
