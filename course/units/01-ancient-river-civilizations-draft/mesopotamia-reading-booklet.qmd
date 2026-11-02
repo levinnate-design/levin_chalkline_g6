@@ -2,7 +2,7 @@
 title: "Mesopotamia Reading Booklet & Activity Packet 美索不达米亚阅读与活动手册"
 subtitle: "Grade 6 Social Studies · Ancient River Civilizations (Draft Unit) 六年级社会学科 · 古代河流文明（草稿单元）"
 type: worksheet
-description: "Student reading booklet and activity packet for Part 1: Fertile Crescent map circling, smart inventions, Hammurabi's Code fill-in-the-blank, and the Tourism Poster Challenge."
+description: "Student reading booklet and 3-period activity packet: Fertile Crescent map, challenges & solutions, artifact 3-step analysis, Hammurabi's Code writing scaffold, exit tickets, and the Tourism Poster Challenge."
 order: 20
 audience: [teacher, student]
 doc-type: Worksheet
@@ -12,15 +12,9 @@ format:
   typst: default
 ---
 
-```{python}
-import sys; sys.path.append("scripts")
-from vocab import load_unit, pick, word_bank
-terms = load_unit(1)
-```
-
 ::: {.callout-note title="Welcome to Mesopotamia! · 欢迎来到美索不达米亚！" icon=false}
-**Welcome, Grade 6!** Today we are traveling back in time to the very first civilization. Open your booklet, follow the reading with your finger, and complete the Stop & Checks and Tourism Poster Challenge! \
-*([六年级同学们好！今天我们将穿越时空，探索人类最早的文明。请打开手册，跟随手指朗读，并完成课堂探究检查点与旅游海报挑战！]{.zh})*
+**Welcome, Grade 6!** Today we are traveling back in time to the very first civilization. Open your booklet, follow the reading with your finger, complete the activities and exit tickets for each period, and finish with the Tourism Poster Challenge! \
+*([六年级同学们好！今天我们将穿越时空，探索人类最早的文明。请打开手册，跟随手指朗读，完成每课的活动单与出门票，并最终完成旅游海报大挑战！]{.zh})*
 :::
 
 ---
@@ -35,97 +29,141 @@ Before we read, touch and read each word aloud with your class: \
 | **Mesopotamia** | 美索不达米亚 | The land between two rivers in Southwest Asia. | 🌊 *Mesopotamia means "land between the rivers."* |
 | **Tigris & Euphrates** | 底格里斯河与幼发拉底河 | The two wild rivers that brought water and rich silt. | ⚡ *The Tigris and Euphrates rivers flooded violently.* |
 | **Fertile Crescent** | 新月沃地 | A quarter-moon shaped region of rich, green farm land. | 🌾 *Farmers grew grain across the Fertile Crescent.* |
-| **Cuneiform** | 楔形文字 | The world's first writing system, pressed onto wet clay. | ✏️ *Scribes pressed wedge symbols into soft clay tablets.* |
-| **Hammurabi's Code** | 《汉谟拉比法典》 | A set of 282 written laws carved into a tall black stone pillar. | ⚖️ *King Hammurabi wrote down the first laws for fairness.* |
-| **City-State** | 城邦 | An independent city and its surrounding farms with its own ruler. | 🏛️ *Ur and Babylon were famous Mesopotamian city-states.* |
+| **City-State** | 城邦 | An independent city and its surrounding farms with its own ruler. | 🏛️ *Ur and Uruk were famous Mesopotamian city-states.* |
+| **Polytheism** | 多神信仰 | The belief in many gods who controlled nature. | ⚡ *Sumerians worshipped many gods, including storm god Enlil.* |
+| **Ziggurat** | 塔庙 / 神庙塔 | A massive stepped mud-brick pyramid temple in the city center. | 🏛️ *Priests climbed the ziggurat to please the gods.* |
+| **Cuneiform** | 楔形文字 | The world's first writing system, pressed into wet clay. | ✏️ *Scribes pressed reed styluses into soft clay tablets.* |
+| **Hammurabi's Code** | 《汉谟拉比法典》 | A set of 282 written laws carved into a tall black basalt stele. | ⚖️ *King Hammurabi wrote down the first laws for fairness.* |
 
 ---
 
-## 🌍 Part 1: The Land Between the Rivers 两河之间的土地
+## 🌍 Period 1: Environment & City-States 第1课：环境与城邦
 
-Long ago, people moved to a place called **Mesopotamia** *([美索不达米亚]{.zh})*. In Greek, Mesopotamia means *"the land between the rivers."* 
+Long ago, people settled in a place called **Mesopotamia** *([美索不达米亚]{.zh})*. In Greek, Mesopotamia means *"the land between the rivers."* 
 
-There are two big rivers here: the **Tigris River** *([底格里斯河]{.zh})* and the **Euphrates River** *([幼发拉底河]{.zh})*. Every year, these rivers flooded violently. When the water went down, it left behind thick, fertile mud called **silt** *([淤泥]{.zh})*. This mud helped people grow lots of food in a green region called the **Fertile Crescent** *([新月沃地]{.zh})*.
+There are two big rivers here: the **Tigris River** *([底格里斯河]{.zh})* and the **Euphrates River** *([幼发拉底河]{.zh})*. Every year, melting mountain snow caused these rivers to flood violently. When the floodwaters receded, they left behind thick, fertile mud called **silt** *([淤泥]{.zh})*. This mud helped people grow rich crops of wheat and barley in a curved region called the **Fertile Crescent** *([新月沃地]{.zh})*.
 
 ![Figure 1 · Map of Mesopotamia and the Fertile Crescent](images/fertile-crescent-map.png){width="85%" fig-alt="Map of Fertile Crescent with Tigris and Euphrates rivers"}
 
-### 🛑 Stop & Check 1: Working with Maps 地图探究检查点
+### 🛑 Activity 1.1: Working with Maps 地图定位活动
 
 1. **Map Action (地图行动):**
-   - ⭕ **Circle** the **Tigris River** on the map above in **blue**. \
-     *([在上方的地图中用蓝色笔圈出底格里斯河。]{.zh})*
-   - ⭕ **Circle** the **Euphrates River** on the map above in **green**. \
-     *([在上方的地图中用绿色笔圈出幼发拉底河。]{.zh})*
-   - 👆 **Touch and point** to the green **Fertile Crescent** between the two rivers. \
-     *([用手指指出两河之间的绿色新月沃地。]{.zh})*
+   - ⭕ **Circle** the **Tigris River** on the map above in **blue**. *([用蓝色笔圈出底格里斯河]{.zh})*
+   - ⭕ **Circle** the **Euphrates River** on the map above in **green**. *([用绿色笔圈出幼发拉底河]{.zh})*
+   - 👆 **Point** to the curved green **Fertile Crescent** and the **Persian Gulf**. *([指出新月沃地与波斯湾]{.zh})*
 
 2. **Complete the Sentence (完成填空):**
-   - Mesopotamia is the land between the ____________________ and ____________________ rivers. \
-     *([美索不达米亚是____________________河与____________________河之间的土地。]{.zh})*
+   - Mesopotamia means the land between the ____________________ and ____________________ rivers. \
+     *([美索不达米亚意为____________________河与____________________河之间的土地。]{.zh})*
 
-3. **🗣️ Turn & Talk (同桌讨论):**
-   - *"Why did people work together to build canals?"* \
-     *([为什么人们需要团结协作开挖灌溉水渠？]{.zh})*
-   - **Sentence Frame:** *"People worked together to build canals because the wild rivers ________________________________________ ."*
+### 🛑 Activity 1.2: Challenges & Solutions 挑战与对策连线
+
+Draw lines to match each Sumerian Challenge to its correct Human Solution: \
+*([画线将苏美尔人面临的三大挑战与其对策连线：]{.zh})*
+
+| Environmental Challenge (环境挑战) | | Human Solution (人类方案) |
+| :--- | :---: | :--- |
+| **1. Water:** Unpredictable floods and droughts | | **A. Mud-brick walls:** Sun-dried bricks into thick defensive city walls |
+| **2. Defence:** Flat plains with no natural barriers | | **B. Barter trade:** Exchanged surplus grain and cloth for wood and metal |
+| **3. Resources:** Scarcity of stone, timber and metal | | **C. Irrigation canals:** Dug channels and basins to store and direct floodwater |
+
+### 📝 Exit Ticket ET-1 当堂检测 1 (不看笔记作答)
+
+1. What does **"Mesopotamia"** mean in Greek? __________________________________________________
+2. Name the **two lifeline rivers**: ________________________________ and ________________________________
+3. Write **one environmental challenge** and how people solved it: \
+   *Challenge:* ________________________________ \
+   *Solution:* ________________________________
 
 ---
 
-## 💡 Part 2: Smart Inventions 聪明的发明
+## 🏛️ Period 2: Sumerian Culture & Beliefs 第2课：信仰、文化与社会阶层
 
-Because people worked together, they built the world's first cities. They also created smart inventions that changed human history forever!
+Because people worked together to build irrigation canals, they produced a **food surplus** *([粮食剩余]{.zh})*. People lived together in large, independent **city-states** like **Ur** and **Uruk**. 
+
+In the center of every city stood a towering, stepped mud-brick temple called a **ziggurat** *([塔庙]{.zh})*. Sumerians practiced **polytheism** *([多神信仰]{.zh})*, believing that many powerful gods controlled nature. Because floods were violent and sudden, they feared the anger of **Enlil**, the god of storms.
+
+### 🛑 Activity 2.1: The 3-Tier Social Hierarchy 社会三大阶层
+
+Fill in the three tiers of the Mesopotamian social hierarchy: \
+*(Word Bank: **Enslaved People (Slaves)** · **Kings & Priests** · **Farmers, Artisans & Traders**)*
+
+1. **Top Tier (顶层):** __________________________________________________ \
+   *(Held military and religious power; ruled cities and spoke to gods)*
+2. **Middle Tier (中层):** __________________________________________________ \
+   *(Grew food, made tools and pottery, traded across river canals)*
+3. **Bottom Tier (底层):** __________________________________________________ \
+   *(Prisoners of war or in debt; did unpaid forced labor)*
+
+### 🛑 Activity 2.2: 3-Step Artifact Investigation 史料研读三步法
+
+Look at the two primary sources from ancient Sumer:
 
 ::: {.columns}
 ::: {.column width="50%"}
-![The Wooden Wheel · 木制车轮](images/wheel-icon.svg){width="55%"}
+![Votive Statue of King Iku-Shamagen](images/sumerian-votive-statue.png){width="60%"}
 
-**1. The Wheel (车轮):** \
-The Sumerians invented the wheel for carts. This helped them transport heavy grain and bricks across long distances. \
-*([苏美尔人发明了用于马车和手推车的轮子，帮助他们远距离运送粮食与沉重的泥砖。]{.zh})*
+**Source A: Votive Statue (还愿雕像)**
+- **Step 1 (Observe):** What are the hands doing? ____________________
+- **Step 2 (Infer):** Why made? ____________________
+- **Step 3 (Evidence):** The folded hands prove ____________________
 :::
 
 ::: {.column width="50%"}
-![Cuneiform on Clay · 泥板楔形文字](images/cuneiform-icon.svg){width="55%"}
+![Gold Ram of Ur](images/ram-in-a-thicket-ur.png){width="60%"}
 
-**2. Cuneiform Writing (楔形文字):** \
-They invented the first written symbols. Scribes used sharp reed sticks to press triangle wedge shapes into soft clay tablets. \
-*([他们发明了世界上最早的书写系统。书吏用尖锐的芦苇杆在软泥板上压印出楔形符号。]{.zh})*
+**Source B: Gold Ram of Ur (皇陵金羊)**
+- **Step 1 (Observe):** What precious materials? ____________________
+- **Step 2 (Infer):** What does this show about royal power? ____________________
+- **Step 3 (Evidence):** Rich gold and lapis prove ____________________
 :::
 :::
 
-::: {.callout-tip title="✋ Action: Finger Trace in the Air · 手指模拟活动" icon=false}
-**Trace a cuneiform shape in the air with your finger!** Notice the sharp triangle head and straight line: `▼—` \
-*([用手指在空中模拟书写一个楔形文字！注意它由三角形的尖头和直线笔画组成。]{.zh})*
-:::
+### 📝 Exit Ticket ET-2 当堂检测 2 (不看笔记作答)
+
+1. What is **polytheism**? __________________________________________________
+2. What was the purpose of building a **ziggurat**? __________________________________________________
+3. List the **three social classes** from highest to lowest: \
+   (1) ________________________ $\rightarrow$ (2) ________________________ $\rightarrow$ (3) ________________________
 
 ---
 
-## ⚖️ Part 3: The First Written Laws 世界上第一部成文法律
+## ⚖️ Period 3: Empires & Hammurabi’s Code 第3课：帝国兴起与汉谟拉比法典
 
-As cities grew larger, rulers needed rules to keep order and prevent fighting. A powerful king of Babylon named **Hammurabi** wrote down the first laws.
+Over time, independent city-states were united into empires. King **Sargon of Akkad** built the world's first empire around 2330 B.C. Later, around 1792 B.C., King **Hammurabi of Babylon** conquered Mesopotamia.
+
+To keep order among different peoples, Hammurabi carved **282 laws** onto a giant black basalt stone pillar called a **stele** *([石柱]{.zh})*. At the top, a carving showed the Sun God Shamash handing the laws to King Hammurabi (**Divine Kingship** / 君权神授).
 
 ![The Stele of King Hammurabi · 汉谟拉比法典石柱](images/stele-of-hammurabi.png){width="35%"}
 
-King Hammurabi carved 282 laws into a tall black stone pillar called a **stele** *([石柱]{.zh})* so everyone could see them. His most famous rule was: \
-[**"An eye for an eye, and a tooth for a tooth."**]{style="color: #003477;"} \
-*([“以眼还眼，以牙还牙。”]{.zh})*
+### 🛑 Activity 3.1: Examining the Laws 对比三条法条
 
-### 🛑 Stop & Check 2: Fill in the Blank 填空探究检查点
+Read these three laws from the Code of Hammurabi:
 
-Complete the facts about the first written laws using the word bank: \
-*([使用词汇库中的单词完成关于第一部成文法律的填空：]{.zh})*
+- **Law §8:** If anyone steals cattle or sheep from the temple or palace, he shall pay thirtyfold (30×); if from a free citizen, tenfold (10×). If the thief cannot pay, he shall be put to death.
+- **Law §196:** If a man put out the eye of another free man, his eye shall be put out.
+- **Law §199:** If he put out the eye of a man's slave, he shall pay one-half of the slave's purchase value in silver.
 
-::: {.callout-note title="Word Bank · 词汇库" icon=false}
-**Hammurabi** · **laws** · **eye** · **stone** · **cities**
-:::
+**Quick Check (快速判断):** Did Law §196 apply equally if someone hurt a slave? \
+Circle: &nbsp;&nbsp;&nbsp;&nbsp; **YES** &nbsp;&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;&nbsp; **NO** \
+*Why?* __________________________________________________________________________________
 
-1. King ________________________ carved 282 rules onto a tall black ________________________ pillar. \
-   *([________________________ 国王将 282 条规则刻在一根高大的黑________________________柱上。]{.zh})*
+### 🛑 Activity 3.2: 5-Sentence Argument Paragraph 观点论证写作
 
-2. The famous rule states: *"An ________________________ for an eye."* \
-   *([这条著名的规则指出：“以________________________还眼。”]{.zh})*
+**Prompt:** *"Was the Code of Hammurabi a fair system of justice?"* \
+Complete the 5-sentence argument using the sentence starters:
 
-3. As Mesopotamian ________________________ grew larger, people needed written ________________________ to keep peace. \
-   *([随着美索不达米亚的________________________越来越大，人们需要成文的________________________来维护和平。]{.zh})*
+1. In my opinion, the Code of Hammurabi was ____________________ *(fair / unfair)*.
+2. It was ____________________ because people in Babylon were ____________________ *(equal / not equal)*.
+3. For example, Law §196 shows that if a free citizen hurts another free citizen, ________________________________________ .
+4. However, Law §199 shows that if someone hurts an enslaved person, they only have to ________________________________________ .
+5. Therefore, this proves that the Code protected the interests of ________________________________________ .
+
+### 📝 Exit Ticket ET-3 当堂检测 3 (不看笔记作答)
+
+1. Who was **Hammurabi**? __________________________________________________
+2. What famous phrase summarizes **Law §196**? *"An eye for an ____________________, a tooth for a ____________________."*
+3. Was the Code equal for **slaves**? Write YES or NO and explain: __________________________________________________
 
 ---
 
@@ -149,7 +187,7 @@ Your tourism poster **MUST INCLUDE**:
 *(Draw your city-state, rivers, ziggurat, and inventions in the drawing area below · 请在下方画出城邦、河流、神庙与发明)*
 :::
 
-::: {.poster-drawing-box style="height: 220px; border: 1px dotted #cbd5e1; border-radius: 8px; margin: 15px 0; background: #ffffff;"}
+::: {.poster-drawing-box style="height: 250px; border: 1px dotted #cbd5e1; border-radius: 8px; margin: 15px 0; background: #ffffff;"}
 :::
 
 ::: {style="border-top: 2px dashed #003477; padding-top: 14px; margin-top: 15px;"}
@@ -159,20 +197,20 @@ Your tourism poster **MUST INCLUDE**:
 *(Fill in river name: Tigris / Euphrates)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *(Fill in city-state: Ur / Babylon / Mesopotamia)*
 
 [**because** __________________________________________________________________________________ .]{style="color: #003477;"} \
-*(Explain why: e.g., "its rich silt grows delicious grain and you can see the world's first wheels!")*
+*(Explain why: e.g., "its rich silt grows delicious grain and you can ride carts with the world's first wooden wheels!")*
 :::
 
 :::
 
 ---
 
-## 👩‍🏫 Teacher & Peer Evaluation 评价与评估标准
+## 👩‍🏫 Assessment & Rubric 评价与评估标准
 
 ::: {.teacher-only}
 ### MYP Year 1 Assessment Rubric (Criteria A & D)
 
 | Criterion | Level 1–2 (Emerging) | Level 3–4 (Competent) | Level 5–6 (Substantial) |
 | :--- | :--- | :--- | :--- |
-| **Criterion A:** Knowing & Understanding (Vocab & Geography) | Identifies fewer than 2 geographic facts or terms correctly. | Correctly locates Tigris/Euphrates and identifies at least 1 invention. | Accurately identifies both rivers, fertile silt, and explains the purpose of the wheel and cuneiform. |
+| **Criterion A:** Knowing & Understanding (Vocab & Geography) | Identifies fewer than 2 geographic facts or terms correctly. | Correctly locates Tigris/Euphrates and identifies at least 1 invention. | Accurately identifies both rivers, fertile silt, and explains the purpose of the wheel, cuneiform, and laws. |
 | **Criterion D:** Thinking Critically (Sentence Starter & Justification) | Sentence starter is incomplete or provides no reason. | Completes sentence starter with an adequate reason connected to water or farming. | Completes sentence starter with a compelling, detailed reason linking geographic gifts to human invention. |
 :::

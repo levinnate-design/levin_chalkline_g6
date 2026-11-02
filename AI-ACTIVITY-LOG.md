@@ -47,6 +47,11 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-02 09:02] COMPLETED — Add 3-period Mesopotamia deck and packet to G6 Chalkline under DRAFT
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/01-ancient-river-civilizations-draft/mesopotamia-slides.qmd,course/units/01-ancient-river-civilizations-draft/mesopotamia_grade6_deck.html,course/units/01-ancient-river-civilizations-draft/mesopotamia-reading-booklet.qmd,course/units/01-ancient-river-civilizations-draft/index.qmd,course/units/00-start-here/index.qmd
+- **Notes:** Deployed user's 24-slide 3-period Mesopotamia curriculum (Period 1: Environment & City-States, Period 2: Sumerian Culture & Beliefs, Period 3: Empires & Hammurabi's Code) to G6 Draft unit. Generated standalone Reveal.js presentation with local image assets, built native Chalkline 24-slide Quarto deck with timers and overlay zones, upgraded paired reading packet with 3 Stop & Checks and 3 Exit Tickets, added 00-start-here index.qmd, rendered full student site, packets, and slide pictures with 0 errors, and pushed to origin/main.
 ### [2026-11-01 22:02] COMPLETED — Create G6 draft unit for Ancient River Civilizations with interactive slides and reading packet
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED

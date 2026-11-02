@@ -1,284 +1,962 @@
 ---
-title: "Mesopotamia: Land Between the Rivers"
-subtitle: "Grade 6 · Ancient River Civilizations (Draft Unit)"
-short-title: "Mesopotamia Slides (Draft)"
+title: "Ancient River Civilizations — Mesopotamia (3-Period Deck)"
+subtitle: "美索不达米亚：环境、文化与法律 · 3-Period Master Deck"
+short-title: "Mesopotamia 3-Period Slides (Draft)"
 unit: "01-draft"
 type: slides
 order: 10
 audience: [teacher, student]
-description: "5-slide interactive lesson deck with Chalkline overlay zones, bilingual anchors, Stop & Checks, and tourism poster challenge."
+description: "Comprehensive 24-slide 3-period lesson deck: Environment & City-States (P1), Sumerian Culture & Beliefs (P2), and Empires & Hammurabi's Code (P3) with Exit Tickets and writing scaffolds."
 format:
   revealjs:
     slide-number: true
-    transition: fade
+    transition: slide
     background-transition: fade
+title-slide-attributes:
+  data-background-color: "#003477"
+  data-background-image: images/stele-of-hammurabi.png
+  data-background-opacity: "0.25"
 ---
 
-## Welcome to Mesopotamia! 欢迎来到美索不达米亚！
+# Period 1: Environment & City-States 第1课：环境与城邦 {background-color="#003477"}
 
-::: {.columns}
-::: {.column width="48%"}
-![](images/fertile-crescent-map.png){fig-alt="Map of the Fertile Crescent with Tigris and Euphrates rivers" style="border-radius: 10px; border: 2px solid #003477; box-shadow: 0 4px 12px rgba(0,0,0,0.12);"}
+::: {.header-badge style="display: inline-block; padding: 6px 16px; border-radius: 999px; background: rgba(200, 125, 85, 0.25); border: 1px solid #C87D55; font-size: 0.65em; font-weight: 700; text-transform: uppercase; color: #D4A373; margin-bottom: 15px;"}
+Mingwan Humanities · Chapter 1 · Period 1 (40 Min)
 :::
 
-::: {.column width="52%"}
-### Welcome to the "Land Between the Rivers"!
+### City-States in Mesopotamia · [美索不达米亚的城邦]{.zh}
 
-::: {.callout-note icon=false title="📖 Student Direction"}
-**Open your Reading Booklet to Part 1.**
-:::
-
-::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 10px 14px; margin-bottom: 12px;"}
-**Bilingual Vocabulary Anchor / 核心词汇:** \
-[**Mesopotamia**]{style="font-size: 1.25em; color: #003477; font-weight: 700;"} · [美索不达米亚]{.zh style="font-size: 1.15em; color: #005691; font-weight: 600;"}
-:::
-
-::: {.callout-tip icon=false title="👆 Student Action"}
-**Point to Mesopotamia on the map in your booklet.**
-:::
-
-{{< timer 3 >}}
-:::
-:::
-
-<!-- Chalkline Overlay Zone: White space at the bottom for live pen and annotation tools -->
-<div class="chalkline-overlay-zone" style="min-height: 80px; margin-top: 10px; border: 2px dashed rgba(0, 52, 119, 0.25); border-radius: 8px; background: rgba(255, 255, 255, 0.85); display: flex; align-items: center; justify-content: center; color: #5c677d; font-size: 0.82em;">
-  <span>🖊️ <strong>Chalkline Overlay Space</strong> · Use pen or spotlight tool to highlight Tigris & Euphrates rivers on the map</span>
-</div>
-
-::: notes
-**Target Time:** 3 mins
-
-**Teacher script:** "Welcome, Grade 6! Today we are traveling back in time to the very first civilization. Everyone, touch the word 'Mesopotamia' in your booklet. It is a big word, but it just means 'land between the rivers'."
-
-**Multilingual Check:** Choral response: "Let's say it together: Me-so-po-ta-mi-a."
-:::
-
----
-
-## The Wild Rivers 汹涌的河流
-
-::: {.columns}
-::: {.column width="48%"}
-![](images/flooding-and-canal.svg){fig-alt="Flooding rivers and canal irrigation illustration" style="border-radius: 10px; border: 2px solid #003477; box-shadow: 0 4px 12px rgba(0,0,0,0.12);"}
-
-::: {.card style="background: #fdf6ec; border-left: 5px solid #ff8c0f; padding: 10px 14px; margin-top: 12px;"}
-- The **Tigris** and **Euphrates** rivers flooded violently. \
-  *([底格里斯河和幼发拉底河经常发生凶猛的洪水。]{.zh})*
-- People worked together to **dig canals**. \
-  *([人们齐心协力开挖水渠。]{.zh})*
-:::
-
-::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 8px 14px; margin-top: 10px;"}
-**Bilingual Vocabulary Anchor / 核心词汇:** \
-[**Tigris & Euphrates**]{style="font-size: 1.1em; color: #003477; font-weight: 700;"} · [底格里斯河与幼发拉底河]{.zh style="font-size: 1.05em; color: #005691; font-weight: 600;"}
-:::
-
-::: {.callout-important icon=false title="🛑 Student Action"}
-**🛑 Stop & Check 1: Circle the two rivers in your packet!**
-:::
-
-{{< timer 7 >}}
-:::
-
-::: {.column width="52%"}
-<!-- Chalkline Overlay Zone: Left blank intentionally for Stop & Check 1 Circle Activity overlay -->
-<div class="chalkline-overlay-zone" style="height: 520px; border: 2.5px dashed #003477; border-radius: 12px; background: rgba(255, 255, 255, 0.92); box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 18px; display: flex; flex-direction: column; justify-content: space-between;">
-  <div>
-    <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #ebf7fd; padding-bottom: 8px;">
-      <span style="font-weight: 700; color: #003477; font-size: 0.95em;">📋 Chalkline Overlay: Stop & Check 1</span>
-      <span style="background: #ff8c0f; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 12px; font-weight: 700;">Live Projection Zone</span>
-    </div>
-    <div style="margin-top: 20px; font-size: 0.9em; color: #1F2933; line-height: 1.6;">
-      <p><strong>Look at your Reading Booklet map:</strong></p>
-      <p style="padding: 10px 14px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
-        ⭕ <strong>Circle</strong> the <span style="color: #0087ff; font-weight: 700;">Tigris River</span> in your packet. <br>
-        ⭕ <strong>Circle</strong> the <span style="color: #2d6a4f; font-weight: 700;">Euphrates River</span> in your packet.
-      </p>
-    </div>
-  </div>
-  <div style="text-align: center; color: #829ab1; font-size: 0.8em; font-style: italic; border-top: 1px dashed #cbd5e1; padding-top: 10px;">
-    Teacher: Project your student packet here or use pen tool to demonstrate circling on the board
-  </div>
-</div>
-:::
+::: {.card style="background: rgba(36, 51, 66, 0.85); border: 1px solid #C87D55; border-radius: 12px; padding: 18px 24px; max-width: 820px; margin: 20px auto; text-align: left;"}
+**Big Question · [核心问题]{.zh}:** \
+Why did the world's first cities appear between two rivers? \
+*([为什么世界上最早的城市出现在两条大河之间？]{.zh})*
 :::
 
 ::: notes
-**Target Time:** 7 mins
-
-**Teacher script:** "These rivers were not peaceful. They were wild and violent! To survive, people had to work as a team. Let's look at our Stop & Check on the board." (Overlay packet here).
-
-**Multilingual Check:** "Who can translate 'violent floods' into Chinese for us? Yes, 凶猛的洪水!"
+**Period 1 Focus (40 min):**
+- Hook students with the satellite/geography map.
+- Understand the causal chain: Unpredictable floods -> silt -> collective irrigation -> surplus -> city-states.
+- Three environmental challenges and human technological solutions.
 :::
 
 ---
 
-## Smart Inventions 聪明的发明
+## Period 1 Classroom Roadmap · [今日流程]{.zh}
 
-::: {.columns}
-::: {.column width="30%"}
-::: {.card style="text-align: center; padding: 18px 12px; background: #ffffff; border: 2px solid #c9b48f; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); height: 440px; display: flex; flex-direction: column; justify-content: space-between;"}
-<div>
-  <h4 style="color: #5c3818; margin-top: 0; font-size: 1.1em;">The Wooden Wheel</h4>
-  <p class="zh" style="color: #8b5a2b; font-size: 0.9em; margin-bottom: 12px;">木制车轮</p>
-  ![](images/wheel-icon.svg){fig-alt="Wooden wheel icon" style="width: 150px; margin: 0 auto;"}
-</div>
-<div style="background: #fdf6e2; padding: 10px; border-radius: 8px; font-size: 0.85em; color: #5c3818; font-weight: 600;">
-  Invented for transport carts to move heavy crops!
-</div>
-:::
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Classroom Roadmap · 今日流程 (40 Minutes)
 :::
 
-::: {.column width="30%"}
-::: {.card style="text-align: center; padding: 18px 12px; background: #ffffff; border: 2px solid #c9b48f; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); height: 440px; display: flex; flex-direction: column; justify-content: space-between;"}
-<div>
-  <h4 style="color: #5c3818; margin-top: 0; font-size: 1.1em;">Cuneiform on Clay</h4>
-  <p class="zh" style="color: #8b5a2b; font-size: 0.9em; margin-bottom: 12px;">泥板上的楔形文字</p>
-  ![](images/cuneiform-icon.svg){fig-alt="Clay tablet with cuneiform" style="width: 150px; margin: 0 auto;"}
-</div>
-<div style="background: #fdf6e2; padding: 10px; border-radius: 8px; font-size: 0.85em; color: #5c3818; font-weight: 600;">
-  First written symbols pressed with reeds into wet clay!
-</div>
-:::
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-left: 5px solid #C87D55; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**5′ Warm-up 导入**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**Predict: Why live near rivers?** \
+*([看地图预测：人们为什么聚集在河流旁边？]{.zh})*
 :::
 
-::: {.column width="40%"}
-::: {.card style="background: #ffffff; border: 2px solid #003477; border-radius: 12px; padding: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.08); min-height: 440px;"}
-<h4 style="color: #003477; margin-top: 0;">Key Achievements:</h4>
+::: {.card style="background: #243342; border-left: 5px solid #C87D55; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**13′ Direct Instruction 讲授**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**The 2 Rivers & The Causal Chain** \
+*([两条生命之河、因果链与三大环境难题]{.zh})*
+:::
+::::
 
-- **Because of teamwork**, they built the first cities. \
-  *([因为团结合作，他们建立了最早的城市。]{.zh})*
-- They **invented the wheel** for carts. \
-  *([他们为马车发明了车轮。]{.zh})*
-- They invented the **first writing on clay**. \
-  *([他们发明了泥板上的最早文字。]{.zh})*
-
-::: {.card style="background: #ebf7fd; border-left: 4px solid #0087ff; padding: 6px 10px; margin: 8px 0;"}
-**Bilingual Anchor / 核心词汇:** [Cuneiform]{style="color: #003477; font-weight: 700;"} · [楔形文字]{.zh style="color: #005691; font-weight: 600;"}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-left: 5px solid #27AE60; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**17′ Learning Activity 课堂活动**]{style="background: #27AE60; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**Packet Activity 1.1 (Map) & 1.2 (Challenges)** \
+*([完成学习单活动 1.1 地图定位与 1.2 难题连线]{.zh})*
 :::
 
-::: {.callout-tip icon=false title="✋ Student Action"}
-**Trace a cuneiform shape in the air with your finger!**
+::: {.card style="background: #243342; border-left: 5px solid #F1C40F; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**5′ Exit Ticket 当堂检测**]{style="background: #F1C40F; color: #1A2530; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**ET-1: 3 Short Check Questions** \
+*([出门票 ET-1：不看笔记，独立完成三道检测题]{.zh})*
+:::
+::::
+:::::
+
+::: notes
+**Pacing Guide:**
+- 0-5 min: Map observation.
+- 5-18 min: Rivers and causal chain direct instruction.
+- 18-35 min: Packet activities 1.1 & 1.2.
+- 35-40 min: ET-1 silent exit ticket.
+:::
+
+---
+
+## Look at the Land · [看地图，想一想]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 1 · Warm-up (5 Min)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+![](images/fertile-crescent-map.png){fig-alt="Map of the Fertile Crescent and Mesopotamia" style="border-radius: 10px; border: 2px solid #D4A373; box-shadow: 0 4px 14px rgba(0,0,0,0.3);"}
+
+::: {.caption-box style="font-size: 0.65em; color: #D4A373; text-align: center; margin-top: 6px;"}
+Map: The Fertile Crescent & Mesopotamia · 肥沃月弯与两河流域地图
+:::
+::::
+
+:::: {.column width="50%"}
+### [Think-Pair-Share 合作探究]{style="color: #D4A373; font-size: 0.85em;"}
+
+1. **Desert vs. Green:** Most land around is dry yellow desert. Where is the green land? \
+   *([周围大部分是黄色荒漠。绿色的土地集中在何处？]{.zh})*
+2. **Rivers:** Why did people 5,000 years ago build homes here? \
+   *([5000 年前的人们为什么选择聚集在河岸周围？]{.zh})*
+
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 10px; padding: 12px 14px; margin-top: 14px; text-align: left;"}
+[**💬 Sentence Starter · 表达支架:**]{style="color: #F1C40F; font-weight: 700;"} \
+"People lived near rivers because ________________________________________ ." \
+*([“人们在河流边定居，是因为河流提供了_______。”]{.zh})*
 :::
 
 {{< timer 5 >}}
-:::
-:::
-:::
+::::
+:::::
 
 ::: notes
-**Target Time:** 5 mins
-
-**Teacher script:** "When people work together, their brains create amazing things. They invented the wheel to move food, and cuneiform to keep records. Imagine writing your homework on heavy wet clay!"
-
-**Multilingual Check:** Pair-share: "Tell your partner one invention from this slide in English."
+**Teacher script:** "Welcome! Look closely at the map. Notice the big yellow areas of dry desert. But between the two blue rivers, what do you see? Rich green land. Turn to your partner and explain: why would early humans choose to settle right here?"
 :::
 
 ---
 
-## The First Written Laws 世界上第一部成文法律
+## What is Mesopotamia? · [什么是美索不达米亚？]{.zh}
 
-::: {.columns}
-::: {.column width="48%"}
-![](images/stele-of-hammurabi.png){fig-alt="Black stone pillar stele of Hammurabi" style="max-height: 250px; display: block; margin: 0 auto; border-radius: 8px;"}
-
-::: {.card style="background: #fdf6ec; border-left: 5px solid #ff8c0f; padding: 10px 14px; margin-top: 10px;"}
-- **King Hammurabi** wrote down the first laws. \
-  *([汉谟拉比国王写下了世界上最早的法律。]{.zh})*
-- Famous rule: **"An eye for an eye."** \
-  *([著名原则：“以眼还眼”。]{.zh})*
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Direct Instruction (13 Min)
 :::
 
-::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 8px 14px; margin-top: 8px;"}
-**Bilingual Vocabulary Anchor / 核心词汇:** \
-[**Hammurabi's Code**]{style="font-size: 1.1em; color: #003477; font-weight: 700;"} · [《汉谟拉比法典》]{.zh style="font-size: 1.05em; color: #005691; font-weight: 600;"}
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+#### 🏛️ Greek Word Meaning · [词源解释]{.zh}
+[**Mesopotamia**]{style="color: #F1C40F; font-size: 1.1em; font-weight: 700;"} = *"The land between the rivers"* \
+*([美索不达米亚在希腊语中意为“两条河流之间的土地”。]{.zh})*
+
+<hr style="border: 0.5px solid rgba(212, 163, 115, 0.2); margin: 12px 0;">
+
+#### 🌊 Two Lifeline Rivers · [两条生命大河]{.zh}
+1. **Tigris River (底格里斯河)** — Fast and rocky.
+2. **Euphrates River (幼发拉底河)** — Long and curved.
+
+*([两河自西北山地向东南流淌，最终注入波斯湾 Persian Gulf。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+#### 🌙 Fertile Crescent · [肥沃月弯]{.zh}
+A curved ribbon of rich farmland stretching from the Mediterranean Sea to the Persian Gulf. \
+*([自地中海东岸向东南弯曲延伸至波斯湾的新月形肥沃农耕区。]{.zh})*
+
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 8px; padding: 10px 12px; margin-top: 12px;"}
+- **Fertile (肥沃):** Rich soil with nutrients for bumper crops. *([土壤肥沃，适宜种植丰产农作物。]{.zh})*
+- **Crescent (月弯):** Curved like a new crescent moon. *([弯曲如月牙。]{.zh})*
+:::
+:::
+::::
+:::::
+
+::: notes
+**Pronunciation practice:** Choral response: "Me-so-po-ta-mi-a", "Ti-gris", "Eu-phra-tes".
+Ensure students touch these locations in their booklets.
 :::
 
-::: {.callout-important icon=false title="🛑 Student Action"}
-**🛑 Stop & Check 1: Fill in the blank for the first written laws!**
+---
+
+## The Causal Chain · [从大河到城邦的因果链]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Core Concept: Environmental Causality
 :::
 
-{{< timer 10 >}}
+:::: {style="max-width: 900px; margin: 0 auto; text-align: left;"}
+::: {.card style="background: #243342; border-left: 6px solid #C87D55; border-radius: 8px; padding: 12px 18px; margin-bottom: 8px;"}
+[**1. Unpredictable Floods & Heavy Silt**]{style="font-size: 1.05em; font-weight: 700; color: #FFF;"} \
+*([1. 河水不可预测泛滥，退水后在土地上留下厚厚一层肥沃黑土 (Silt)。]{.zh})*
 :::
 
-::: {.column width="52%"}
-<!-- Chalkline Overlay Zone: Blank space for the Chalkline overlay of the "Fill in the blank" question -->
-<div class="chalkline-overlay-zone" style="height: 520px; border: 2.5px dashed #003477; border-radius: 12px; background: rgba(255, 255, 255, 0.94); box-shadow: 0 4px 16px rgba(0,0,0,0.08); padding: 18px; display: flex; flex-direction: column; justify-content: space-between;">
-  <div>
-    <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #ebf7fd; padding-bottom: 8px;">
-      <span style="font-weight: 700; color: #003477; font-size: 0.95em;">📋 Chalkline Overlay: Fill in the Blank</span>
-      <span style="background: #0087ff; color: #fff; font-size: 0.75em; padding: 2px 8px; border-radius: 12px; font-weight: 700;">Live Class Check</span>
-    </div>
-    <div style="margin-top: 22px; font-size: 0.92em; color: #1F2933; line-height: 1.7;">
-      <p><strong>Fill in the missing words from your packet:</strong></p>
-      
-      <div style="background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 8px; padding: 14px; margin: 12px 0;">
-        <p style="margin: 0 0 10px 0;">
-          1. King ________________________ carved 282 laws into a black stone pillar. \
-          *([________________________ 国王将 282 条法律刻在黑石柱上。]{.zh})*
-        </p>
-        <p style="margin: 0;">
-          2. His most famous law is: <em>"An ______________ for an ______________."</em> \
-          *([他最著名的法律是：“以______________还______________。”]{.zh})*
-        </p>
-      </div>
+<div style="text-align: center; color: #D4A373; font-size: 1.2em; font-weight: 800; margin: -2px 0;">↓</div>
 
-      <div style="background: #ebf7fd; border-radius: 6px; padding: 8px 12px; font-size: 0.85em; color: #005691;">
-        💡 <strong>Word Bank:</strong> Hammurabi · eye · eye · Babylon
-      </div>
-    </div>
-  </div>
-  <div style="text-align: center; color: #829ab1; font-size: 0.8em; font-style: italic; border-top: 1px dashed #cbd5e1; padding-top: 10px;">
-    Teacher: Overlay student booklet and demonstrate filling in the blanks
-  </div>
+::: {.card style="background: #243342; border-left: 6px solid #C87D55; border-radius: 8px; padding: 12px 18px; margin-bottom: 8px;"}
+[**2. Collective Irrigation & Canal Digging**]{style="font-size: 1.05em; font-weight: 700; color: #FFF;"} \
+*([2. 单独一家无法防洪，人们必须团结协作，共同开挖水渠引水灌溉农田。]{.zh})*
+:::
+
+<div style="text-align: center; color: #D4A373; font-size: 1.2em; font-weight: 800; margin: -2px 0;">↓</div>
+
+::: {.card style="background: #243342; border-left: 6px solid #27AE60; border-radius: 8px; padding: 12px 18px; margin-bottom: 8px;"}
+[**3. Food Surplus (Extra Wheat & Barley)**]{style="font-size: 1.05em; font-weight: 700; color: #FFF;"} \
+*([3. 水利系统保证了农业丰收，出现大量剩余粮食 (Surplus)，人口快速增加。]{.zh})*
+:::
+
+<div style="text-align: center; color: #D4A373; font-size: 1.2em; font-weight: 800; margin: -2px 0;">↓</div>
+
+::: {.card style="background: #243342; border-left: 6px solid #F1C40F; border-radius: 8px; padding: 12px 18px;"}
+[**4. Birth of City-States (e.g., Ur, Uruk)**]{style="font-size: 1.05em; font-weight: 700; color: #F1C40F;"} \
+*([4. 随着社会分工和组织扩大，人类最早的独立城邦诞生（如乌尔、乌鲁克）。]{.zh})*
+:::
+::::
+
+::: notes
+**Teacher script:** "Trace this chain with your eyes: River floods -> humans dig canals together -> extra food -> the world's first cities are born! When people cooperate to solve problems, civilization begins."
+:::
+
+---
+
+## Three Challenges, Three Solutions · [三大难题与方案]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Problem & Solution Analysis
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: rgba(231, 76, 60, 0.15); border: 2px solid #E74C3C; border-radius: 12px; padding: 16px; text-align: left;"}
+### [⚠️ 3 Challenges 面临的三大挑战]{style="color: #FF8F8F; font-size: 0.85em;"}
+
+1. **Water (水源):** Unpredictable floods and harsh droughts. \
+   *([水源：泛滥无常，旱季则干旱无雨。]{.zh})*
+2. **Defence (防御):** Flat land with no natural mountain barriers. \
+   *([防御：平原一马平川，缺乏天然屏障防敌。]{.zh})*
+3. **Resources (资源):** Scarcity of stone, wood & metal ores. \
+   *([资源：极其匮乏石料、木材与金属矿石。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: rgba(39, 174, 96, 0.15); border: 2px solid #27AE60; border-radius: 12px; padding: 16px; text-align: left;"}
+### [💡 3 Human Solutions 人类的三大对策]{style="color: #6CEB9B; font-size: 0.85em;"}
+
+1. **Irrigation Canals (修建水渠):** Dug irrigation ditches to store and release floodwaters. \
+   *([开挖纵横交错的灌溉水渠蓄泄洪水。]{.zh})*
+2. **Mud-Brick Walls (泥砖城墙):** Sun-dried river mud into tough bricks for massive defense walls. \
+   *([就地取材晒干泥砖，筑起高大城墙抵御外敌。]{.zh})*
+3. **Barter Trade (互利贸易):** Traded surplus wheat and cloth for foreign timber, stone and metal. \
+   *([用多余的粮食和织物换取异地矿石与木料。]{.zh})*
+:::
+::::
+:::::
+
+::: notes
+**Interactive check:** Call on 3 students: "Student A, what was the solution for water? Student B, for defense? Student C, for materials?"
+:::
+
+---
+
+## Open Your Learning Packet · [翻开学习单第 1 课]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 3 · Learning Activity (17 Min)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+[**Task 1: Activity 1.1 地图定位**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"}
+
+Use the Word Bank to label the 4 essential features: \
+*([在学习单地图上正确找出并标注 4 个核心名称：]{.zh})*
+
+- **Tigris River** (底格里斯河)
+- **Euphrates River** (幼发拉底河)
+- **Fertile Crescent** (肥沃月弯)
+- **Persian Gulf** (波斯湾)
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+[**Task 2: Activity 1.2 连线匹配**]{style="background: #27AE60; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"}
+
+Match each Challenge to its correct Solution using a ruler: \
+*([用尺子画线，将苏美尔人的困难与对策连线匹配。]{.zh})*
+
+<hr style="border: 0.5px solid rgba(212, 163, 115, 0.2); margin: 12px 0;">
+
+[**⏱️ Time Allocation 时间分配:**]{style="color: #F1C40F; font-size: 0.9em; font-weight: 700;"} \
+- **12 mins:** Solo work in packet \
+- **5 mins:** Partner verification & check \
+*([12 分钟独立作答 · 5 分钟同桌核对互查]{.zh})*
+:::
+::::
+:::::
+
+{{< timer 17 >}}
+
+::: notes
+**Teacher Circulation:** Walk around the room. Ensure students have circled the Tigris and Euphrates accurately in their booklet.
+:::
+
+---
+
+## Exit Ticket ET-1 · [当堂检测视觉提示板]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 4 · Exit Ticket (5 Min)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+### [Questions on your paper (不看书作答):]{style="color: #D4A373; font-size: 0.85em;"}
+
+1. What does **"Mesopotamia"** mean? \
+   *([“美索不达米亚”在希腊语中是什么意思？]{.zh})*
+2. Name the **TWO rivers**. \
+   *([写出该流域的两条核心大河名称。]{.zh})*
+3. Write **ONE challenge** and its **solution**. \
+   *([举出苏美尔人面对的一个困难及解决对策。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 12px; padding: 18px; text-align: left;"}
+### [🔤 Word Bank Assistance 词汇辅助池:]{style="color: #F1C40F; font-size: 0.85em;"}
+
+- Land between the rivers *([两河之间的土地]{.zh})*
+- Tigris River / Euphrates River *([底格里斯河 / 幼发拉底河]{.zh})*
+- Irrigation canals *([灌溉水渠]{.zh})*
+- Mud-brick city walls *([泥砖城墙]{.zh})*
+- Trade grain and cloth *([贸易交换粮食与布料]{.zh})*
+:::
+::::
+:::::
+
+<!-- Chalkline Overlay Zone -->
+<div class="chalkline-overlay-zone" style="min-height: 80px; margin-top: 15px; border: 2px dashed rgba(212, 163, 115, 0.4); border-radius: 8px; background: rgba(36, 51, 66, 0.6); display: flex; align-items: center; justify-content: center; color: #D4A373; font-size: 0.8em;">
+  <span>🖊️ <strong>Chalkline Overlay Space</strong> · Use pen or spotlight tool for model answers</span>
 </div>
-:::
-:::
+
+{{< timer 5 >}}
 
 ::: notes
-**Target Time:** 10 mins
-
-**Teacher script:** "With cities getting bigger, they needed rules. King Hammurabi carved his laws into a giant stone so everyone could see them. Look at your packet and let's fill in the blank together on the board."
-
-**Multilingual Check:** EAL prompt: Provide the spelling of Hammurabi clearly on the board for students to copy accurately into their blanks.
+**Collection:** Count down last 60 seconds. Collect all ET-1 slips for formative grading.
 :::
 
 ---
 
-## Tourism Poster Challenge 旅游海报挑战
+# Period 2: Sumerian Culture & Beliefs 第2课：苏美尔文化与社会 {background-color="#003477"}
 
-::: {.columns}
-::: {.column width="45%"}
-![](images/tourism-poster-card.svg){fig-alt="Mesopotamia Tourism Poster Example" style="border-radius: 12px; border: 2px solid #003477; box-shadow: 0 6px 18px rgba(0,0,0,0.15); width: 95%;"}
+::: {.header-badge style="display: inline-block; padding: 6px 16px; border-radius: 999px; background: rgba(200, 125, 85, 0.25); border: 1px solid #C87D55; font-size: 0.65em; font-weight: 700; text-transform: uppercase; color: #D4A373; margin-bottom: 15px;"}
+Mingwan Humanities · Chapter 1 · Period 2 (40 Min)
 :::
 
-::: {.column width="55%"}
-### Your Task: Create a tourism poster for Mesopotamia!
+### Sumerian Culture & Beliefs · [信仰、阶层与实证史料]{.zh}
 
-::: {.callout-note icon=false title="🎯 Poster Requirements · 海报要求"}
-Your poster **MUST INCLUDE**:
-1. 🗺️ **1 geographic fact** *(e.g., Tigris River, Euphrates River, fertile silt)*
-2. 💡 **1 invention** *(e.g., wheel, cuneiform writing, irrigation canals, ziggurat)*
-:::
-
-::: {.card style="background: #ebf7fd; border-left: 5px solid #0087ff; padding: 10px 14px; margin-bottom: 14px;"}
-**Bilingual Vocabulary Anchor / 核心词汇:** \
-[**City-State**]{style="font-size: 1.15em; color: #003477; font-weight: 700;"} · [城邦 (如乌尔、巴比伦)]{.zh style="font-size: 1.05em; color: #005691; font-weight: 600;"}
-:::
-
-::: {.callout-tip icon=false title="✍️ Sentence Starter · 核心句型 (Must Write in Poster)"}
-[**"The ________ river is a great reason to visit ________ because ________________________________________ ."**]{style="font-size: 1.05em; color: #003477; font-weight: 700;"}
-:::
-
-{{< timer 20 >}}
-:::
+::: {.card style="background: rgba(36, 51, 66, 0.85); border: 1px solid #C87D55; border-radius: 12px; padding: 18px 24px; max-width: 820px; margin: 20px auto; text-align: left;"}
+**Big Question · [核心问题]{.zh}:** \
+How did a harsh environment shape what people believed? \
+*([严酷动荡的环境如何塑造了古人的神灵信仰与社会结构？]{.zh})*
 :::
 
 ::: notes
-**Target Time:** 20 mins
+**Period 2 Focus (40 min):**
+- Polytheism: gods of violent nature (Enlil).
+- The Ziggurat temple at the center of cities.
+- The 3-tier social pyramid.
+- 3-step primary source analysis with the Votive Statue & Gold Ram.
+:::
 
-**Teacher script:** "Now it is your turn to be a travel agent. You want tourists to visit your Mesopotamian city-state! Draw a beautiful poster, and use our sentence starter to convince them to come."
+---
 
-**Multilingual Check:** Allow emerging bilinguals to draft their "because..." reasoning in Chinese first, then work with a partner or teacher to translate it into simple English.
+## Period 2 Classroom Roadmap · [今日流程]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Classroom Roadmap · 今日流程 (40 Minutes)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-left: 5px solid #C87D55; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**5′ Warm-up 导入**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**Predict: Gods of peaceful vs harsh lands** \
+*([回顾与预测：平静的大河与暴烈的大河，众神有何不同？]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-left: 5px solid #C87D55; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**13′ Direct Instruction 讲授**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**Polytheism, Ziggurats & the 3-Tier Hierarchy** \
+*([多神信仰、神庙塔与三大社会阶层]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-left: 5px solid #27AE60; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**17′ Learning Activity 课堂活动**]{style="background: #27AE60; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**Artifact 3-Step Analysis (Statue & Ram)** \
+*([实证三步法分析：还愿雕像与皇陵金羊对比]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-left: 5px solid #F1C40F; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**5′ Exit Ticket 当堂检测**]{style="background: #F1C40F; color: #1A2530; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**ET-2: Memory Check with Word Bank** \
+*([出门票 ET-2：独立作答，考查信仰与社会等级]{.zh})*
+:::
+::::
+:::::
+
+::: notes
+**Pacing Guide:**
+- 0-5 min: Warm-up on nature gods.
+- 5-18 min: Polytheism, Ziggurat and social pyramid.
+- 18-35 min: 3-step artifact investigation.
+- 35-40 min: ET-2 exit ticket.
+:::
+
+---
+
+## Polytheism & The Ziggurat · [多神信仰与塔庙]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Direct Instruction (13 Min)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+#### ⚡ Polytheism (多神信仰)
+Belief in **many gods** who controlled forces of nature. \
+*([相信世间存在多位神灵，分别掌控风暴、河水与雨露。]{.zh})*
+
+- **Enlil (恩利尔):** God of violent storms and clouds. People feared his wrath when floods destroyed their crops. \
+  *([敬畏暴风之神恩利尔，因为洪水常常无情摧毁农田。]{.zh})*
+- **Bleak Afterlife:** "Land of no return" where spirits ate dust. \
+  *([阴暗来世观：死后进入“不归之地”，灵魂以尘土为食。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+![](images/ziggurat-diagram.png){fig-alt="Great Ziggurat of Ur reconstructed facade" style="border-radius: 10px; border: 2px solid #D4A373; box-shadow: 0 4px 14px rgba(0,0,0,0.3);"}
+
+::: {.caption-box style="font-size: 0.65em; color: #D4A373; text-align: center; margin-top: 6px;"}
+Artifact: The Great Ziggurat of Ur · 乌尔大塔庙遗址
+:::
+::::
+:::::
+
+::: notes
+**Key Insight:** Why were Mesopotamian gods so scary compared to Egyptian gods? Because the Tigris and Euphrates flooded wildly and unpredictably, while the Nile was gentle and regular!
+:::
+
+---
+
+## The 3-Tier Social Hierarchy · [三大社会阶层]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Social Structure Analysis
+:::
+
+:::: {style="max-width: 880px; margin: 0 auto; text-align: left;"}
+::: {.card style="background: rgba(241, 196, 15, 0.18); border: 2px solid #F1C40F; border-radius: 10px; padding: 14px 18px; margin-bottom: 12px;"}
+[**👑 TOP TIER: Kings & Priests (顶层：国王与祭司)**]{style="color: #F1C40F; font-size: 1.05em; font-weight: 700;"} \
+Held military and spiritual power. Ruled cities, led armies, and spoke directly with the gods in the high ziggurat. \
+*([掌控军权与祭祀权，治理城邦，代天传旨。]{.zh})*
+:::
+
+::: {.card style="background: rgba(39, 174, 96, 0.18); border: 2px solid #27AE60; border-radius: 10px; padding: 14px 18px; margin-bottom: 12px;"}
+[**🌾 MIDDLE TIER: Farmers, Artisans & Traders (中层：自由民农工商)**]{style="color: #2ECC71; font-size: 1.05em; font-weight: 700;"} \
+Grew wheat, shaped mud-bricks, forged tools and traded surplus cloth across river canals. Free citizens with legal rights. \
+*([耕种麦田、制作泥砖陶器、通过水渠开展对外贸易。享有自由民法律权利。]{.zh})*
+:::
+
+::: {.card style="background: rgba(231, 76, 60, 0.18); border: 2px solid #E74C3C; border-radius: 10px; padding: 14px 18px;"}
+[**⛓️ BOTTOM TIER: Enslaved People (底层：奴隶阶层)**]{style="color: #E74C3C; font-size: 1.05em; font-weight: 700;"} \
+Captured in foreign wars or sold into slavery to pay off debts. Performed heavy, unpaid forced labor. Treated as property. \
+*([战争俘虏或无力还债者，从事繁重的无偿苦役，在法律上被视为主人的财产。]{.zh})*
+:::
+::::
+
+::: notes
+**Teacher prompt:** "Notice who is at the very top: kings AND priests! In Mesopotamia, religion and government worked hand-in-hand."
+:::
+
+---
+
+## How Historians Read Artifacts · [史料研读“三步法”]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Historical Thinking Skills
+:::
+
+:::: {style="max-width: 880px; margin: 0 auto; text-align: left;"}
+::: {.card style="background: #243342; border-left: 6px solid #D4A373; border-radius: 8px; padding: 14px 18px; margin-bottom: 12px;"}
+[**Step 1: Observe (第一步：亲眼观察)**]{style="color: #D4A373; font-size: 1.05em; font-weight: 700;"} \
+What exact details do you see? Look at the eyes, hands, materials, clothing, and posture. \
+*([你亲眼看到了哪些细节？仔细观察文物的双手动作、眼睛神态与制作材质。]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-left: 6px solid #C87D55; border-radius: 8px; padding: 14px 18px; margin-bottom: 12px;"}
+[**Step 2: Infer (第二步：合理推断)**]{style="color: #C87D55; font-size: 1.05em; font-weight: 700;"} \
+Why was this object made? What does it teach us about their beliefs, fears, or royal power? \
+*([为什么古人要制造这件文物？它反映了当时的统治者具有怎样的信仰或权力？]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-left: 6px solid #F1C40F; border-radius: 8px; padding: 14px 18px;"}
+[**Step 3: Evidence (第三步：找出证据)**]{style="color: #F1C40F; font-size: 1.05em; font-weight: 700;"} \
+Point to the EXACT detail from Step 1 that proves your inference. *"I know this because..."* \
+*([指出第一步观察到的一个具体细节，作为证明你推断的事实证据。]{.zh})*
+:::
+::::
+
+::: notes
+**Model for students:** "When you look at an ancient statue, don't just say 'it looks cool'. Say: 'I observe wide staring eyes. I infer the person is praying to the gods. My evidence is the folded hands on the chest!'"
+:::
+
+---
+
+## Two Artifacts from Sumer · [苏美尔两件核心实物史料]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 3 · Learning Activity (17 Min)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #141E28; border-radius: 12px; padding: 10px; border: 1px solid rgba(212, 163, 115, 0.25);"}
+![](images/sumerian-votive-statue.png){style="max-height: 280px; width: auto; margin: 0 auto; display: block; border-radius: 6px;"}
+
+::: {.caption-box style="font-size: 0.6em; color: #D4A373; text-align: center; margin-top: 6px;"}
+Votive Statue of King Iku-Shamagen · 伊库-沙马根国王还愿雕像
+:::
+:::
+
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 8px; padding: 10px 12px; margin-top: 10px; font-size: 0.85em; text-align: left;"}
+**Hands folded in prayer:** The king's statue stood in the temple praying day and night to please the city's god. \
+*([双手胸前合十：代表国王在神庙日夜不停向上天祈祷。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: #141E28; border-radius: 12px; padding: 10px; border: 1px solid rgba(212, 163, 115, 0.25);"}
+![](images/ram-in-a-thicket-ur.png){style="max-height: 280px; width: auto; margin: 0 auto; display: block; border-radius: 6px;"}
+
+::: {.caption-box style="font-size: 0.6em; color: #D4A373; text-align: center; margin-top: 6px;"}
+Gold Ram of Ur ("Ram in a Thicket") · 乌尔城皇陵金羊
+:::
+:::
+
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 8px; padding: 10px 12px; margin-top: 10px; font-size: 0.85em; text-align: left;"}
+**Pure gold & blue lapis lazuli:** Found in the royal tombs of Ur. Kings took immense wealth into death. \
+*([黄金与名贵青金石：出土于乌尔皇陵，显示统治者企图死后带走财富。]{.zh})*
+:::
+::::
+:::::
+
+{{< timer 17 >}}
+
+::: notes
+**Student task:** Complete the 3-step analysis box for both artifacts in packet Section 2.
+:::
+
+---
+
+## Exit Ticket ET-2 · [当堂检测视觉提示板]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 4 · Exit Ticket (5 Min)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+### [Questions on your paper (不看书作答):]{style="color: #D4A373; font-size: 0.85em;"}
+
+1. Define **polytheism**. Name one god. \
+   *([什么是多神信仰？列举一个苏美尔神灵。]{.zh})*
+2. What was the **Ziggurat** built for? \
+   *([建造塔庙的主要目的是什么？]{.zh})*
+3. Name the **3 levels** of the social pyramid. \
+   *([从高到低写出社会金字塔的 3 个等级。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 12px; padding: 18px; text-align: left;"}
+### [🔤 Word Bank Assistance 词汇辅助池:]{style="color: #F1C40F; font-size: 0.85em;"}
+
+- Belief in more than one god *([相信多位神灵]{.zh})*
+- Enlil, god of violent storms *([暴风之神恩利尔]{.zh})*
+- Temple tower to please the city's god *([供奉城邦主神的神庙塔]{.zh})*
+- Top: Kings & Priests *([顶层：国王与祭司]{.zh})*
+- Middle: Farmers, Artisans & Traders *([中层：自由民工农商]{.zh})*
+- Bottom: Slaves *([底层：奴隶阶层]{.zh})*
+:::
+::::
+:::::
+
+<!-- Chalkline Overlay Zone -->
+<div class="chalkline-overlay-zone" style="min-height: 80px; margin-top: 15px; border: 2px dashed rgba(212, 163, 115, 0.4); border-radius: 8px; background: rgba(36, 51, 66, 0.6); display: flex; align-items: center; justify-content: center; color: #D4A373; font-size: 0.8em;">
+  <span>🖊️ <strong>Chalkline Overlay Space</strong> · Use pen or spotlight tool for model answers</span>
+</div>
+
+{{< timer 5 >}}
+
+::: notes
+**Collection:** Collect ET-2 slips. Ensure all students write the three social tiers in order!
+:::
+
+---
+
+# Period 3: Empires & Hammurabi’s Code 第3课：帝国兴起与汉谟拉比法典 {background-color="#003477"}
+
+::: {.header-badge style="display: inline-block; padding: 6px 16px; border-radius: 999px; background: rgba(200, 125, 85, 0.25); border: 1px solid #C87D55; font-size: 0.65em; font-weight: 700; text-transform: uppercase; color: #D4A373; margin-bottom: 15px;"}
+Mingwan Humanities · Chapter 1 · Period 3 (40 Min)
+:::
+
+### Empires & Hammurabi’s Code · [帝国与成文法典]{.zh}
+
+::: {.card style="background: rgba(36, 51, 66, 0.85); border: 1px solid #C87D55; border-radius: 12px; padding: 18px 24px; max-width: 820px; margin: 20px auto; text-align: left;"}
+**Big Question · [核心问题]{.zh}:** \
+Was the Code of Hammurabi a fair system of justice? \
+*([《汉谟拉比法典》是一套公正的司法体系吗？]{.zh})*
+:::
+
+::: notes
+**Period 3 Focus (40 min):**
+- Transition from independent city-states to empires (Sargon -> Hammurabi).
+- Close reading of Hammurabi's black stele: Law §8, §196, §199.
+- Analysis: Retaliation principle vs. class inequality (protecting slave owners).
+- 5-sentence structured argument paragraph.
+:::
+
+---
+
+## Period 3 Classroom Roadmap · [今日流程]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Classroom Roadmap · 今日流程 (40 Minutes)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-left: 5px solid #C87D55; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**5′ Warm-up 导入**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**Quick Judge: "An eye for an eye" — Fair?** \
+*([模拟法官：以眼还眼公平吗？举手表决投票]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-left: 5px solid #C87D55; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**13′ Direct Instruction 讲授**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**Sargon's Empire to Hammurabi's Black Stele** \
+*([萨尔贡首创帝国与汉谟拉比黑色石柱的权威]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-left: 5px solid #27AE60; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**17′ Learning Activity 课堂活动**]{style="background: #27AE60; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**Read 3 Laws & Write a 5-Sentence Argument** \
+*([对比 3 条法条，使用句型支架撰写微观点段落]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-left: 5px solid #F1C40F; border-radius: 8px; padding: 14px 16px; margin-bottom: 14px; text-align: left;"}
+[**5′ Exit Ticket 当堂检测**]{style="background: #F1C40F; color: #1A2530; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+**ET-3: Final Summary Check Questions** \
+*([出门票 ET-3：全课综合概念回顾，独立上交]{.zh})*
+:::
+::::
+:::::
+
+::: notes
+**Pacing Guide:**
+- 0-5 min: Warm-up vote on fairness.
+- 5-18 min: Empires and the Black Stele.
+- 18-35 min: Close reading of 3 laws + structured writing.
+- 35-40 min: ET-3 exit ticket.
+:::
+
+---
+
+## You Be the Judge! · [我来当小法官]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 1 · Warm-up (5 Min)
+:::
+
+::: {.card style="background: #243342; border-left: 6px solid #F1C40F; border-radius: 12px; padding: 18px 24px; max-width: 860px; margin: 15px auto 20px auto; text-align: left;"}
+[**"If a man puts out the eye of another man, his eye shall be put out."**]{style="font-size: 1.15em; color: #F1C40F; font-weight: 700;"} \
+*([“若人毁坏他人之眼，其眼亦当被毁。” —— 汉谟拉比法典第 196 条]{.zh})*
+:::
+
+::::: {.columns style="max-width: 860px; margin: 0 auto;"}
+:::: {.column width="50%"}
+::: {.card style="background: rgba(39, 174, 96, 0.2); border: 2px solid #27AE60; border-radius: 10px; padding: 16px; text-align: center;"}
+[**👍 FAIR (公平的)**]{style="font-size: 1.2em; color: #6CEB9B; font-weight: 700;"} \
+Raise hand if you think this is fair. \
+*([举手表决：你认为公平吗？]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: rgba(231, 76, 60, 0.2); border: 2px solid #E74C3C; border-radius: 10px; padding: 16px; text-align: center;"}
+[**👎 UNFAIR (不公平的)**]{style="font-size: 1.2em; color: #FF8F8F; font-weight: 700;"} \
+Raise hand if you think this is unfair. \
+*([举手表决：你认为不公平吗？]{.zh})*
+:::
+::::
+:::::
+
+::: {.caption-box style="font-size: 0.7em; color: #D4A373; text-align: center; margin-top: 15px;"}
+Today we look at the evidence: Did this rule apply equally to everyone in Babylon? \
+*([今天用史料检验：在古巴比伦，这项规则真的对所有人都一视同仁吗？]{.zh})*
+:::
+
+{{< timer 5 >}}
+
+::: notes
+**Teacher script:** "Take a quick vote. Who thinks an eye for an eye is completely fair? Who thinks it's cruel or unfair? Keep your vote in mind—because once we look at the exact laws, you might change your mind!"
+:::
+
+---
+
+## From City-States to Empires · [从城邦走向帝国]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Historical Progression
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+[**c. 3300 B.C. Sumerian City-States**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 700;"} \
+**Independent Cities (独立城邦):** \
+Ur, Uruk, and Kish each had their own king. They frequently fought each other over water and fertile land. \
+*([乌尔、乌鲁克等各城邦各自为政，为了争夺珍贵水源经常相互开战。]{.zh})*
+
+<hr style="border: 0.5px solid rgba(212, 163, 115, 0.2); margin: 12px 0;">
+
+[**c. 2330 B.C. Sargon of Akkad**]{style="background: #27AE60; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 700;"} \
+**First Empire Builder (首创帝国):** \
+Conquered all Sumerian city-states to build the world's first multi-ethnic empire. \
+*([萨尔贡率军征服各城邦，建立了世界上第一个多民族帝国。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+[**c. 1792 B.C. Hammurabi of Babylon**]{style="background: #F1C40F; color: #1A2530; padding: 3px 8px; border-radius: 4px; font-size: 0.7em; font-weight: 700;"} \
+**Uniform Law Code (统一成文法典):**
+
+- Ruled the powerful Babylonian Empire.
+- Conquered Mesopotamia and needed **ONE uniform code** so all lands followed the same rules.
+- Carved 282 laws onto tall black stone pillars placed in city centers.
+
+*([汉谟拉比建立强大的古巴比伦帝国。为了治理幅员辽阔的疆土，他编纂了 282 条成文法并刻石公布。]{.zh})*
+:::
+::::
+:::::
+
+::: notes
+**Concept definition:** An **empire** brings together several peoples, nations, or previously independent states under the control of one ruler!
+:::
+
+---
+
+## The Black Basalt Stele · [黑色石柱上的神圣威严]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Primary Source Exploration
+:::
+
+::::: {.columns}
+:::: {.column width="45%"}
+![](images/stele-of-hammurabi.png){fig-alt="Top carving of the Stele of Hammurabi" style="border-radius: 10px; border: 2px solid #D4A373; box-shadow: 0 4px 14px rgba(0,0,0,0.3); max-height: 380px; margin: 0 auto; display: block;"}
+
+::: {.caption-box style="font-size: 0.6em; color: #D4A373; text-align: center; margin-top: 6px;"}
+Primary Source: Basalt Stele of King Hammurabi · 汉谟拉比法典玄武岩石柱
+:::
+::::
+
+:::: {.column width="55%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+### [Carving at the Top · 顶部浮雕寓意:]{style="color: #D4A373; font-size: 0.9em;"}
+
+- **Shamash (沙马什):** The seated Sun God & God of Justice. Rays of sunlight flame from his shoulders. \
+  *([端坐的太阳神兼司法神沙马什，双肩散发神光。]{.zh})*
+- **King Hammurabi:** Stands respectfully receiving the rod and ring of royal power from the god. \
+  *([汉谟拉比国王恭敬地从神手中接过象征权力的权杖与权环。]{.zh})*
+
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 8px; padding: 12px; margin-top: 14px;"}
+[**👑 Divine Kingship (君权神授):**]{style="color: #F1C40F; font-weight: 700;"} \
+"The laws come from the gods. Disobeying the king's law means angering the gods!" \
+*([“法典乃神意所授。违抗国王的律法，就是直接触怒天神！”]{.zh})*
+:::
+:::
+::::
+:::::
+
+::: notes
+**Visual check:** Point to the two figures: seated figure = god; standing figure = king. This showed ordinary people that the laws could never be broken.
+:::
+
+---
+
+## Comparing 3 Laws · [法律面前真正平等吗？]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 2 · Close Reading of Sources
+:::
+
+:::: {style="max-width: 920px; margin: 0 auto; text-align: left;"}
+::: {.card style="background: #243342; border-left: 6px solid #D4A373; border-radius: 8px; padding: 12px 18px; margin-bottom: 10px;"}
+**Law §8 (Property / 盗窃财产):** Steal from palace or temple $\rightarrow$ repay **30×**. Steal from free citizen $\rightarrow$ repay **10×**. Cannot pay $\rightarrow$ **Death Penalty**! \
+*([盗窃神庙王宫财产赔偿 30 倍，盗窃平民财产赔偿 10 倍；无力偿还者处死！（保护公产重于平民私产）]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-left: 6px solid #27AE60; border-radius: 8px; padding: 12px 18px; margin-bottom: 10px;"}
+**Law §196 (Free Citizen vs. Free Citizen / 自由民之间):** If a man puts out the eye of another free man, **his eye shall be put out**. \
+*([毁坏同等地位自由民之眼睛，必须弄瞎自己的眼睛。（严格同态复仇：以眼还眼）]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-left: 6px solid #E74C3C; border-radius: 8px; padding: 12px 18px; margin-bottom: 10px;"}
+**Law §199 (Harm to a Slave / 伤害奴隶):** If he puts out the eye of a slave, he shall **pay half the slave's purchase value in silver**. \
+*([弄瞎他人奴隶之眼睛，只需赔偿奴隶身价的一半银子给奴隶主，无须受到肉刑！（奴隶被当作主人的财产）]{.zh})*
+:::
+
+::: {.card style="background: rgba(200, 125, 85, 0.2); border-radius: 8px; padding: 10px 16px; text-align: center; border: 1px solid #C87D55;"}
+[**CNC Zhongkao Takeaway:** The Code protected the interests of the slave-owning class.]{style="color: #F1C40F; font-size: 0.9em; font-weight: 700;"} \
+*([中考核心考点：其实质是维护奴隶主阶级利益的工具。]{.zh})*
+:::
+::::
+
+::: notes
+**Discussion question:** "Look at Law §196 vs §199. Does 'an eye for an eye' apply if you hurt a slave? NO! You just pay money to the master. So was the law equal? Absolutely not!"
+:::
+
+---
+
+## Structured Writing · [观点论证写作支架]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 3 · Learning Activity (17 Min)
+:::
+
+::::: {.columns}
+:::: {.column width="45%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+[**Prompt 论证问题**]{style="background: #C87D55; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 0.75em; font-weight: 700;"} \
+### "Was the Code of Hammurabi a fair system of justice?"
+*([《汉谟拉比法典》是一套公正平等的司法体系吗？]{.zh})*
+
+<hr style="border: 0.5px solid rgba(212, 163, 115, 0.2); margin: 12px 0;">
+
+Write 4–5 sentences in your packet Activity 3.2 using the sentence starters. \
+*([请在学习单 Activity 3.2 对应横线上完成书写。]{.zh})*
+:::
+::::
+
+:::: {.column width="55%"}
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 12px; padding: 16px; text-align: left; font-size: 0.82em; line-height: 1.6;"}
+[**Sentence Starters 句型脚手架:**]{style="color: #F1C40F; font-size: 0.95em; font-weight: 700;"}
+
+1. In my opinion, the Code was *(fair / unfair)*.
+2. It was _______ because people were *(equal / not equal)*.
+3. For example, Law §196 states that if a free man hurts another free man, __________________.
+4. However, Law §199 states that if someone hurts a slave, he only has to __________________.
+5. Therefore, this proves that the laws protected *(rich slave owners / everyone)*.
+:::
+::::
+:::::
+
+{{< timer 17 >}}
+
+::: notes
+**ELL Support:** For students struggling with writing, prompt them to choose: "unfair" -> "not equal" -> "his eye put out" -> "pay silver" -> "rich slave owners".
+:::
+
+---
+
+## Exit Ticket ET-3 · [当堂检测视觉提示板]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Stage 4 · Exit Ticket (5 Min)
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 18px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+### [Questions on your paper (不看书作答):]{style="color: #D4A373; font-size: 0.85em;"}
+
+1. Who was **Hammurabi**? \
+   *([汉谟拉比是谁？他是哪个国家的国王？]{.zh})*
+2. What is the famous rule from **Law §196**? \
+   *([第 196 条最著名的刑罚原则是什么？]{.zh})*
+3. Was the Code equal to **slaves**? Yes/No & why? \
+   *([法典对待奴隶平等吗？写出 YES/NO 并简述理由。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: rgba(200, 125, 85, 0.15); border: 1px dashed #D4A373; border-radius: 12px; padding: 18px; text-align: left;"}
+### [🔤 Word Bank Assistance 词汇辅助池:]{style="color: #F1C40F; font-size: 0.85em;"}
+
+- King of Babylon / Babylonian Empire *([巴比伦国王]{.zh})*
+- "An eye for an eye, a tooth for a tooth" *([以眼还眼，以牙还牙]{.zh})*
+- NO — Slaves only received money compensation, not equal physical protection *([不平等，伤害奴隶只需赔钱，保护奴隶主利益]{.zh})*
+:::
+::::
+:::::
+
+<!-- Chalkline Overlay Zone -->
+<div class="chalkline-overlay-zone" style="min-height: 80px; margin-top: 15px; border: 2px dashed rgba(212, 163, 115, 0.4); border-radius: 8px; background: rgba(36, 51, 66, 0.6); display: flex; align-items: center; justify-content: center; color: #D4A373; font-size: 0.8em;">
+  <span>🖊️ <strong>Chalkline Overlay Space</strong> · Use pen or spotlight tool for model answers</span>
+</div>
+
+{{< timer 5 >}}
+
+::: notes
+**Collection:** Final exit ticket collected. All 3 periods complete!
+:::
+
+---
+
+## From Rivers to Laws · [全课核心结论与综合]{.zh}
+
+::: {.header-badge style="display: inline-block; padding: 4px 12px; border-radius: 999px; background: rgba(200, 125, 85, 0.2); border: 1px solid #C87D55; font-size: 0.6em; font-weight: 700; color: #D4A373; margin-bottom: 10px;"}
+Unit Synthesis · 全课核心结论
+:::
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 16px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left; margin-bottom: 12px;"}
+[**1. Geography 地理环境**]{style="color: #D4A373; font-weight: 700;"} \
+Tigris & Euphrates floods made irrigation necessary, creating food surplus and early city-states. \
+*([两河泛滥催生灌溉水利协作，多余粮食促成了最早城邦的崛起。]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-radius: 12px; padding: 16px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+[**2. Beliefs & Culture 信仰与文化**]{style="color: #D4A373; font-weight: 700;"} \
+Unpredictable nature created polytheism, fear of storm gods (Enlil), and central mud-brick ziggurats. \
+*([动荡的环境造就了多神信仰、对风暴神的敬畏以及耸立在城中的泥砖塔庙。]{.zh})*
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.card style="background: #243342; border-radius: 12px; padding: 16px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left; margin-bottom: 12px;"}
+[**3. Social Hierarchy 社会阶层**]{style="color: #D4A373; font-weight: 700;"} \
+Society split into 3 tiers: Kings/Priests $\rightarrow$ Free Farmers/Traders $\rightarrow$ Enslaved People. \
+*([社会分化为三大金字塔阶层：国王祭司 $\rightarrow$ 工农自由民 $\rightarrow$ 奴隶。]{.zh})*
+:::
+
+::: {.card style="background: #243342; border-radius: 12px; padding: 16px; border: 1px solid rgba(212, 163, 115, 0.25); text-align: left;"}
+[**4. Law & Civilization 法律与帝国**]{style="color: #D4A373; font-weight: 700;"} \
+Hammurabi's Code was the first written law set, but it gave unequal justice to protect the rich. \
+*([《汉谟拉比法典》是首部成文法典，开创法制先河，但实质是维护奴隶主的特权。]{.zh})*
+:::
+::::
+:::::
+
+::: {.card style="background: rgba(200, 125, 85, 0.25); border-radius: 10px; padding: 12px; margin-top: 14px; text-align: center; border: 1px solid #C87D55;"}
+[**✨ Next Chapter Preview: Pyramids on the Nile (Ancient Egypt)! · 下一站：尼罗河与古埃及！**]{style="color: #F1C40F; font-size: 0.95em; font-weight: 700;"}
+:::
+
+::: notes
+**Wrap-up:** Celebrate student completion of Mesopotamia! Connect to the next civilization along the Nile river.
 :::

@@ -1,0 +1,19 @@
+---
+title: "Start Here · Slide Style Deck"
+short-title: "Start Here"
+unit: 0
+format: html
+audience: [teacher, student]
+description: "Slide styling and visual test deck."
+listing:
+  contents: "*.qmd"
+  type: table
+  fields: [title, type, description]
+  field-display-names:
+    type: Type
+  sort: "order"
+  filter-ui: false
+  sort-ui: false
+---
+
+## Materials · 学习材料

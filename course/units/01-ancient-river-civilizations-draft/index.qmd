@@ -4,11 +4,12 @@ short-title: "Unit 1 Draft · River Civilizations"
 unit: "1-draft"
 format: html
 audience: [teacher, student]
-description: "Grade 6 draft unit: Interactive 5-slide Mesopotamia deck with Chalkline overlay zones, paired student reading booklet, Stop & Checks, and tourism poster challenge."
+description: "Grade 6 draft unit: 24-slide 3-period Mesopotamia master deck, paired student reading booklet & activity packet, exit tickets, and tourism poster challenge."
 objectives:
   - "I can locate the Tigris and Euphrates rivers and explain how wild floods brought fertile silt to the Fertile Crescent."
-  - "I can identify key Sumerian inventions including the wheel and cuneiform writing on clay tablets."
-  - "I can explain why King Hammurabi wrote down the world's first laws ('an eye for an eye')."
+  - "I can explain the causal chain connecting unpredictable floods to collective irrigation, food surplus, and early city-states."
+  - "I can analyze primary artifacts (votive statues and royal grave goods) to explain Sumerian religious beliefs and social classes."
+  - "I can evaluate the Code of Hammurabi to judge whether 'an eye for an eye' was a fair system of justice for all social classes."
   - "I can design a Mesopotamian tourism poster linking geographic features to ancient inventions using structured sentence starters."
 listing:
   contents: "*.qmd"
@@ -31,5 +32,11 @@ listing:
 {{< objectives >}}
 
 {{< packet >}}
+
+::: {.callout-tip title="🚀 Standalone Presentation · 独立全屏演示版" icon=false}
+In addition to the interactive Chalkline slides below, you can open the standalone 3-period widescreen presentation generated for Google Colab and classroom projectors:
+
+👉 [**Open Standalone Reveal.js Presentation (mesopotamia_grade6_deck.html)**](mesopotamia_grade6_deck.html){.btn .btn-primary target="_blank"}
+:::
 
 ## Unit Materials · 单元学习材料
