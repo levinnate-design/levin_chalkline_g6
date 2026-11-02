@@ -16,6 +16,15 @@ Newest entries first.
 - **AI assistant:** which one made the change.
 -->
 
+## 2026-11-02: Slide Design Constraints & Image Layout Clamping (1050x700 Canvas)
+- **Asked for:** "Enact those 4 constraints."
+- **Why:** To eliminate vertical overflow, image blowouts, dark-on-dark contrast failures, and broken slide layouts across all slide decks created or edited by AI assistants.
+- **Changed:**
+  - `brand/revealjs.scss` — added strict media height clamps (`img:not(.stretch):not(.r-stretch) { max-height: 280px; object-fit: contain; }`, `.column img { max-height: 270px; }`), and compact slide padding for callouts and cards.
+  - `CLAUDE.md`, `AGENTS.md`, `GEMINI.md` — codified the 4 Slide Design Constraints into the assistant SOP (1050×700 virtual canvas budget, vertical item budget of max 4-5 items per slide, strict image height constraints, native Quarto layout syntax, and high-contrast color rules).
+- **Who it helps:** All teachers and students viewing or designing Chalkline slides.
+- **AI assistant:** Antigravity (Gemini)
+
 ## 2026-11-01: Draggable & Persistent Slide Timers, High-Contrast Slide Rules, and Slide Style Editor Function
 - **Asked for:** "Double check the G6 Chalkline for formatting issues, some slides have poor contrast between text and backgrounds, timers are awkwardly placed (make it such that prebuilt timers can be moved around the slide and follow to other slides if needed). Also pull from John's Chalkline (https://insufficientdoubt.github.io/project-chalkline/course/units/00-start-here/slide-style-slides.html#/schools-of-thought) and push the slide style editor function."
 - **Why:** To eliminate text-background contrast issues on dark slides, prevent timers from breaking slide layouts by making them compact, draggable, and capable of following across slides during teacher presentation, and enable John's live Slide Style Editor function for experimenting with slide layouts, looks, and color schemes.

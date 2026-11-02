@@ -91,3 +91,40 @@ $presentation-heading-font: "Poppins", "Source Sans 3", "Noto Sans SC", sans-ser
     }
   }
 }
+
+// ==============================================================================
+// SLIDE DESIGN SAFEGUARDS & CONSTRAINTS (1050x700 Canvas Budget)
+// ==============================================================================
+.reveal .slides section {
+  // Prevent runaway images from pushing captions and content off-slide
+  img:not(.stretch):not(.r-stretch) {
+    max-height: 280px;
+    width: auto;
+    object-fit: contain;
+  }
+
+  // Inside columns, enforce strict media height bounds
+  .column {
+    img:not(.stretch):not(.r-stretch) {
+      max-height: 270px;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  // Compact callouts on slides to respect vertical real estate
+  .callout {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    padding: 0.4em 0.8em;
+  }
+
+  // Ensure card elements don't sprawl
+  .card {
+    padding: 0.6em 0.9em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+  }
+}
+

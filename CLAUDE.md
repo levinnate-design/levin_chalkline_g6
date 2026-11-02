@@ -14,7 +14,17 @@
 - Teacher-only content (answer keys, look-fors) goes inside `::: {.content-visible when-profile="teacher"}`.
 - Use original drawings or files with a clear license; credit outside sources in `course/links.yml`.
 
+## Slide Design Constraints for AI Agents (1050 × 700 Canvas)
+
+All Reveal.js slide decks run on a fixed virtual canvas of **1050 × 700 px (3:2 aspect ratio)** with ~560px usable height. To prevent vertical overflow and broken formatting, AI assistants MUST follow these 4 design constraints:
+
+1. **Vertical Budget (Max 4–5 items per slide):** Keep slides concise—1 heading, 1-2 brief bilingual bullet points (`[English | 中文]{.bi}`), and 1 visual or callout card. Never combine large text passages, turn-and-talk boxes, timers, and figures on a single slide; split them into sequential slides.
+2. **Constrain Images:** Always constrain media dimensions inside columns or cards. Use `{height="260px"}` or let the automatic CSS clamp them (`max-height: 280px`). Never insert raw uncapped images.
+3. **Use Native Quarto Layouts:** Always use native Quarto markdown syntax (`:::: {.columns}`, `::: {.column width="50%"}`, `::: {.callout-note}`). Never inject raw HTML layout grids (`<div>` tables or custom style overrides) that bypass Chalkline theme styling.
+4. **Clean Contrast & Dynamic Timers:** On slides with dark background colors (`{background-color="#003477"}`), ensure elements adhere to high-contrast theme classes. Use the dynamic draggable timer `{{< timer N >}}` rather than static spacing hacks.
+
 ## Editing printables and slides
+
 
 Keep the edit loop quick:
 
