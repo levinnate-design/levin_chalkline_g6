@@ -47,6 +47,11 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-02 10:52] COMPLETED — Reformat G6 Mesopotamia Draft Student Packet
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/01-ancient-river-civilizations-draft/mesopotamia-reading-booklet.qmd
+- **Notes:** Reformatted reading booklet into a clean 10-page 2-page spread structure with extensive simplified Chinese sentence frames, word banks, and translations; resized Votive Statue and Royal Ram/Bull images to 70pt in a side-by-side 2-column comparative table so both fit on Page 6 together with Exit Ticket 2.
 ### [2026-11-02 10:12] COMPLETED — Recompile Mesopotamia Grade 6 Draft Slide Deck
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED
