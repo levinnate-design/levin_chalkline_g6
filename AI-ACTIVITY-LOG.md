@@ -47,6 +47,16 @@ This file is the **shared local memory and handoff log** across all AI assistant
 
 <!-- AI_LOG_FEED_START -->
 
+### [2026-11-05 18:40] COMPLETED — Update G6 Mesopotamia draft slide deck to streamlined 18-slide 3-period lesson deck
+- **AI Assistant:** Antigravity
+- **Status:** COMPLETED
+- **Files Touched:** course/units/01-ancient-river-civilizations-draft/mesopotamia-slides.qmd,course/units/01-ancient-river-civilizations-draft/mesopotamia_grade6_deck.html,course/units/01-ancient-river-civilizations-draft/index.qmd
+- **Notes:** Replaced 24-slide deck with streamlined 18-slide 3-period master deck strictly adhering to 4 Slide Design Constraints; updated standalone Reveal.js deck mesopotamia_grade6_deck.html; updated draft index description; re-rendered Quarto site and rebuilt unit packet.
+### [2026-11-02 21:33] COMPLETED — Enact 4 slide design constraints and media height limits across G6 and Mingwan Chalklines
+- **AI Assistant:** Antigravity (Gemini)
+- **Status:** COMPLETED
+- **Files Touched:** brand/revealjs.scss,CLAUDE.md,AGENTS.md,GEMINI.md,TOOL-CHANGES.md
+- **Notes:** Added strict image height clamps (max-height 280px, column 270px) and compact callout/card padding to brand/revealjs.scss; codified the 4 Slide Design Constraints into CLAUDE.md, AGENTS.md, and GEMINI.md across both G6 and G7/8 repositories; verified clean Quarto rendering.
 ### [2026-11-02 11:54] COMPLETED — Update Header & Remove Draft Mention in G6 Mesopotamia Booklet
 - **AI Assistant:** Antigravity
 - **Status:** COMPLETED

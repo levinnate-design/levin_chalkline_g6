@@ -4,7 +4,7 @@ short-title: "Unit 1 Draft · River Civilizations"
 unit: "1-draft"
 format: html
 audience: [teacher, student]
-description: "Grade 6 draft unit: 24-slide 3-period Mesopotamia master deck, paired student reading booklet & activity packet, exit tickets, and tourism poster challenge."
+description: "Grade 6 draft unit: 18-slide 3-period Mesopotamia master deck, paired student reading booklet & activity packet, exit tickets, and tourism poster challenge."
 objectives:
   - "I can locate the Tigris and Euphrates rivers and explain how wild floods brought fertile silt to the Fertile Crescent."
   - "I can explain the causal chain connecting unpredictable floods to collective irrigation, food surplus, and early city-states."

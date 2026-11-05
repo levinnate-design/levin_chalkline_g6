@@ -1,0 +1,764 @@
+#!/usr/bin/env python3
+"""
+Generate the standalone 18-slide Reveal.js presentation for Mesopotamia (Grade 6)
+Target: course/units/01-ancient-river-civilizations-draft/mesopotamia_grade6_deck.html
+Matches 1:1 with mesopotamia-slides.qmd and mesopotamia-reading-booklet.qmd.
+Strictly follows the 4 Slide Design Constraints (1050x700 virtual canvas).
+"""
+
+import sys
+
+HTML_CONTENT = """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mesopotamia Grade 6 · Mingwan School MYP Humanities</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Reveal.js Core Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+
+  <!-- Typography Fallbacks: Cinzel + Inter + Noto Serif SC -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --mw-navy: #1A2530;
+      --mw-dark-card: #243342;
+      --mw-terracotta: #C87D55;
+      --mw-sand: #D4A373;
+      --mw-light-sand: #F4EADF;
+      --mw-bg: #0F171F;
+      --mw-text: #F7F5F0;
+      --mw-muted: #A3B1BD;
+      --mw-accent-gold: #F1C40F;
+      --mw-green: #27AE60;
+      --mw-red: #E74C3C;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: var(--mw-bg);
+      margin: 0;
+      padding: 0;
+    }
+
+    .reveal {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+      font-size: 21px;
+      font-weight: 400;
+      color: var(--mw-text) !important;
+      background-color: var(--mw-bg) !important;
+    }
+
+    .reveal .slides {
+      text-align: left;
+    }
+
+    .reveal .slides section {
+      padding: 10px 20px !important;
+      height: 100% !important;
+      box-sizing: border-box;
+    }
+
+    .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+      font-family: 'Cinzel', 'Noto Serif SC', serif !important;
+      text-transform: none !important;
+      letter-spacing: -0.01em;
+      color: var(--mw-text) !important;
+      margin: 0 0 10px 0 !important;
+      line-height: 1.2 !important;
+    }
+
+    /* Global Header Badge */
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 14px;
+      border-radius: 999px;
+      background: rgba(200, 125, 85, 0.25);
+      border: 1px solid var(--mw-terracotta);
+      font-size: 0.62em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--mw-sand);
+      margin-bottom: 8px;
+    }
+
+    /* Resilient 16:9 Grid Layout with Strict Bounds */
+    .two-col-layout {
+      display: grid !important;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      align-items: stretch;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .col-left, .col-right {
+      background: var(--mw-dark-card);
+      border-radius: 12px;
+      padding: 14px 18px;
+      border: 1px solid rgba(212, 163, 115, 0.25);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      box-sizing: border-box;
+      min-height: 0;
+    }
+
+    /* Full Width Card */
+    .full-card {
+      background: var(--mw-dark-card);
+      border-radius: 12px;
+      padding: 16px 22px;
+      border: 1px solid rgba(212, 163, 115, 0.25);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+      box-sizing: border-box;
+      margin-bottom: 12px;
+    }
+
+    /* Image Card Container */
+    .image-card {
+      background: #141E28;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid rgba(212, 163, 115, 0.25);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 8px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .image-card img {
+      max-height: 250px !important;
+      width: auto !important;
+      max-width: 100% !important;
+      border-radius: 6px;
+      object-fit: contain;
+      margin: 0 !important;
+      display: block;
+    }
+
+    .caption-box {
+      font-size: 0.58em;
+      color: var(--mw-sand);
+      margin-top: 6px;
+      text-align: center;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    /* Bilingual Line Pairing */
+    .en-line {
+      font-size: 0.88em;
+      font-weight: 600;
+      color: #FFFFFF !important;
+      margin-bottom: 2px;
+      line-height: 1.35;
+    }
+
+    .zh-line {
+      font-size: 0.76em;
+      font-family: 'Noto Serif SC', "Songti SC", "SimSun", serif;
+      color: var(--mw-sand) !important;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    /* Progress & Flow Steps */
+    .chain-step {
+      background: rgba(26, 37, 48, 0.85);
+      border-left: 4px solid var(--mw-terracotta);
+      border-radius: 6px;
+      padding: 8px 12px;
+      margin-bottom: 8px;
+    }
+
+    .highlight-badge {
+      display: inline-block;
+      background: var(--mw-terracotta);
+      color: #FFFFFF;
+      font-size: 0.7em;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 4px;
+    }
+
+    /* Callout & Exit Ticket Box */
+    .callout-box {
+      background: rgba(36, 51, 66, 0.9);
+      border-left: 4px solid var(--mw-sand);
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin-top: 10px;
+    }
+
+    .timer-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(241, 196, 15, 0.15);
+      border: 1px solid var(--mw-accent-gold);
+      color: var(--mw-accent-gold);
+      font-size: 0.75em;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ===================================================================
+           PERIOD 1: ENVIRONMENT & CITY-STATES
+           =================================================================== -->
+
+      <!-- SLIDE 1: P1 Title -->
+      <section style="text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div class="header-badge">Mingwan Humanities · Grade 6 · Period 1</div>
+        <h1 style="font-size: 2.2em; color: var(--mw-sand); margin-bottom: 4px;">City-States in Mesopotamia</h1>
+        <h2 style="font-size: 1.3em; font-family: 'Noto Serif SC'; color: #FFFFFF; margin-bottom: 20px;">美索不达米亚的城邦 · 环境与城邦</h2>
+        <div style="background: var(--mw-dark-card); padding: 18px 28px; border-radius: 12px; max-width: 800px; border: 1px solid var(--mw-terracotta);">
+          <div class="en-line" style="font-size: 1.1em; color: var(--mw-accent-gold);">Big Question: Why did city-states emerge in Mesopotamia?</div>
+          <div class="zh-line" style="font-size: 0.92em; margin-bottom: 0;">核心问题：城邦为何在两河流域出现？</div>
+        </div>
+      </section>
+
+      <!-- SLIDE 2: Warm-up Look and Predict -->
+      <section>
+        <div class="header-badge">Period 1 · Warm-up (5 Min)</div>
+        <h3 style="font-size: 1.3em;">Warm-up · 看图预测：河流的作用</h3>
+        <div class="two-col-layout">
+          <div class="col-left">
+            <div class="image-card">
+              <img src="images/fertile-crescent-map.png" alt="Fertile Crescent Map">
+              <div class="caption-box">Fertile Crescent & River Valleys · 肥沃月弯与河流流域</div>
+            </div>
+          </div>
+          <div class="col-right">
+            <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 10px;">Look and Predict 看图预测</h4>
+            <div class="chain-step">
+              <div class="en-line">1. Why live near a river?</div>
+              <div class="zh-line">人们为什么想住在河流附近？</div>
+            </div>
+            <div class="chain-step">
+              <div class="en-line">2. What problems could a river cause?</div>
+              <div class="zh-line">河流可能带来什么问题？</div>
+            </div>
+            <div class="callout-box">
+              <div class="en-line" style="color: var(--mw-accent-gold); font-size: 0.82em;">💬 Partner Discussion 同桌讨论 (1 min)</div>
+              <div class="zh-line" style="margin-bottom: 0;">Discuss with your partner: What made rivers both a gift and a danger?</div>
+            </div>
+            <div><span class="timer-badge">⏱️ Timer: 1 Minute</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 3: 5 Core Words -->
+      <section>
+        <div class="header-badge">Period 1 · Vocabulary</div>
+        <h3 style="font-size: 1.3em;">5 Core Words · 核心词汇库</h3>
+        <div class="two-col-layout">
+          <div class="col-left">
+            <div class="chain-step">
+              <span class="highlight-badge">Term 1</span>
+              <div class="en-line">City-State (城邦)</div>
+              <div class="zh-line">A city and its surrounding farmland. (城市和它的农田)</div>
+            </div>
+            <div class="chain-step">
+              <span class="highlight-badge">Term 2</span>
+              <div class="en-line">Polytheism (多神信仰)</div>
+              <div class="zh-line">Believing in many powerful gods. (相信并崇拜许多神灵)</div>
+            </div>
+            <div class="chain-step">
+              <span class="highlight-badge">Term 3</span>
+              <div class="en-line">Empire (帝国)</div>
+              <div class="zh-line">Many cities united under one ruler. (一个统治者管理许多城市)</div>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="chain-step">
+              <span class="highlight-badge">Term 4</span>
+              <div class="en-line">Cuneiform (楔形文字)</div>
+              <div class="zh-line">World's first writing system, pressed on wet clay. (泥板上的最早文字)</div>
+            </div>
+            <div class="chain-step">
+              <span class="highlight-badge">Term 5</span>
+              <div class="en-line">Hammurabi (汉谟拉比)</div>
+              <div class="zh-line">Babylonian king with the first written laws. (颁布最早成文法典的国王)</div>
+            </div>
+            <div class="callout-box" style="margin-top: 4px;">
+              <div class="en-line" style="color: var(--mw-accent-gold); font-size: 0.82em;">💡 Tip 学习建议</div>
+              <div class="zh-line" style="margin-bottom: 0;">Use these exact terms in your Exit Tickets and discussions!</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 4: The Causal Chain -->
+      <section>
+        <div class="header-badge">Period 1 · Big Idea</div>
+        <h3 style="font-size: 1.3em;">The Causal Chain · 从河流到城市的因果链</h3>
+        <div class="full-card">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+            <div class="chain-step">
+              <div class="en-line">🌊 1. Floods (洪水)</div>
+              <div class="zh-line">Bring rich soil (silt), but are violent and dangerous.<br>洪水带来肥沃黑土，但破坏力极强。</div>
+            </div>
+            <div class="chain-step">
+              <div class="en-line">🚜 2. Irrigation (灌溉)</div>
+              <div class="zh-line">People cooperate to dig canals and control water.<br>人们合作开挖水渠控制水流。</div>
+            </div>
+            <div class="chain-step">
+              <div class="en-line">🌾 3. Food Surplus (余粮)</div>
+              <div class="zh-line">Extra food means more people can eat and live together.<br>粮食剩余使更多人能聚居生活。</div>
+            </div>
+            <div class="chain-step">
+              <div class="en-line">🏛️ 4. City-State (城邦)</div>
+              <div class="zh-line">Independent city with its own government is built!<br>拥有独立政府的城邦应运而生！</div>
+            </div>
+          </div>
+          <div class="callout-box" style="margin-top: 10px;">
+            <div class="en-line" style="color: var(--mw-accent-gold);">🔑 Core Rule · 核心规律:</div>
+            <div class="zh-line" style="margin-bottom: 0;">Surplus food (余粮) $\\rightarrow$ Division of labor (社会分工) $\\rightarrow$ Civilization (复杂文明).</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 5: Challenges & Solutions -->
+      <section>
+        <div class="header-badge">Period 1 · Environmental Adaptation</div>
+        <h3 style="font-size: 1.3em;">Challenges & Solutions · 三大挑战与解决对策</h3>
+        <div class="full-card">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;">
+            <div class="col-left" style="padding: 10px 12px;">
+              <span class="highlight-badge" style="background: var(--mw-red);">Challenge 1</span>
+              <div class="en-line" style="font-size: 0.82em;">🌊 Unpredictable Floods<br><span class="zh-line" style="font-size: 0.9em; margin-bottom: 4px;">难以预测的洪水</span></div>
+              <hr style="border: 0; border-top: 1px dashed rgba(212,163,115,0.3); margin: 6px 0;">
+              <span class="highlight-badge" style="background: var(--mw-green);">Solution 1</span>
+              <div class="en-line" style="font-size: 0.82em;">🚜 Irrigation Canals<br><span class="zh-line" style="font-size: 0.9em; margin-bottom: 0;">修建灌溉渠与水坝</span></div>
+            </div>
+            <div class="col-left" style="padding: 10px 12px;">
+              <span class="highlight-badge" style="background: var(--mw-red);">Challenge 2</span>
+              <div class="en-line" style="font-size: 0.82em;">🛡️ Flat, Open Plains<br><span class="zh-line" style="font-size: 0.9em; margin-bottom: 4px;">无遮挡的开阔平原</span></div>
+              <hr style="border: 0; border-top: 1px dashed rgba(212,163,115,0.3); margin: 6px 0;">
+              <span class="highlight-badge" style="background: var(--mw-green);">Solution 2</span>
+              <div class="en-line" style="font-size: 0.82em;">🧱 Mud-Brick Walls<br><span class="zh-line" style="font-size: 0.9em; margin-bottom: 0;">烧制泥砖筑造坚固城墙</span></div>
+            </div>
+            <div class="col-left" style="padding: 10px 12px;">
+              <span class="highlight-badge" style="background: var(--mw-red);">Challenge 3</span>
+              <div class="en-line" style="font-size: 0.82em;">🪵 Lack of Stone & Wood<br><span class="zh-line" style="font-size: 0.9em; margin-bottom: 4px;">缺乏石料与木材</span></div>
+              <hr style="border: 0; border-top: 1px dashed rgba(212,163,115,0.3); margin: 6px 0;">
+              <span class="highlight-badge" style="background: var(--mw-green);">Solution 3</span>
+              <div class="en-line" style="font-size: 0.82em;">⛵ Trade Networks<br><span class="zh-line" style="font-size: 0.9em; margin-bottom: 0;">以剩余谷物换取外地资源</span></div>
+            </div>
+          </div>
+          <div class="callout-box" style="margin-top: 10px;">
+            <div class="en-line" style="color: var(--mw-sand); font-size: 0.82em;">📝 Packet Check: Open Activity 1.2 on page 3 of your booklet. Match each challenge to its solution!</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 6: Learning Activity (Map) -->
+      <section>
+        <div class="header-badge">Period 1 · Student Activity</div>
+        <h3 style="font-size: 1.3em;">Learning Activity · 地图定位任务</h3>
+        <div class="two-col-layout">
+          <div class="col-left">
+            <div class="image-card">
+              <img src="images/fertile-crescent-map.png" alt="Fertile Crescent Map">
+              <div class="caption-box">Fertile Crescent & Mesopotamian Geography</div>
+            </div>
+          </div>
+          <div class="col-right">
+            <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 10px;">Find & Label 寻找并标注</h4>
+            <div class="chain-step">
+              <div class="en-line">1. Tigris & Euphrates Rivers (底格里斯河与幼发拉底河)</div>
+            </div>
+            <div class="chain-step">
+              <div class="en-line">2. Fertile Crescent (肥沃月弯区域)</div>
+            </div>
+            <div class="chain-step">
+              <div class="en-line">3. Persian Gulf (波斯湾)</div>
+            </div>
+            <div class="chain-step">
+              <div class="en-line">4. City of Ur & Babylon (乌尔城与巴比伦城)</div>
+            </div>
+            <div class="callout-box" style="margin-top: 6px;">
+              <div class="zh-line" style="margin-bottom: 0;">翻到手册第 2 页，完成 Activity 1.1 地图填图与两河走向描绘。</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 7: Exit Ticket 1 -->
+      <section>
+        <div class="header-badge">Period 1 · Assessment</div>
+        <h3 style="font-size: 1.3em;">Exit Ticket 1 · 当堂检测 ET-1</h3>
+        <div class="full-card">
+          <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 8px;">Answer From Memory · 不看笔记独立完成</h4>
+          <div class="chain-step">
+            <div class="en-line">1. What does "Mesopotamia" mean?</div>
+            <div class="zh-line">“美索不达米亚”字面含义是什么？</div>
+          </div>
+          <div class="chain-step">
+            <div class="en-line">2. Name 1 environmental challenge and Sumer's solution.</div>
+            <div class="zh-line">写出一个环境挑战及苏美尔人的解决方案。</div>
+          </div>
+          <div class="chain-step">
+            <div class="en-line">3. What does food surplus lead to?</div>
+            <div class="zh-line">粮食剩余最终带来了什么结果？</div>
+          </div>
+          <div class="callout-box" style="margin-top: 8px;">
+            <div class="en-line" style="color: var(--mw-accent-gold); font-size: 0.82em;">💡 Sentence Starter: "Mesopotamia means the land between..."</div>
+          </div>
+          <div><span class="timer-badge">⏱️ Timer: 3 Minutes</span></div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           PERIOD 2: SUMERIAN CULTURE & BELIEFS
+           =================================================================== -->
+
+      <!-- SLIDE 8: P2 Title -->
+      <section style="text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div class="header-badge">Mingwan Humanities · Grade 6 · Period 2</div>
+        <h1 style="font-size: 2.2em; color: var(--mw-sand); margin-bottom: 4px;">Sumerian Culture & Beliefs</h1>
+        <h2 style="font-size: 1.3em; font-family: 'Noto Serif SC'; color: #FFFFFF; margin-bottom: 20px;">苏美尔文化与信仰 · 塔庙、神祇与阶级</h2>
+        <div style="background: var(--mw-dark-card); padding: 18px 28px; border-radius: 12px; max-width: 800px; border: 1px solid var(--mw-terracotta);">
+          <div class="en-line" style="font-size: 1.1em; color: var(--mw-accent-gold);">Big Question: How did religion shape Sumerian society?</div>
+          <div class="zh-line" style="font-size: 0.92em; margin-bottom: 0;">核心问题：宗教信仰如何塑造苏美尔社会？</div>
+        </div>
+      </section>
+
+      <!-- SLIDE 9: Polytheism & Ziggurat -->
+      <section>
+        <div class="header-badge">Period 2 · Religion & Architecture</div>
+        <h3 style="font-size: 1.3em;">Polytheism & Ziggurat · 多神信仰与塔庙</h3>
+        <div class="two-col-layout">
+          <div class="col-left">
+            <div class="image-card">
+              <img src="images/ziggurat-diagram.png" alt="Ziggurat of Ur">
+              <div class="caption-box">Great Ziggurat of Ur · 乌尔大塔庙结构复原图</div>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="chain-step">
+              <span class="highlight-badge">Concept</span>
+              <div class="en-line">Polytheism (多神信仰)</div>
+              <div class="zh-line">Belief in ~3,000 nature gods (sun, water, storm). Sumerians believed unpredictable floods reflected angry gods.<br>崇拜约3000位自然神灵。难以捉摸的洪水被视作神灵发怒。</div>
+            </div>
+            <div class="chain-step">
+              <span class="highlight-badge">Architecture</span>
+              <div class="en-line">Ziggurat (塔庙)</div>
+              <div class="zh-line">Stepped mud-brick temple connecting earth and heaven. Both a religious shrine and economic grain warehouse.<br>连接天地的高耸阶梯形泥砖塔，既是祭祀中心也是余粮仓库。</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 10: Social Pyramid -->
+      <section>
+        <div class="header-badge">Period 2 · Social Structure</div>
+        <h3 style="font-size: 1.3em;">The Social Pyramid · 美索不达米亚社会金字塔</h3>
+        <div class="full-card">
+          <div class="chain-step" style="border-left-color: var(--mw-accent-gold); background: rgba(241,196,15,0.1);">
+            <div class="en-line">👑 Top Tier (顶层): King & Priests (国王与祭司)</div>
+            <div class="zh-line">Connected to the gods; controlled land, taxes, and rituals.<br>代表神灵管理城邦，掌控土地、祭祀与税收。</div>
+          </div>
+          <div class="chain-step" style="border-left-color: var(--mw-sand); background: rgba(212,163,115,0.1);">
+            <div class="en-line">🏺 Middle Tier (中层): Merchants, Scribes, Artisans, Farmers (商人、学者、手工业者与自耕农)</div>
+            <div class="zh-line">Produced goods, traded surpluses, and recorded accounts on clay tablets.<br>制造器物、开展贸易、使用泥板记录账目。</div>
+          </div>
+          <div class="chain-step" style="border-left-color: var(--mw-muted); background: rgba(163,177,189,0.1);">
+            <div class="en-line">⛓️ Bottom Tier (底层): Slaves (奴隶阶层)</div>
+            <div class="zh-line">War captives and debtors; performed unpaid forced labor.<br>战争俘虏与债务奴隶，承担无偿苦役。</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 11: Artifact Analysis -->
+      <section>
+        <div class="header-badge">Period 2 · Primary Source Analysis</div>
+        <h3 style="font-size: 1.3em;">Artifact Analysis · 史料分析三步法</h3>
+        <div class="two-col-layout">
+          <div class="col-left">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+              <div class="image-card" style="padding: 4px;">
+                <img src="images/sumerian-votive-statue.png" alt="Votive Statue" style="max-height: 180px !important;">
+                <div class="caption-box" style="font-size: 0.52em;">Votive Statue · 祈祷还愿雕像</div>
+              </div>
+              <div class="image-card" style="padding: 4px;">
+                <img src="images/ram-in-a-thicket-ur.png" alt="Golden Ram" style="max-height: 180px !important;">
+                <div class="caption-box" style="font-size: 0.52em;">Gold Ram · 灌木丛中的金羊</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-right">
+            <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 8px;">3-Step Analysis 史料三步法</h4>
+            <div class="chain-step" style="padding: 6px 10px; margin-bottom: 6px;">
+              <div class="en-line" style="font-size: 0.82em;">1. Observe (观察): Wide eyes, folded hands, gold & lapis lazuli.</div>
+              <div class="zh-line" style="font-size: 0.72em; margin-bottom: 0;">圆睁大眼、双手合十祈祷、黄金与青金石。</div>
+            </div>
+            <div class="chain-step" style="padding: 6px 10px; margin-bottom: 6px;">
+              <div class="en-line" style="font-size: 0.82em;">2. Infer (推断): Perpetual prayer; immense royal wealth & trade.</div>
+              <div class="zh-line" style="font-size: 0.72em; margin-bottom: 0;">替主人永远祈祷；王陵显赫财力与海外贸易。</div>
+            </div>
+            <div class="chain-step" style="padding: 6px 10px; margin-bottom: 6px;">
+              <div class="en-line" style="font-size: 0.82em;">3. Evidence (证据): Look at the materials and posture.</div>
+              <div class="zh-line" style="font-size: 0.72em; margin-bottom: 0;">从雕像神态与稀缺原材料中寻找确凿证据。</div>
+            </div>
+            <div class="callout-box" style="padding: 6px 10px; margin-top: 4px;">
+              <div class="en-line" style="color: var(--mw-accent-gold); font-size: 0.78em;">💬 "I infer that Sumerians believed... My evidence is..."</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 12: Exit Ticket 2 -->
+      <section>
+        <div class="header-badge">Period 2 · Assessment</div>
+        <h3 style="font-size: 1.3em;">Exit Ticket 2 · 当堂检测 ET-2</h3>
+        <div class="full-card">
+          <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 8px;">Answer From Memory · 不看笔记独立完成</h4>
+          <div class="chain-step">
+            <div class="en-line">1. What is polytheism?</div>
+            <div class="zh-line">什么是多神信仰？</div>
+          </div>
+          <div class="chain-step">
+            <div class="en-line">2. Why did they build ziggurats?</div>
+            <div class="zh-line">苏美尔人为什么建造塔庙？</div>
+          </div>
+          <div class="chain-step">
+            <div class="en-line">3. Who was at the top of the social pyramid?</div>
+            <div class="zh-line">谁处于社会金字塔的顶端？</div>
+          </div>
+          <div class="callout-box" style="margin-top: 8px;">
+            <div class="en-line" style="color: var(--mw-accent-gold); font-size: 0.82em;">💡 Clues: Many gods · Pleasing angry gods · Kings & Priests</div>
+          </div>
+          <div><span class="timer-badge">⏱️ Timer: 3 Minutes</span></div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           PERIOD 3: EMPIRES & HAMMURABI'S CODE
+           =================================================================== -->
+
+      <!-- SLIDE 13: P3 Title -->
+      <section style="text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div class="header-badge">Mingwan Humanities · Grade 6 · Period 3</div>
+        <h1 style="font-size: 2.2em; color: var(--mw-sand); margin-bottom: 4px;">Empires & Hammurabi’s Code</h1>
+        <h2 style="font-size: 1.3em; font-family: 'Noto Serif SC'; color: #FFFFFF; margin-bottom: 20px;">帝国与汉谟拉比法典 · 早期法治与社会公平</h2>
+        <div style="background: var(--mw-dark-card); padding: 18px 28px; border-radius: 12px; max-width: 800px; border: 1px solid var(--mw-terracotta);">
+          <div class="en-line" style="font-size: 1.1em; color: var(--mw-accent-gold);">Big Question: Was Hammurabi’s Code fair?</div>
+          <div class="zh-line" style="font-size: 0.92em; margin-bottom: 0;">核心问题：汉谟拉比法典是公平的吗？</div>
+        </div>
+      </section>
+
+      <!-- SLIDE 14: Warm-up Quick Judge -->
+      <section>
+        <div class="header-badge">Period 3 · Warm-up (5 Min)</div>
+        <h3 style="font-size: 1.3em;">Warm-up: Quick Judge · 律法快评</h3>
+        <div class="full-card" style="text-align: center; padding: 22px;">
+          <div style="font-size: 1.5em; margin-bottom: 10px;">⚖️</div>
+          <h4 style="color: var(--mw-accent-gold); font-size: 1.1em; margin-bottom: 12px;">Law §196 (法典第 196 条)</h4>
+          <div style="background: rgba(15,23,31,0.6); padding: 14px 20px; border-radius: 8px; border: 1px solid var(--mw-terracotta); max-width: 700px; margin: 0 auto 16px auto;">
+            <div class="en-line" style="font-size: 1.05em; color: #FFFFFF;">"If a man put out the eye of another man, his eye shall be put out."</div>
+            <div class="zh-line" style="font-size: 0.9em; margin-bottom: 0;">“若人毁他人之眼，则毁其眼（以眼还眼）。”</div>
+          </div>
+          <div style="display: flex; justify-content: center; gap: 20px;">
+            <div class="col-left" style="align-items: center; padding: 10px 24px;">
+              <span class="highlight-badge" style="background: var(--mw-green);">Option A</span>
+              <div class="en-line" style="font-size: 0.9em;">Fair (公平)</div>
+              <div class="zh-line" style="margin-bottom: 0; font-size: 0.8em;">Exact equal retaliation</div>
+            </div>
+            <div class="col-left" style="align-items: center; padding: 10px 24px;">
+              <span class="highlight-badge" style="background: var(--mw-red);">Option B</span>
+              <div class="en-line" style="font-size: 0.9em;">Too Harsh (过于严苛)</div>
+              <div class="zh-line" style="margin-bottom: 0; font-size: 0.8em;">Cruel bodily harm</div>
+            </div>
+          </div>
+          <div style="margin-top: 14px;"><span class="timer-badge">⏱️ Quick Vote: 1 Minute</span></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 15: From City-States to Empire -->
+      <section>
+        <div class="header-badge">Period 3 · Political Evolution</div>
+        <h3 style="font-size: 1.3em;">From City-States to Empire · 从城邦到帝国</h3>
+        <div class="two-col-layout">
+          <div class="col-left">
+            <div class="chain-step">
+              <span class="highlight-badge">Step 1</span>
+              <div class="en-line">Sargon of Akkad (阿卡德的萨尔贡)</div>
+              <div class="zh-line">c. 2350 B.C. Conquered independent Sumerian city-states; created the world's 1st empire.<br>约公元前2350年征服苏美尔诸城邦，开创世界第一个帝国。</div>
+            </div>
+            <div class="chain-step">
+              <span class="highlight-badge">Step 2</span>
+              <div class="en-line">Hammurabi of Babylon (巴比伦的汉谟拉比)</div>
+              <div class="zh-line">c. 1754 B.C. United Mesopotamia; carved 282 laws onto basalt stele for all to see.<br>约公元前1754年统一两河流域，颁布282条成文法典以律万民。</div>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="image-card">
+              <img src="images/stele-of-hammurabi.png" alt="Stele of Hammurabi">
+              <div class="caption-box">Stele of Hammurabi (Shamash giving laws to king) · 汉谟拉比法典浮雕石碑</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 16: Three Laws to Compare -->
+      <section>
+        <div class="header-badge">Period 3 · Deep Inquiry</div>
+        <h3 style="font-size: 1.3em;">Three Laws to Compare · 对比三条法律</h3>
+        <div class="full-card">
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+            <div class="col-left" style="padding: 10px 12px;">
+              <span class="highlight-badge">🐂 Law §8 · Property</span>
+              <div class="en-line" style="font-size: 0.82em;">Steal ox or sheep from court?</div>
+              <div class="zh-line" style="font-size: 0.76em; margin-bottom: 0;">Pay 30-fold fine, or put to death.<br>盗窃神庙牲畜，赔偿30倍或处以死刑。</div>
+            </div>
+            <div class="col-left" style="padding: 10px 12px;">
+              <span class="highlight-badge" style="background: var(--mw-sand); color: #000;">👤 Law §196 · Free Man</span>
+              <div class="en-line" style="font-size: 0.82em;">Put out free man's eye?</div>
+              <div class="zh-line" style="font-size: 0.76em; margin-bottom: 0;">Your own eye put out (eye for an eye).<br>毁自由民之眼，毁其自身之眼。</div>
+            </div>
+            <div class="col-left" style="padding: 10px 12px;">
+              <span class="highlight-badge" style="background: var(--mw-muted); color: #000;">⛓️ Law §199 · Slave</span>
+              <div class="en-line" style="font-size: 0.82em;">Put out slave's eye?</div>
+              <div class="zh-line" style="font-size: 0.76em; margin-bottom: 0;">Pay half slave's price in silver.<br>毁奴隶之眼，仅赔主人半数银两。</div>
+            </div>
+          </div>
+          <div class="callout-box" style="margin-top: 10px;">
+            <div class="en-line" style="color: var(--mw-accent-gold);">🤔 Think & Discuss: Same crime (destroying an eye), different punishment based on social status. Is it fair?</div>
+            <div class="zh-line" style="margin-bottom: 0;">同样的伤残罪行，根据社会身份却有截然不同的判罚。这公正吗？</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 17: Argument Paragraph Scaffold -->
+      <section>
+        <div class="header-badge">Period 3 · Writing Scaffold</div>
+        <h3 style="font-size: 1.3em;">Argument Paragraph · 论证段落写作支架</h3>
+        <div class="full-card">
+          <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 8px;">Was the Code of Hammurabi Fair? · 5-Step Scaffold</h4>
+          <div class="chain-step" style="padding: 6px 12px; margin-bottom: 6px;">
+            <div class="en-line" style="font-size: 0.85em;">1. Position (立场): I believe the Code was [ fair / unfair ].</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 0;">我认为汉谟拉比法典是 公平的 / 不公平的。</div>
+          </div>
+          <div class="chain-step" style="padding: 6px 12px; margin-bottom: 6px;">
+            <div class="en-line" style="font-size: 0.85em;">2. Evidence 1 (证据1): For example, Law §____ states that...</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 0;">例如，第 ____ 条规定……</div>
+          </div>
+          <div class="chain-step" style="padding: 6px 12px; margin-bottom: 6px;">
+            <div class="en-line" style="font-size: 0.85em;">3. Evidence 2 (证据2): Also, Law §____ shows that...</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 0;">此外，第 ____ 条表明……</div>
+          </div>
+          <div class="chain-step" style="padding: 6px 12px; margin-bottom: 6px;">
+            <div class="en-line" style="font-size: 0.85em;">4. Counter-argument (驳论): Some people argue it was fair because..., BUT...</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 0;">有人可能认为法典公平是因为……，但我不同意，因为……</div>
+          </div>
+          <div class="chain-step" style="padding: 6px 12px; margin-bottom: 6px;">
+            <div class="en-line" style="font-size: 0.85em;">5. Conclusion (结论): In conclusion, the Code protected the [ rich / poor ], making it...</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 0;">总之，法典重点保护了……，因此它体现了……</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLIDE 18: Exit Ticket 3 -->
+      <section>
+        <div class="header-badge">Period 3 · Assessment</div>
+        <h3 style="font-size: 1.3em;">Exit Ticket 3 · 当堂检测 ET-3</h3>
+        <div class="full-card">
+          <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 8px;">Answer From Memory · 不看笔记独立完成</h4>
+          <div class="chain-step">
+            <div class="en-line">1. What is an empire?</div>
+            <div class="zh-line">什么是帝国？</div>
+          </div>
+          <div class="chain-step">
+            <div class="en-line">2. Who was Hammurabi?</div>
+            <div class="zh-line">汉谟拉比是谁？</div>
+          </div>
+          <div class="chain-step">
+            <div class="en-line">3. Was the Code equal for a free man and a slave?</div>
+            <div class="zh-line">法典对自由人和奴隶是平等的吗？</div>
+          </div>
+          <div class="callout-box" style="margin-top: 8px;">
+            <div class="en-line" style="color: var(--mw-accent-gold); font-size: 0.82em;">💡 Sentence Starters: "An empire is many cities ruled by..." · "The Code was NOT equal because..."</div>
+          </div>
+          <div><span class="timer-badge">⏱️ Timer: 3 Minutes</span></div>
+        </div>
+      </section>
+
+      <!-- SLIDE 19: Credits -->
+      <section>
+        <div class="header-badge">Course Information · 版权与学术来源</div>
+        <h3 style="font-size: 1.3em;">Credits & Primary Sources · 来源信息</h3>
+        <div class="two-col-layout">
+          <div class="col-left">
+            <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 8px;">Visual Assets · 图像版权</h4>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 6px;">• <strong>Fertile Crescent Map:</strong> Wikimedia Commons (CC BY-SA 3.0)</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 6px;">• <strong>Ziggurat Diagram:</strong> Oriental Institute / Wikimedia Commons (Public Domain)</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 6px;">• <strong>Votive Statue & Gold Ram:</strong> Louvre & British Museum (CC BY-SA 4.0)</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 0;">• <strong>Stele of Hammurabi:</strong> Musée du Louvre (Public Domain)</div>
+          </div>
+          <div class="col-right">
+            <h4 style="color: var(--mw-sand); font-size: 0.95em; margin-bottom: 8px;">Curriculum Standards · 课程规范</h4>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 6px;">• <strong>Curriculum:</strong> Mingwan School MYP Individuals & Societies (Grade 6)</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 6px;">• <strong>Unit:</strong> Unit 1 Ancient River Civilizations (Draft)</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 6px;">• <strong>Primary Source:</strong> Code of Hammurabi (c. 1754 B.C.)</div>
+            <div class="zh-line" style="font-size: 0.75em; margin-bottom: 0;">• <strong>Framework:</strong> Chalkline Humanities Course Platform</div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Reveal.js Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      width: 1050,
+      height: 700,
+      margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2.0,
+      controls: true,
+      progress: true,
+      center: false,
+      hash: true,
+      slideNumber: 'c/t',
+      transition: 'slide',
+      backgroundTransition: 'fade'
+    });
+  </script>
+</body>
+</html>
+"""
+
+def main():
+    target = "course/units/01-ancient-river-civilizations-draft/mesopotamia_grade6_deck.html"
+    with open(target, "w", encoding="utf-8") as f:
+        f.write(HTML_CONTENT)
+    print(f"Successfully written 18-slide standalone presentation to {target}")
+
+if __name__ == "__main__":
+    main()
